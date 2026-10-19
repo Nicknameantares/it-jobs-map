@@ -16,7 +16,7 @@ def http(url,data=None,headers=None,timeout=30):
         try:
             with urllib.request.urlopen(req,timeout=timeout,context=ctx) as r: return r.read().decode("utf8","replace"), r.status, r.geturl()
         except urllib.error.HTTPError as e:
-            if e.code in (429,500,502,503,504) and attempt<2: time.sleep(3*(attempt+1)); continue
+            if e.code in (429,500,502,503,504) and attempt<2: time.sleep((25 if e.code==429 else 3)*(attempt+1)); continue
             raise
         except Exception:
             if attempt<2: time.sleep(3); continue
@@ -110,7 +110,7 @@ def tbank():
             url=f"https://www.tbank.ru/career/{seg}/vacancy/moscow/{slug}/{r['urlSlug']}/"
             out.append(V(r["title"],url,r.get("subtitle") or "",fmt_norm(*(r.get("tags") or [])),names.get(r.get("category"),"")))
         if len(items)<1: break
-        offset+=len(items); time.sleep(.5)
+        offset+=len(items); time.sleep(1.5)
     return out
 def alfa():
     out=[]; skip=0

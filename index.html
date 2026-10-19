@@ -302,6 +302,9 @@ dialog.sheet[open]{animation:slidein .22s ease-out}
   .fbtn{display:inline-flex}
   .side-close{display:flex!important}
 }
+input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.side-apply{display:none;position:sticky;bottom:0;padding-top:10px;background:var(--surface)}
+@media (max-width:960px){.side-apply{display:block}}
 .side-close{display:none;justify-content:space-between;align-items:center}
 .side-close h3{margin:0;font-size:18px}
 @media (max-width:640px){
@@ -349,6 +352,7 @@ dialog.sheet[open]{animation:slidein .22s ease-out}
       <div class="fgroup"><h3>Город</h3><div class="fopts" id="f-city"></div></div>
       <div class="fgroup"><h3>Компания</h3><div class="fopts" id="f-co"></div></div>
       <div class="fgroup"><h3>Только мой список</h3><div class="fopts" id="f-fav"></div></div>
+      <div class="side-apply"><button class="btn primary lg" type="button" id="side-ok" style="width:100%">Показать вакансии</button></div>
     </aside>
     <div>
       <div class="rhead">
@@ -492,16 +496,16 @@ async function load(){
 }
 /* ---------- search ---------- */
 function terms(q){return norm(q).split(" ").filter(w=>w.length>1).map(w=>{const g=SYN.find(g=>g.some(x=>w.startsWith(x)||x.startsWith(w)&&w.length>=4));return g?[w,...g]:[w];});}
-function scoreV(v,T){if(!T.length)return 1;let s=0;for(const alts of T){let hit=0;for(const a of alts){if(v.kt.includes(a)){hit=3;break}if(v.k.includes(a))hit=Math.max(hit,1);}if(!hit)return 0;s+=hit;}return s;}
+function scoreV(v,T,ph){if(!T.length)return 1;let s=(ph&&v.kt.includes(ph))?6:0;for(const alts of T){let hit=0;for(const a of alts){if(v.kt.includes(a)){hit=3;break}if(v.k.includes(a))hit=Math.max(hit,1);}if(!hit)return 0;s+=hit;}return s;}
 let LAST=[];
 function filtered(ex){
-  const T=terms(S.q);const out=[];
+  const T=terms(S.q);const ph=norm(S.q);const out=[];
   for(const v of VAC){
     if(ex!=="fmt"&&S.fmt.size&&!v.f.some(f=>S.fmt.has(f)))continue;
     if(ex!=="city"&&S.city.size&&!S.city.has(v.c))continue;
     if(ex!=="co"&&S.co.size&&!S.co.has(v.co.src))continue;
     if(S.fav&&!store.fav[v.co.n])continue;
-    const sc=scoreV(v,T);if(!sc)continue;out.push([sc,v]);
+    const sc=scoreV(v,T,ph);if(!sc)continue;out.push([sc,v]);
   }
   return out;
 }
@@ -540,6 +544,7 @@ function renderFilters(){
   // active chips
   const A=$("#activef");A.innerHTML="";const chip=(t,on)=>{const b=document.createElement("button");b.type="button";b.className="af";b.innerHTML=`${esc(t)} <span aria-hidden="true">✕</span>`;b.setAttribute("aria-label","Убрать фильтр "+t);b.onclick=on;A.appendChild(b);};
   S.fmt.forEach(k=>chip(FMT[k],()=>{S.fmt.delete(k);search();}));S.city.forEach(c=>chip(c,()=>{S.city.delete(c);search();}));S.co.forEach(k=>chip(BYSRC[k]?.n||k,()=>{S.co.delete(k);search();}));if(S.fav)chip("Мой список",()=>{S.fav=false;search();});
+  $("#side-ok").textContent=`Показать ${LAST.length.toLocaleString("ru-RU")} ${plural(LAST.length,"вакансию","вакансии","вакансий")}`;
   const nAct=S.fmt.size+S.city.size+S.co.size+(S.fav?1:0);$("#fbtn").innerHTML=`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Фильтры${nAct?` · ${nAct}`:""}`;
 }
 function renderCover(){
@@ -592,7 +597,7 @@ $("#vq-clr").onclick=()=>{qEl.value="";S.q="";$("#vq-clr").hidden=true;search();
 const ex=$("#examples");EXAMPLES.forEach(t=>{const b=document.createElement("button");b.type="button";b.textContent=t;b.onclick=()=>{qEl.value=t;S.q=t;$("#vq-clr").hidden=false;S.shown=40;search();renderAgg();};ex.appendChild(b);});
 $("#sort").value=S.sort;$("#sort").onchange=e=>{S.sort=e.target.value;search();};
 $("#more").onclick=()=>{S.shown+=40;renderResults();};
-$("#fbtn").onclick=()=>$("#side").classList.add("open");$("#side-x").onclick=()=>$("#side").classList.remove("open");
+$("#fbtn").onclick=()=>$("#side").classList.add("open");$("#side-ok").onclick=()=>{$("#side").classList.remove("open");$("#results").scrollIntoView({behavior:"smooth"});};$("#side-x").onclick=()=>$("#side").classList.remove("open");
 $("#mylist").onclick=()=>{S.fav=!Object.keys(store.fav).length?false:!S.fav;if(!Object.keys(store.fav).length)toast("Добавьте компании в список через карточку компании");search();$("#results").scrollIntoView({behavior:"smooth"});};
 $("#favn").textContent=Object.keys(store.fav).length;
 document.addEventListener("keydown",e=>{if(e.key==="/"&&!["INPUT","TEXTAREA"].includes(document.activeElement.tagName)){e.preventDefault();qEl.focus();}});

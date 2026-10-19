@@ -1,0 +1,125 @@
+{
+ "updated": "2026-10-19T13:46Z",
+ "sources": {
+  "yandex": {
+   "ok": true,
+   "n": 512,
+   "sec": 60.5,
+   "link": 200,
+   "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
+  },
+  "sber": {
+   "ok": true,
+   "n": 10,
+   "sec": 148.6,
+   "link": 200,
+   "final": "https://rabota.sber.ru/search/korporativnyy-arhitektor-dka-4579542/"
+  },
+  "vk": {
+   "ok": true,
+   "n": 274,
+   "sec": 11.1,
+   "link": 200,
+   "final": "https://team.vk.company/vacancy/54971/"
+  },
+  "ozon": {
+   "ok": true,
+   "n": 20,
+   "sec": 111.7,
+   "link": 307
+  },
+  "mts": {
+   "ok": true,
+   "n": 68,
+   "sec": 192.5,
+   "link": 200,
+   "final": "https://job.mts.ru/vacancy/718813097426423023"
+  },
+  "tbank": {
+   "ok": true,
+   "n": 464,
+   "sec": 137.8,
+   "link": 200,
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
+  },
+  "alfa": {
+   "ok": true,
+   "n": 2339,
+   "sec": 83.2,
+   "link": 200,
+   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/rukovoditel-strategicheskikh-proektov_39332"
+  },
+  "tochka": {
+   "ok": false,
+   "error": "AttributeError(\"'dict' object has no attribute 'replace'\")"
+  },
+  "rwb": {
+   "ok": true,
+   "n": 50,
+   "sec": 1.4,
+   "link": 200,
+   "final": "https://career.rwb.ru/vacancies/39907"
+  },
+  "x5": {
+   "ok": true,
+   "n": 324,
+   "sec": 6.0,
+   "link": 200,
+   "final": "https://rabota.x5.ru/vacancies/21aa1963-3ff6-4788-906f-ca28c70ec74d"
+  },
+  "lamoda": {
+   "ok": true,
+   "n": 171,
+   "sec": 4.1,
+   "link": 200,
+   "final": "https://job.lamoda.ru/vacancies/moskva/sistemniy-administrator-rts-bykovo--3295"
+  },
+  "lanit": {
+   "ok": true,
+   "n": 20,
+   "sec": 1.7,
+   "link": 200,
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3807"
+  },
+  "avito": {
+   "ok": true,
+   "n": 48,
+   "sec": 8.0,
+   "mode": "render",
+   "link": 200,
+   "final": "https://career.avito.com/vacancies/prodazhi/20745/"
+  },
+  "kaspersky": {
+   "ok": true,
+   "n": 13,
+   "sec": 6.9,
+   "mode": "render",
+   "link": 200,
+   "final": "https://careers.kaspersky.ru/vacancy/25825"
+  },
+  "gis": {
+   "ok": true,
+   "n": 90,
+   "sec": 103.2,
+   "mode": "render",
+   "link": 200,
+   "final": "https://job.2gis.ru/vacancies/saless/601"
+  },
+  "megafon": {
+   "ok": true,
+   "n": 10,
+   "sec": 109.5,
+   "mode": "render",
+   "link": 200,
+   "final": "https://job.megafon.ru/vacancy/krasnoarsk/biznes-napravlenia/menedzher-po-prodazham-iot-reshenij-4802"
+  },
+  "kontur": {
+   "ok": true,
+   "n": 38,
+   "sec": 8.3,
+   "mode": "render",
+   "link": 200,
+   "final": "https://kontur.ru/career/vacancies/3728"
+  }
+ }
+}

@@ -71,7 +71,7 @@ def yandex():
     return out
 def sber():
     B="https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/publications"
-    items=paged("sber",[(0,lambda p:f"{B}?page={p}&size=100"),(1,lambda p:f"{B}?page={p}&size=100"),(0,lambda p:f"{B}?pageNumber={p}&pageSize=100"),
+    items=paged("sber",[(0,lambda p:f"{B}?skip={p*50}&take=50"),(0,lambda p:f"{B}?page={p}&size=100"),(1,lambda p:f"{B}?page={p}&size=100"),(0,lambda p:f"{B}?pageNumber={p}&pageSize=100"),
         (0,lambda p:f"{B}?offset={p*100}&limit=100"),(0,lambda p:f"{B}?from={p*100}&size=100"),(0,lambda p:f"{B}?page={p}"),(1,lambda p:f"{B}?page={p}")],
         lambda d:(d.get("data") or {}).get("vacancies") or [], lambda r:r["internalId"])
     return [V(r["title"],f"https://rabota.sber.ru/search/{r['internalId']}",r.get("city") or r.get("region"),[],(r.get("specialization") or "").split(":")[-1],r.get("publicationDate","")) for r in items]
@@ -88,9 +88,9 @@ def vk():
     return out
 def ozon():
     B="https://job-api.ozon.ru/v2/vacancy"
-    items=paged("ozon",[(1,lambda p:f"{B}?page={p}&perPage=100"),(1,lambda p:f"{B}?page={p}&limit=100"),(1,lambda p:f"{B}?pageNumber={p}&perPage=100"),(0,lambda p:f"{B}?offset={p*100}&limit=100"),(1,lambda p:f"{B}?page={p}")],
+    items=paged("ozon",[(0,lambda p:f"{B}?skip={p*50}&take=50"),(0,lambda p:f"{B}?offset={p*20}"),(1,lambda p:f"{B}?p={p}"),(1,lambda p:f"{B}?pageNum={p}"),(1,lambda p:f"{B}?currentPage={p}"),(1,lambda p:f"{B}?page={p}&perPage=100"),(1,lambda p:f"{B}?page={p}&limit=100"),(1,lambda p:f"{B}?pageNumber={p}&perPage=100"),(0,lambda p:f"{B}?offset={p*100}&limit=100"),(1,lambda p:f"{B}?page={p}")],
         lambda d:d.get("items") or [], lambda r:r["hhId"],maxpages=200)
-    return [V(r["title"],r.get("externalLink") or f"https://career.ozon.ru/vacancy/{r['hhId']}/",r.get("city"),fmt_norm(*(r.get("workFormat") or [])),r.get("department","")) for r in items]
+    return [V(r["title"],r.get("externalLink") or f"https://hh.ru/vacancy/{r['hhId']}",r.get("city"),fmt_norm(*(r.get("workFormat") or [])),r.get("department","")) for r in items]
 def mts():
     B="https://job.mts.ru/api/v2/vacancies"
     items=paged("mts",[(1,lambda p:f"{B}?pagination[page]={p}&pagination[pageSize]=100"),(1,lambda p:f"{B}?page={p}&pageSize=100"),(1,lambda p:f"{B}?page={p}&limit=100"),(0,lambda p:f"{B}?page={p}&size=100"),(1,lambda p:f"{B}?page={p}")],
@@ -125,15 +125,15 @@ def alfa():
         time.sleep(.4)
     return out
 def tochka():
-    out=[]; page=1
-    while page<30:
-        d=jget(f"https://hr.tochka.com/data/v2/hr/vacancies/list.json?page={page}")
-        for r in d["items"]:
-            out.append(V(r["title"],(r["customLink"].get("url") if isinstance(r.get("customLink"),dict) and r["customLink"].get("url") else (r["customLink"] if isinstance(r.get("customLink"),str) and r.get("customLink") else f"https://hr.tochka.com/vacancies/catalog/{r['slug']}/")),(r.get("city") or {}).get("title","") if isinstance(r.get("city"),dict) else (r.get("city") or ""),
-              ["remote"] if r.get("workFormat")=="remotely" else fmt_norm(r.get("workFormat")),(r.get("mainCategory") or {}).get("title","")))
-        m=d["meta"]
-        if page*m["pageSize"]>=m["total"]: break
-        page+=1; time.sleep(.4)
+    items=paged("tochka",[(1,lambda p:f"https://hr.tochka.com/api/v2/hr/vacancies/?isLead=false&page={p}")],lambda d:d.get("items") or d.get("results") or [],lambda r:r.get("slug") or r.get("title"),maxpages=30)
+    try:
+        lead=paged("tochka_lead",[(1,lambda p:f"https://hr.tochka.com/api/v2/hr/vacancies/?isLead=true&page={p}")],lambda d:d.get("items") or d.get("results") or [],lambda r:r.get("slug") or r.get("title"),maxpages=10)
+    except Exception: lead=[]
+    out=[]
+    for r in items+lead:
+        cl=r.get("customLink"); url=(cl.get("url") if isinstance(cl,dict) else cl) or f"https://hr.tochka.com/vacancies/catalog/{r['slug']}/"
+        city=r.get("city"); city=city.get("title","") if isinstance(city,dict) else (city or "")
+        out.append(V(r["title"],url,city,["remote"] if r.get("workFormat")=="remotely" else fmt_norm(r.get("workFormat")),(r.get("mainCategory") or {}).get("title","")))
     return out
 def rwb():
     out=[]; offset=0

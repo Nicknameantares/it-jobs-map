@@ -34,6 +34,28 @@ def V(title,url,city="",fmt=None,area="",date=""):
     return {"t":clean(title),"u":url,"c":clean(city).replace("г ","",1) if clean(city).startswith("г ") else clean(city),"f":fmt or [],"a":clean(area),"d":(date or "")[:10]}
 
 # ---------- JSON sources ----------
+PAGING={}
+def paged(name,schemes,extract,idf,maxpages=150,pause=.3):
+    """Try URL schemes until one where page 2 differs from page 1, then walk pages until no new ids."""
+    for si,(start,mk) in enumerate(schemes):
+        try:
+            a=extract(jget(mk(start))); b=extract(jget(mk(start+1)))
+        except Exception as e:
+            continue
+        if not a: continue
+        ida={idf(x) for x in a}; idb={idf(x) for x in b}
+        if not b or idb<=ida:
+            if si==len(schemes)-1: PAGING[name]=f"single page (scheme {si})"; return a
+            continue
+        PAGING[name]=f"scheme {si}"
+        out=a+b; seen=ida|idb; p=start+2
+        while p<start+maxpages:
+            items=extract(jget(mk(p))); new=[x for x in items if idf(x) not in seen]
+            if not new: break
+            seen|={idf(x) for x in new}; out+=new; p+=1; time.sleep(pause)
+        return out
+    PAGING[name]="no scheme worked"; return []
+
 def yandex():
     out=[]; url="https://yandex.ru/jobs/api/publications/?page_size=100"
     for _ in range(40):
@@ -48,16 +70,11 @@ def yandex():
         q=urllib.parse.urlparse(nxt).query; url="https://yandex.ru/jobs/api/publications/?"+q; time.sleep(.5)
     return out
 def sber():
-    out=[]; page=0
-    while page<80:
-        d=jget(f"https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/publications?page={page}&size=100")["data"]
-        items=d.get("vacancies") or []
-        for r in items:
-            out.append(V(r["title"],f"https://rabota.sber.ru/search/{r['internalId']}",r.get("city") or r.get("region"),[], (r.get("specialization") or "").split(":")[-1],r.get("publicationDate","")))
-        page+=1
-        if not items or len(out)>=d.get("total",0): break
-        time.sleep(.4)
-    return out
+    B="https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/publications"
+    items=paged("sber",[(0,lambda p:f"{B}?page={p}&size=100"),(1,lambda p:f"{B}?page={p}&size=100"),(0,lambda p:f"{B}?pageNumber={p}&pageSize=100"),
+        (0,lambda p:f"{B}?offset={p*100}&limit=100"),(0,lambda p:f"{B}?from={p*100}&size=100"),(0,lambda p:f"{B}?page={p}"),(1,lambda p:f"{B}?page={p}")],
+        lambda d:(d.get("data") or {}).get("vacancies") or [], lambda r:r["internalId"])
+    return [V(r["title"],f"https://rabota.sber.ru/search/{r['internalId']}",r.get("city") or r.get("region"),[],(r.get("specialization") or "").split(":")[-1],r.get("publicationDate","")) for r in items]
 def vk():
     out=[]; url="https://team.vk.company/career/api/v2/vacancies/?limit=100&offset=0"
     while url:
@@ -70,25 +87,15 @@ def vk():
         url=d.get("next"); time.sleep(.4)
     return out
 def ozon():
-    out=[]; page=1
-    while page<=200:
-        d=jget(f"https://job-api.ozon.ru/v2/vacancy?limit=100&page={page}")
-        for r in d["items"]:
-            out.append(V(r["title"],r.get("externalLink") or f"https://career.ozon.ru/vacancy/{r['hhId']}/",r.get("city"),fmt_norm(*(r.get("workFormat") or [])),r.get("department","")))
-        if page>=d["meta"]["totalPages"]: break
-        page+=1; time.sleep(.3)
-    return out
+    B="https://job-api.ozon.ru/v2/vacancy"
+    items=paged("ozon",[(1,lambda p:f"{B}?page={p}&perPage=100"),(1,lambda p:f"{B}?page={p}&limit=100"),(1,lambda p:f"{B}?pageNumber={p}&perPage=100"),(0,lambda p:f"{B}?offset={p*100}&limit=100"),(1,lambda p:f"{B}?page={p}")],
+        lambda d:d.get("items") or [], lambda r:r["hhId"],maxpages=200)
+    return [V(r["title"],r.get("externalLink") or f"https://career.ozon.ru/vacancy/{r['hhId']}/",r.get("city"),fmt_norm(*(r.get("workFormat") or [])),r.get("department","")) for r in items]
 def mts():
-    out=[]; page=1
-    while page<=200:
-        d=jget(f"https://job.mts.ru/api/v2/vacancies?page={page}&size=100&pageSize=100")
-        for r in d["data"]:
-            out.append(V(r["title"],f"https://job.mts.ru/vacancy/{r['slug']}",(r.get("region") or {}).get("title",""),
-              fmt_norm(*[w.get("title") for w in (r.get("workFormats") or [])]),", ".join(c.get("title","") for c in (r.get("categories") or [])[:1]),r.get("publishedAt","")))
-        pg=d["meta"]["pagination"]
-        if page>=pg["pageCount"]: break
-        page+=1; time.sleep(.3)
-    return out
+    B="https://job.mts.ru/api/v2/vacancies"
+    items=paged("mts",[(1,lambda p:f"{B}?pagination[page]={p}&pagination[pageSize]=100"),(1,lambda p:f"{B}?page={p}&pageSize=100"),(1,lambda p:f"{B}?page={p}&limit=100"),(0,lambda p:f"{B}?page={p}&size=100"),(1,lambda p:f"{B}?page={p}")],
+        lambda d:d.get("data") or [], lambda r:r["slug"],maxpages=200)
+    return [V(r["title"],f"https://job.mts.ru/vacancy/{r['slug']}",(r.get("region") or {}).get("title",""),fmt_norm(*[w.get("title") for w in (r.get("workFormats") or [])]),", ".join(c.get("title","") for c in (r.get("categories") or [])[:1]),r.get("publishedAt","")) for r in items]
 def tbank():
     out=[]; offset=0; cats={"tcareer_it":"it","tcareer_back_office":"back-office","tcareer_work_with_clients":"service"}
     names={"tcareer_it":"ИТ","tcareer_back_office":"Офис","tcareer_work_with_clients":"Работа с клиентами"}
@@ -122,7 +129,7 @@ def tochka():
     while page<30:
         d=jget(f"https://hr.tochka.com/data/v2/hr/vacancies/list.json?page={page}")
         for r in d["items"]:
-            out.append(V(r["title"],r.get("customLink") or f"https://hr.tochka.com/vacancies/catalog/{r['slug']}/",r.get("city") or "",
+            out.append(V(r["title"],(r["customLink"].get("url") if isinstance(r.get("customLink"),dict) and r["customLink"].get("url") else (r["customLink"] if isinstance(r.get("customLink"),str) and r.get("customLink") else f"https://hr.tochka.com/vacancies/catalog/{r['slug']}/")),(r.get("city") or {}).get("title","") if isinstance(r.get("city"),dict) else (r.get("city") or ""),
               ["remote"] if r.get("workFormat")=="remotely" else fmt_norm(r.get("workFormat")),(r.get("mainCategory") or {}).get("title","")))
         m=d["meta"]
         if page*m["pageSize"]>=m["total"]: break
@@ -136,7 +143,7 @@ def rwb():
         for r in items:
             out.append(V(r["name"],f"https://career.rwb.ru/vacancies/{r['id']}",r.get("city_title"),fmt_norm(*[e["title"] for e in r.get("employment_types",[])]),r.get("direction_title","")))
         offset+=len(items)
-        if len(items)<100: break
+        if not items: break
         time.sleep(.4)
     return out
 def x5():
@@ -168,11 +175,11 @@ def lanit():
 
 # ---------- rendered-page sources (headless browser) ----------
 RENDER={
- "avito":{"url":"https://career.avito.com/vacancies/","re":r"^/vacancies/[a-z0-9\-]+/\d+/$","base":"https://career.avito.com"},
- "kaspersky":{"url":"https://careers.kaspersky.ru/vacancies","re":r"^/vacancy/\d+$","base":"https://careers.kaspersky.ru"},
+ "avito":{"pages":"https://career.avito.com/vacancies/?PAGEN_1={p}","url":"https://career.avito.com/vacancies/","re":r"^/vacancies/[a-z0-9\-]+/\d+/$","base":"https://career.avito.com"},
+ "kaspersky":{"pages":"https://careers.kaspersky.ru/vacancies?page={p}","url":"https://careers.kaspersky.ru/vacancies","re":r"^/vacancy/\d+$","base":"https://careers.kaspersky.ru"},
  "gis":{"url":"https://job.2gis.ru/vacancies","re":r"^/vacancies/[a-z_]+/\d+$","base":"https://job.2gis.ru"},
- "megafon":{"url":"https://job.megafon.ru/vacancy/all/any","re":r"^/vacancy/[a-z\-]+/[a-z\-]+/.+-\d+$","base":"https://job.megafon.ru"},
- "kontur":{"url":"https://kontur.ru/career/vacancies","re":r"^/career/vacancies/\d+$","base":"https://kontur.ru"},
+ "megafon":{"pages":"https://job.megafon.ru/vacancy/all/any?page={p}","url":"https://job.megafon.ru/vacancy/all/any","re":r"^/vacancy/[a-z\-]+/[a-z\-]+/.+-\d+$","base":"https://job.megafon.ru"},
+ "kontur":{"pages":"https://kontur.ru/career/vacancies?page={p}","url":"https://kontur.ru/career/vacancies","re":r"^/career/vacancies/\d+$","base":"https://kontur.ru"},
 }
 MORE_JS="""() => { const b=[...document.querySelectorAll('button,a,div[role=button]')].find(e=>/показать ещё|показать еще|загрузить ещё|загрузить еще|ещё вакансии|больше вакансий/i.test((e.innerText||'').trim()) && e.offsetParent!==null); if(b){b.click();return true} return false }"""
 def parse_render(key,href,text):
@@ -209,13 +216,22 @@ async def render_all(results,meta):
                     if not clicked and n==last: break
                     last=n; await page.wait_for_timeout(900 if clicked else 300)
                 links=await page.eval_on_selector_all("a[href]","els=>els.map(e=>[e.getAttribute('href'),e.innerText||''])")
-                seen={}; rx=re.compile(cfg["re"])
+                rx=re.compile(cfg["re"])
+                if cfg.get("pages"):
+                    known={l[0] for l in links if rx.match(l[0].replace(cfg["base"],""))}
+                    for pn in range(2,40):
+                        await page.goto(cfg["pages"].format(p=pn),timeout=60000,wait_until="domcontentloaded"); await page.wait_for_timeout(1800)
+                        more=await page.eval_on_selector_all("a[href]","els=>els.map(e=>[e.getAttribute('href'),e.innerText||''])")
+                        new=[l for l in more if rx.match(l[0].replace(cfg["base"],"")) and l[0] not in known]
+                        if not new: break
+                        known|={l[0] for l in new}; links+=new
+                seen={}
                 for href,text in links:
                     h=href.replace(cfg["base"],"")
                     if not rx.match(h): continue
                     p_=parse_render(key,h,text)
                     if p_ and (h not in seen or len(p_[0])>len(seen[h][0])): seen[h]=p_
-                vs=[V(t,cfg["base"]+h,c,fmt_norm(t),a) for h,(t,c,a) in seen.items() if t and len(t)>2]
+                vs=[V(t,cfg["base"]+h,"" if re.match(r"удал",c,re.I) else c,(["remote"] if re.match(r"удал",c,re.I) else fmt_norm(t)),a) for h,(t,c,a) in seen.items() if t and len(t)>2]
                 results[key]=vs; meta[key]={"ok":True,"n":len(vs),"sec":round(time.time()-t0,1),"mode":"render"}
                 await ctx.close()
             except Exception as e:
@@ -257,6 +273,6 @@ def main():
     now=datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")
     out={"updated":now,"sources":{k:{"at":(prev.get(k,{}).get("at") if meta.get(k,{}).get("stale_from") else now),"v":v} for k,v in results.items()}}
     json.dump(out,open("data/vacancies.json","w",encoding="utf8"),ensure_ascii=False,separators=(",",":"))
-    json.dump({"updated":now,"sources":meta},open("data/meta.json","w",encoding="utf8"),ensure_ascii=False,indent=1)
+    json.dump({"updated":now,"paging":PAGING,"sources":meta},open("data/meta.json","w",encoding="utf8"),ensure_ascii=False,indent=1)
     print("TOTAL",sum(len(v) for v in results.values()))
 if __name__=="__main__": main()

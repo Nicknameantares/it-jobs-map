@@ -1,0 +1,2206 @@
+https://astra.ru/about/career/vacancies/
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Вакансии в IT | «Группа Астра»</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="программное обеспечение,  софт, хард, hardware, software, железо, оборудование" />
+<meta name="description" content="Вакансии в IT. Нет подходящей вакансии? Хочешь стать частью команды «Группы Астра», но не нашел подходящей для себя вакансии?  Напиши о себе, в каком направлении хочешь развиваться, не забудь про ссылки на свои проекты или портфолио." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="msapplication-TileImage" content="../favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#fff">
+<meta name="author" content="Группа Астра">
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/Safari/i.test(ua) && !/Chrome/i.test(ua)){cl += " bx-safari";}else if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/css/main/bootstrap_v4/bootstrap.min.css?1734382535141200" type="text/css" rel="stylesheet"/>
+<link href="https://cdn.envybox.io/widget/cbk.css" type="text/css" rel="stylesheet"/>
+<link href="/local/components/ya-dev/hh/templates/hh/style.css?17343829092434" type="text/css" rel="stylesheet"/>
+<link href="/local/templates/astralinux/libs/slick/slick.css?17343829021776" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/css/main.css?1790707111316493" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/css/ext_main.css?17803173742824" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/components/bitrix/menu/menu.top/style.css?1734382902223" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/components/bitrix/menu/menu.bottom.company/style.css?1734382902112" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/components/bitrix/menu/menu.bottom/style.css?1734382902111" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/components/bitrix/menu/menu.bottom.extra/style.css?1734382902109" type="text/css" rel="stylesheet" data-template-style="true"/>
+<link href="/local/templates/astralinux/template_styles.css?17546486761822" type="text/css" rel="stylesheet" data-template-style="true"/>
+
+
+<script type="extension/settings" data-extension="main.baseline">{"collectData":false,"helpUrl":"https:\/\/helpdesk.bitrix24.ru\/open\/code_27229654\/","helpCode":"redirect=detail\u0026code=27229654"}</script>
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="astra.ru" />
+<meta property="og:url" content="https://astra.ru/about/career/vacancies/" />
+<meta property="og:title" content="Вакансии в IT | «Группа Астра»" />
+<meta property="og:description" content="Вакансии в IT. Нет подходящей вакансии? Хочешь стать частью команды «Группы Астра», но не нашел подходящей для себя вакансии?  Напиши о себе, в каком направлении хочешь развиваться, не забудь про ссылки на свои проекты или портфолио." />
+<meta property="og:image" content="https://astra.ru/upload/iblock/67c/2eddm661ktlx46w5vly7l350vopigtkg.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="2969" />
+<meta property="og:image:height" content="789" />
+<meta property="vk:image" content="https://astra.ru/upload/iblock/67c/2eddm661ktlx46w5vly7l350vopigtkg.png" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="astra.ru" />
+<meta property="twitter:title" content="Вакансии в IT | «Группа Астра»" />
+<meta property="twitter:description" content="Вакансии в IT. Нет подходящей вакансии? Хочешь стать частью команды «Группы Астра», но не нашел подходящей для себя вакансии?  Напиши о себе, в каком направлении хочешь развиваться, не забудь про ссылки на свои проекты или портфолио." />
+<meta property="twitter:image" content="https://astra.ru/upload/iblock/67c/2eddm661ktlx46w5vly7l350vopigtkg.png" />
+<meta property="twitter:image:alt" content="Вакансии в IT | «Группа Астра»" />
+
+
+
+	<!-- Yandex.Metrika counter -->
+		<noscript>
+		<div><img src="https://mc.yandex.ru/watch/89464521" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	<!-- Top.Mail.Ru counter -->
+		<noscript>
+		<div><img src="https://top-fwz1.mail.ru/counter?id=3487773;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div>
+	</noscript>
+	<!-- /Top.Mail.Ru counter -->
+	    <script type="module" src="https://astra.ru/local/ext/utm/user-journey-tracker.js"></script>
+    <script type="module" src="https://astra.ru/local/ext/utils/agreement-modal.js"></script>
+    <script type="module" src="https://astra.ru/local/ext/utils/ui-popover.js"></script>
+	<!-- Schema.org JSON-LD --><script data-skip-moving="true">window.Zverushki=window.Zverushki||{};window.Zverushki.Microm={"Breadcrumb":"Disabled","Business":true,"Product":"Disabled","Article":false,"version":"2.2.1","format":{"json-ld":"Disabled","microdata":true},"execute":{"time":0,"scheme":{"Business":null,"Article":null}}};</script><!-- end Schema.org JSON-LD --></head>
+
+<body>
+
+		
+			<div id="top-information-banner">
+			<span></span>
+		</div>
+		</div>
+	
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__row">
+					<div class="header__start">
+						<button class="btn btn--reset btn--burger header__burger" aria-label="Показать меню"></button>
+						<a class="header__logo" href="/" style='display: flex; align-items: center;'>
+							<img class="header__logo-img" src="/colorLogoAstra.svg" width="112" height="35" alt="Astra Linux">
+							<!-- <img class="header__logo-img" src="/./new_year.gif" width="112" height="35" alt="Astra Linux"> -->
+						</a>
+					</div>
+					<nav class="header__nav">
+						<div class="header__nav-panel hide-lg-up">
+							<div class="header__nav-title">Меню</div>
+							<button class="btn btn--reset btn--cross header__btn-close-menu"></button>
+							<button class="btn btn--reset btn--arrow-top mobile-menu-back" aria-label="Мобильное меню вернуться"></button>
+						</div>
+						
+
+
+<ul class="header__nav-list">
+
+
+
+
+			
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link is-selected" href="/about/">О компании</a>
+				<a class="header__nav-hidden-link" href="/about/" title="О компании"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">О компании</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/about/company/">Компания</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/about/company/company-documents/">Документы компании</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/about/company/#menu__contacts">Контакты</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/about/career/">Карьера</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/about/career/index.php">Работа в компании</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link header__nav-submenu-item-selected" 
+						href="/about/career/vacancies/">Вакансии</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/about/career/traineeship/">Стажировка</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/about/for-suppliers/">Поставщикам</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/bi-zone-bug-bounty/">BI.ZONE Bug Bounty</a>
+				</li>
+			
+		
+		
+	
+
+
+
+				</ul></div></div></div></li>
+		
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/software-services/">Решения</a>
+				<a class="header__nav-hidden-link" href="/software-services/" title="Решения"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Решения</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/software-services/os/">Операционная система</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/os/">Astra Linux SE</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/os/astra-linux-ce/">Astra Linux CE</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/server-astra/">Серверная </a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/os/astra-linux-se/">Десктопная</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/mobile-astra/">Мобильная</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/os/astra-linux-em/">Встраиваемая</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/migration/">Astra Migration</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/services/astra-store/">Astra Store</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow header__nav-child-item--column header__nav-child-item--column-wide">
+				   <a class="header__nav-child-link" href="/software-services/application-software-astra-group/">Инфраструктурное ПО «Группы Астра»</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/vm-manager/">VMmanager</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/rubackup/">RuBackup</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/termidesk/">Termidesk VDI</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/termidesk-connect/">Termidesk Connect</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/workspad/">WorksPad</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/clouden/">Clouden</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/ald-pro/">ALD Pro</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/dcimanager/">DCImanager</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/rupost/">RuPost</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/tantor/">Tantor</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/astra-automation/">Astra Automation</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/gitflic/">GitFlic</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/astra-monitoring/">Астра Мониторинг</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/knomary/">Knomary</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/acm/">ACM</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/amaia/">AMAIA</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/wine/">Astra Wine</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/brest/">ПК СВ «Брест»</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/bootsman/">Боцман</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/trok/">TROK</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/software-services/services/">Услуги и сервисы</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/astra-consulting/">«Консалтинг»</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/services/repo/">Доверенные репозитории</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/services/astra-cloud/">Cloud</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/services/pro-standart/">Программа ProСтандарт</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/software-services/pk/">Программные комплексы</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/pk/xdata">Машина баз данных Tantor XData</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/application-software-astra-group/ai/">«Астра ИИ» для создания и внедрения ИИ</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/hs-complex/xplatform/">Линейка ПАК XPlatform</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/pk/astra-server-core/">Astra Server Core</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/software-services/pk/astra-dev-platform/">Astra Developer Platform</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/software-services/industry-solutions/">Отраслевое применение</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/software-services/cases/">Кейсы</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/software-services/export-potential/">Экспортный потенциал</a>
+				</li>
+			
+		
+		
+	
+
+
+
+				</ul></div></div></div></li>
+		
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/ready-for-astra/">Ready for Astra</a>
+				<a class="header__nav-hidden-link" href="/ready-for-astra/" title="Ready for Astra"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Ready for Astra</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/ready-for-astra/compatible-software/">Совместимое ПО</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/ready-for-astra/compatible-hardware/">Совместимое оборудование</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/ready-for-astra/companies-partners/">Технологические партнеры</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/ready-for-astra/become-tech-partner/">Стать технологическим партнером</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/ready-for-astra/become-tech-partner/polozhenie-po-rabote-s-tekhnologicheskimi-partnerami.php">Положение о технологическом партнёрстве</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/ready-for-astra/zapros-klyuchey.php">Генерация ключей</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="https://wiki.astralinux.ru/kb" target="_blank">База знаний</a>
+				</li>
+			
+		
+		
+	
+
+
+
+				</ul></div></div></div></li>
+		
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/support/">Поддержка</a>
+				<a class="header__nav-hidden-link" href="/support/" title="Поддержка"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Поддержка</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/support/#tarif">Уровни технической поддержки</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/info/documents/">Разработчикам</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="https://dev.astra.ru">Dev-портал</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/certificates-licenses/">Сертификаты</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/documents/">Документация</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/technical-scenarios/">Технические сценарии</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/law/">Правовая информация</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/reference-information/library/">Библиотека</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/support/security-bulletins/">Бюллетени безопасности</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="https://lk-new.astralinux.ru/" target="_blank">Личный кабинет</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/support/tekhnicheskoe-polozhenie.php">Положение о технической поддержке</a>
+				</li>
+			
+		
+		
+	
+
+
+
+				</ul></div></div></div></li>
+		
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/training/">Обучение</a>
+				<a class="header__nav-hidden-link" href="/training/" title="Обучение"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Обучение</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/training/authorized-training/">Авторизованное обучение</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/training/authorized-training/#cert">Проверить сертификат</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/training/authorized-training/#obrres">Образовательные ресурсы</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/training/educational-organizations/">Образовательным организациям</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/training/educational-organizations/authorized-training-centers/">Авторизованным учебным центрам</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/training/educational-organizations/universities-colleges/">Вузам и колледжам</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/training/educational-organizations/schools/">Школам</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			</ul></div></li>
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/training/schoolchildren/">Школьникам</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/training/teachers-astra-academy/">Преподавателям</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/training/students/">Студентам</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="http://education.astralinux.ru" target="_blank">Образовательный портал</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/training/#orgpart">Организации-партнеры</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="https://easyastra.ru/">Easy Astra</a>
+				</li>
+			
+		
+		
+	
+
+
+
+				</ul></div></div></div></li>
+		
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/partners/">Партнерам</a>
+				<a class="header__nav-hidden-link" href="/partners/" title="Партнерам"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Партнерам</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/partners/">Стать партнером</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="https://wiki.astralinux.ru/kb" target="_blank">Справочная информация</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/partners/">Статусы</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/WhereToBuy.php">Дистрибьюторы</a>
+				</li>
+			
+		
+		
+	
+
+
+
+				</ul></div></div></div></li>
+		
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/info/">Материалы</a>
+				<a class="header__nav-hidden-link" href="/info/" title="Материалы"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Материалы</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/info/reference-sections/">Маркетинговые материалы</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+					<li class="header__nav-child-item header__nav-child-item--arrow ">
+				   <a class="header__nav-child-link" href="/info/documents/">Документы</a>
+				<div class="header__nav-submenu">
+					<ul class="header__nav-submenu-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="https://dev.astra.ru">Dev-портал</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/certificates-licenses/">Сертификаты</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/documents/">Документация</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/technical-scenarios/">Технические сценарии</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/law/">Правовая информация</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-submenu-item header__nav-child-item--arro">
+					<a class="header__nav-submenu-link" 
+						href="/info/reference-information/library/">Библиотека</a>
+				</li>
+			
+		
+		
+	
+
+
+
+		</ul></div></li></ul></div></div></div></li>
+				
+	
+	
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/about/press-center/">Пресс-центр</a>
+				<a class="header__nav-hidden-link" href="/about/press-center/" title="Пресс-центр"></a>
+				<div class="header__nav-child">
+					<div class="container">
+						<div class="header__nav-child-nav">
+							<div class="header__nav-title">Пресс-центр</div>
+							<ul class="header__nav-child-list">
+
+				
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/about/press-center/news/">Новости</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/about/press-center/media-about-us/">СМИ о нас</a>
+				</li>
+			
+		
+		
+	
+
+
+
+			
+	
+	
+		
+							<li class="header__nav-child-item">
+					<a class="header__nav-child-link" 
+						href="/about/press-center/materials/">Материалы</a>
+				</li>
+			
+		
+		
+	
+
+		</ul>
+	</div>
+</div>
+</div>
+</li>
+
+
+
+</ul>
+						<div class="header__carousel">
+							<div class="container">
+								<button class="btn btn--reset btn--cross header__nav-child-close" aria-label="Закрыть меню десктопа"></button>
+								<div class="header__slider-wrap">
+	<div class="header__slider">
+					<div class="header__slider-item" id="bx_3218110189_33404">
+			<div class="header__slider-item--inner">
+			<img class="header__slider-item-img" src="/upload/iblock/1f9/d5nejlx6oqz29slug1rci079c2940la5/700kh320.jpg" width="507" height="467" alt="«Группа Астра» представляет операционную систему нового поколения" title="«Группа Астра» представляет операционную систему нового поколения">
+				<div class="header__slider-item--info">
+					<div class="header__slider-item-title">
+													«Группа Астра» представляет операционную систему нового поколения											</div>
+					<p class="header__slider-item-desc">
+													<p>
+	Комплекс нововведений в ОС Astra Linux 1.8 включает в себя множество значимых изменений, которые делают ее еще более удобной, производительной и защищенно.
+</p>											</p>
+				</div>
+				<a class="btn btn--reset btn--arrow-right-after" href="https://astra.ru/proxima?utm_source=website&utm_medium=banner2&utm_campaign=home">Узнать больше</a>
+			</div>
+		</div>
+				</div>
+	<div class="slider-dots-line"></div>
+</div>							</div>
+						</div>
+					</nav>
+					<div class="header__panel">
+						<button class="btn btn--reset btn--search header__btn-search" aria-label="Открыть поиск"></button>
+						<div class='header-btn-wrapper'>
+							<a class="btn btn--accent" href="/buy/">Где купить</a>
+							<a class='investor-btn-header btn btn--accent' href="/investors/">Инвесторам</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="search search--popup">
+			<div class="container">
+				<div class="search__head">
+	<div class="search__title">Поиск</div>
+	<button class="btn btn--reset btn--cross search__close" aria-label="Закрыть поиск"></button>
+</div>
+<form class="search__form" action="/search/" method="get">
+	<input id="search_top" class="search__form-input" type="text" name="q" placeholder="Ввести" required>
+	<button class="btn btn--reset btn--search search__form-btn" aria-label="Отправить фому"></button>
+</form>
+
+<div class="search-popup" id="search_cnt">
+
+</div>
+			</div>
+		</div>
+		<div class="page-container">
+										<div class="breadcrumbs">
+					<div class="container" id="navigation">
+						<div class="bx-breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"><ul class="breadcrumbs__list">
+			<li class="breadcrumbs__item" id="bx_breadcrumb_0" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a class="breadcrumbs__link" href="/" title="Главная" itemprop="item">
+    				<span itemprop="name">Главная</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </li>
+			<li class="breadcrumbs__item" id="bx_breadcrumb_1" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a class="breadcrumbs__link" href="/about/" title="Компания" itemprop="item">
+    				<span itemprop="name">Компания</span>
+                </a>
+                <meta itemprop="position" content="2">
+            </li>
+			<li class="breadcrumbs__item" id="bx_breadcrumb_2" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a class="breadcrumbs__link" href="/about/career/" title="Карьера" itemprop="item">
+    				<span itemprop="name">Карьера</span>
+                </a>
+                <meta itemprop="position" content="3">
+            </li>
+            <li class="breadcrumbs__item is-current">
+                <span class="breadcrumbs__link">Вакансии</span>
+            </li></ul></div>					</div>
+				</div>
+									<div class="page-title">
+						<div class="container">
+							<h1 id="pagetitle"></h1>
+						</div>
+					</div>
+										<div class="main-block">
+
+
+<div id="appHH">
+  <div class="career-vacansies" v-cloak>
+    <div class="container">
+      <div class="filter-mobile-btns">
+        <button class="btn btn--border js-reset-filter" aria="Reset form" @click="fClear()">Сбросить</button>
+        <button class="btn btn--accent js-open-filter" aria-label="Open mobile filter">Фильтр{{fCount}}</button>
+      </div>
+      <div class="career-vacansies__nav">
+        <div class="career-vacansies__nav-head">
+          <h1>Вакансии <span class="search-result-value">{{ count }}</span></h1>
+          <form class="career-vacansies__nav-search" action="javascript:void(0);" method="/">
+            <input class="search__form-input" v-model="searchText" type="text" placeholder="Ввести" required>
+            <button disabled class="btn btn--reset btn--search search__form-btn" aria-label="Send form"></button>
+          </form>
+        </div>
+        <form class="hide-lg-down" action="/" method="/">
+          <div class="form__row">
+            <div class="input" v-for="(cat, index) in arCat">
+              <input class="input__checkbox--border" v-model="cat.selected" :id="'career-spec-'+index" type="checkbox" :name="'career-spec-'+index" @click="clickCat(index)">
+              <label class="input__checkbox--border-label" :for="'career-spec-'+index"> 
+                <div class="input__checkbox-label-text">{{ cat.name }}</div>
+                <div class="input__checkbox-label-value">{{ cat.count }}</div>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="main-aside-container">
+        <div class="aside aside-filter-block">
+          <div class="filter">
+            <div class="filter__head">
+              <button class="btn btn--reset btn--arrow-left js-close-filter" aria-label="Close mobile filter"></button>
+              <div class="filter__head-title">Фильтры</div>
+            </div>
+            <form class="filter__form" action="/" mathod="/">
+              <div class="fclear-btn hide-lg-down">
+                <button class="btn btn--border js-reset-filter" aria="Reset form" @click="fClear()" v-if="fCount!=''">Сбросить фильтр{{fCount}}</button>
+              </div>
+              <div class="filter__form-body">
+                <div class="filter__form-item">
+                  <div class="filter__form-item-title">Город</div>
+                  <div class="input"><i class="input__icon input__icon--loc"></i>
+                    <input class="input__elem" type="text" placeholder="Выберите город" :value="displayCity" @click="showModalCity()">
+                  </div>
+                </div>
+                <div class="filter__form-item" v-if="filteredKeySkills.length != 0">
+                  <div class="filter__form-item-title">Стек</div>
+                  <div class="form__row">
+                    <div class="input" v-for="skill in filteredKeySkills">
+                      <input class="input__checkbox--bg" :checked="selKeySkills.indexOf(skill.id)!=-1" :id="'career-dir-'+skill.id" type="checkbox" :name="'career-dir-'+skill.id" @click="clickKeySkills(skill.id)">
+                      <label class="input__checkbox--bg-label" :for="'career-dir-'+skill.id">{{ skill.value }}</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__form-item" v-if="selCat.length != 0">
+                  <div class="filter__form-item-title">Подкатегории</div>
+                  <div class="input"><i class="input__icon input__icon--search"></i>
+                    <input class="input__elem" type="text" placeholder="Найти подкатегорию" v-model="searchSubCat">
+                  </div>
+                  <div class="filter__form-item-inputs">
+                    <div class="input" v-for="cat in subCat">
+                      <input class="input__checkbox" :checked="selSubCat.indexOf(cat.id)!=-1" :id="'career-subcategories-'+cat.id" type="checkbox" :name="'career-subcategories-'+cat.id"  @click="clickSubCat(cat.id)">
+                      <label class="input__checkbox-label" :for="'career-subcategories-'+cat.id"> 
+                        <div class="input__checkbox-label-text">{{ cat.name }}</div>
+                        <div class="input__checkbox-label-value">{{ cat.count }}</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__form-item">
+                  <div class="filter__form-item-title">Опыт работы</div>
+                  <div class="filter__form-item-inputs">
+                    <div class="input" v-for="exp in experience">
+                      <input class="input__checkbox" :checked="selExp.indexOf(exp.id)!=-1" :id="'career-exp-'+exp.id" type="checkbox" :name="'career-exp-'+exp.id" @click="clickExp(exp.id)">
+                      <label class="input__checkbox-label" :for="'career-exp-'+exp.id"> 
+                        <div class="input__checkbox-label-text">{{ exp.name }}</div>
+                        <div class="input__checkbox-label-value">{{ exp.count }}</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             <!-- <div class="filter__form-footer">
+                <button class="btn btn--accent" type="submit" aria-label="Send form">Применить</button>
+              </div>-->
+            </form>
+          </div>
+        </div>
+
+        <div class="main-container">
+          <div class="career-jobs">
+            <div class="jobs">
+              <div class="jobs__list">
+                <div v-if="filteredItems.length == 0">
+                  <section class="career-error">
+                    <div class="container">
+                      <div class="career-error__body">
+                        <h2 class="career-error__title">Упс! По введеным данным ничего не найдено…</h2>
+                        <div class="career-error__desc">Вы уверены в правильности введённого текста? Если да, то к сожалению у нас нет предложений по данному запросу, но мы работаем над этим!</div><a class="link link--accent link--arrow-left" href="/about/career/vacancies/">Обратно к вакансиям</a>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="section section-panel">
+                    <div class="container">
+                      <div class="section-panel__body">
+                        <div class="section-panel__info">
+                          <h2 class="section-panel__title">Нет подходящей вакансии?</h2>
+                          <p class="section-panel__desc"><strong>Хочешь стать частью команды Astra, но не нашёл подходящей для себя вакансии?</strong> <br><br> Напиши о себе, в каком направлении хочешь развиваться, не забудь про ссылки на свои проекты, портфолио и аккаунты в социальных сетях, хотим узнать тебя поближе.</p>
+                          <div class="btn--block">
+                            <button class="btn btn--border-light btn--doc" aria-label="Open modal">Оставить резюме</button>
+                          </div>
+                        </div>
+                        <div class="section-panel__img--wrap"><img class="section-panel__img" src="/images/about/section-panel/bg-3.svg" width="438" height="630" alt="Обратная связь карьеры"></div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="jobs__card" v-for="(item, index) in filteredItems">
+                  <div class="jobs__card--inner">
+                    <div class="jobs__card-head">
+                      <div class="jobs__card-head-start">
+                        <div class="jobs__card-title--wrap">
+                          <div class="jobs__card-title" v-html="highlight(item.NAME,searchText)"></div>
+                          <div class="jobs__card-wage hide-lg-up">{{ item.salary }}</div>
+                        </div>
+                        <div class="jobs__card-tags">
+                          <div class="jobs__card-tags-body btns-spacer">
+                            <a class="btn btn--tiny btn--tag-secondary" href="javascript:void(0);"  v-for="key_skills in item.key_skills.slice(0,arKeySkills[item.ID])" @click="clickKeySkills(key_skills.id)">{{ key_skills.value }}</a>
+                            <button class="btn btn--tiny btn--tag-secondary jobs__card-tags-add" aria-label="Add tags" v-if="item.key_skills.length > 3 && arKeySkills[item.ID]<=3" @click="showKeySkills(item.ID)">+</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="briefly__row"><span class="briefly briefly--tiny">{{ item.date }}</span></div>
+                    </div>
+                    <div class="jobs__card-body">
+                      <p class="jobs__card-desc">{{ item.PREVIEW_TEXT }}</p>
+                      <div class="jobs__card-panel">
+                        <div class="jobs__card-panel-start">
+                          <div class="jobs__card-location">{{ item.area.name }}</div>
+                          <ul>
+                            <li>Опыт работы: {{ item.experience.name }}</li>
+                            <li>Заработная плата: <strong>{{ item.salary }}</strong></li>
+                          </ul>
+                        </div>
+                        <div class="btn--block"><a class="btn btn--reset btn--light btn--arrow-right" :href="'/about/career/vacancies/'+item.ID+'/'" title="Перейти"></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>      
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<div class="modal-wraper" v-show="onModalCity" @click.self="hideModalCity()" v-cloak>
+  <div class="hhmodal--open modal--tiny" id="filter-city">
+      <div class="hhmodal__item">
+          <div class="hhmodal__item-header">
+          <h3 class="hhmodal__item-title">Выберите город</h3>
+          <button class="btn btn--reset btn--cross hhmodal__close" aria-label="Close modal" @click="hideModalCity()"></button>
+          </div>
+          <div class="hhmodal__item-body">
+          <div class="hhmodal__filter">
+              <div class="input"><i class="input__icon input__icon--loc"></i>
+                  <input class="input__elem" type="text" placeholder="Адрес, город" v-model="searchCity">
+              </div>
+              <div class="tabs">
+              <div class="tabs__header">
+                  <div class="tabs__nav tabs__nav--full">
+                  <ul class="tabs__nav-list">
+                      <li class="tabs__nav-item tabs__nav-item--active" data-active-tab="country-russia">
+                      <button class="tabs__nav-btn" aria-label="Switch tab">Россия</button>
+                      </li>
+                  </ul>
+                  </div>
+              </div>
+              <div class="tabs__body">
+                  <div class="tabs__content tabs__content--open" data-tab="country-russia">                       
+                      <div class="filter__form-item-inputs">
+                        <div class="input" v-for="city in filteredCity">
+                            <input class="input__checkbox" :checked="selCity.indexOf(city.id)!=-1" :id="'career-country-russia-city-'+city.id" type="checkbox" :name="'career-country-russia-city-'+city.id" @click="clickCity(city.id)">
+                            <label class="input__checkbox-label" :for="'career-country-russia-city-'+city.id">{{ city.name }}</label>
+                        </div>
+                      </div>
+                      <div class="hhmodal__form-footer justify-content-end">
+                        <div class="btns-spacer">
+                            <button class="btn btn--tiny btn--border" aria-label="Reset form" @click="clearModalCity()">Сбросить</button>
+                            <button class="btn btn--tiny btn--accent" type="button" aria-label="Send form" @click="hideModalCity()">Применить</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </div> 
+</div>
+
+
+</div>
+
+<style>
+  [v-cloak] {
+    display: none;
+  }
+  .fclear-btn {
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+  }
+</style>
+
+</div>
+</div>
+<div class="footer">
+	<div class="container footer__container">
+		<div class="footer__row">
+			<div class="footer__start">
+				<a class="footer__logo">
+					<img width="512" alt="ПАО Группа Астра" src="/local/templates/astralinux/img/logo_astra_white.png" height="136" title="ПАО Группа Астра">				</a>
+				<div class="footer__copy">
+					<p class="footer__copyright">&copy; ООО «РусБИТех-Астра» <br>2008-2026</p>				</div>
+			</div>
+			<div class="footer__panel">
+				<div class="footer__nav">
+					
+<ul>
+
+			<li><a href="/about/">О компании</a></li>
+		
+			<li><a href="/about/press-center/">Новости</a></li>
+		
+			<li><a href="/about/career/" class="menu-company-selected">Карьера</a></li>
+		
+			<li><a href="/partners/">Партнерам</a></li>
+		
+			<li><a href="/about/company/labor-protection/">Охрана труда</a></li>
+		
+
+</ul>
+					
+<ul>
+
+			<li><a href="/user-agreement/" >Пользовательское соглашение</a></li>
+		
+			<li><a href="/privacy-policy/"  target="_blank">Политика обработки персональных данных</a></li>
+		
+			<li><a href="/protection-policy/" >Положение по обработке и защите персональных данных</a></li>
+		
+			<li><a href="/cookie-policy/" >Положение по обработке файлов cookie</a></li>
+		
+			<li><a href="/info/documents/document/information_accredited_company_astra/" >Сведения об аккредитованной IT-компании</a></li>
+		
+			<li><a href="/trademarks/" >Товарные знаки</a></li>
+		
+			<li><a href="/site-map/" >Карта сайта</a></li>
+		
+			<li><a href="/investors/" >Инвесторам</a></li>
+		
+
+</ul>
+				</div>
+
+				<div class="footer__contacts">
+					
+
+			<a href="https://www.e-disclosure.ru/portal/company.aspx?id=38906" class="footer__link" target="_blank">Раскрытие корпоративной информации</a>
+		
+			<a href="https://wiki.astralinux.ru/" class="footer__link" target="_blank">Wiki-библиотека</a>
+		
+
+<div class="footer__contacts-body">
+    <h5 class="footer__title">
+		<a class="footer__link" href="/about/company/#menu__contacts">Контакты</a>
+	</h5>
+
+    <ul class="footer__contacts-list">
+    	<li class="footer__contacts-item footer__contacts-item--phone">
+    	    <a class="footer__contacts-link" href="tel:88002220700">8 (800) 222 07 00</a>
+        </li>
+        <li class="footer__contacts-item footer__contacts-item--email">
+    	    <a class="footer__contacts-link"  href="mailto:info@astralinux.ru">info@astralinux.ru</a>
+        </li>
+    </ul>
+</div>				</div>
+
+			</div>
+			<div class="footer__">
+				<div class="social footer__social">
+					<a class="social__link social__link--max" href="https://max.ru/gruppa_astra" target="_blank" title="Перейти в Max"></a>
+<a class="social__link social__link--tg" href="https://t.me/astragroup" target="_blank" title="Перейти в Телеграм"></a>
+<a class="social__link social__link--vk" href="https://vk.com/gruppa_astra" target="_blank" title="Перейти в VK"></a>
+<a class="social__link social__link--rutube" href="https://rutube.ru/channel/23720491/" target="_blank" title="Перейти в Rutube"></a>
+<a class="social__link social__link--habr" href="https://habr.com/ru/companies/astralinux/articles/" target="_blank" title="Перейти в Habr"></a>
+<a class='social__link social__link--pulse' href="https://www.tinkoff.ru/invest/social/profile/Astra_Group/" target="_blank" title="Перейти в Пульс"></a>				</div>
+				<div class="footer-right-btn-wrapper">
+  <a class="btn btn--border-light" href="/soobshchit-ob-uyazvimosti.php">Сообщить об уязвимости</a>
+  <a class="btn btn--border-light" href="/about/press-center/subscribe/">Новости «Группы Астра»</a>
+  <a class="btn btn--border-light" href="https://dev.astra.ru">Dev-портал</a>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+	<a id="widget_callback_whatsapp" onclick="yaCounter26763132.reachGoal('widget_callback_whatsapp'); return true;" href="https://t.me/+79160396333" target="_blank" class="whatsapp_widget_item">
+		<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="-0.25 -0.25 40 40" enable-background="new -0.25 -0.25 40 40" xml:space="preserve">
+			<g>
+				<path fill="#40B3E0" d="M19.75,0C8.842,0,0,8.842,0,19.75l0,0C0,30.658,8.842,39.5,19.75,39.5l0,0
+		c10.908,0,19.75-8.842,19.75-19.75l0,0C39.5,8.842,30.658,0,19.75,0L19.75,0z" />
+				<path fill="#FFFFFF" d="M29.36,11.361l-3.528,17.785c0,0-0.493,1.233-1.85,0.641l-8.14-6.241l-2.96-1.431l-4.983-1.678
+		c0,0-0.765-0.271-0.839-0.863c-0.074-0.592,0.863-0.913,0.863-0.913l19.808-7.77C27.732,10.892,29.36,10.177,29.36,11.361" />
+				<path fill="#D2E5F1" d="M15.216,28.947c0,0-0.238-0.022-0.534-0.96c-0.296-0.937-1.801-5.871-1.801-5.871l11.964-7.598
+		c0,0,0.691-0.419,0.666,0c0,0,0.123,0.074-0.247,0.419c-0.37,0.345-9.398,8.461-9.398,8.461" />
+				<path fill="#B5CFE4" d="M18.963,25.94l-3.22,2.936c0,0-0.252,0.191-0.527,0.071l0.617-5.453" />
+			</g>
+		</svg>
+	</a>
+	<!-- <a id="widget_callback_phone" href="#callbackwidget" target="_blank" class="phone_widget_item" onclick="yaCounter26763132.reachGoal('widget_callback_phone'); return true;">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px" height="30px" viewBox="20.171 20.01 21.322 19.776" enable-background="new 20.171 20.01 21.322 19.776" xml:space="preserve">
+			<path d="M25.592,20.928c-0.393-0.874-0.807-0.891-1.181-0.906
+	c-0.306-0.013-0.656-0.012-1.005-0.012c-0.35,0-0.918,0.131-1.399,0.656s-1.836,1.794-1.836,4.375s1.88,5.075,2.142,5.426
+	c0.262,0.35,3.629,5.816,8.962,7.919c4.432,1.748,5.333,1.4,6.295,1.313c0.962-0.087,3.104-1.269,3.541-2.494
+	s0.437-2.275,0.306-2.494c-0.131-0.219-0.481-0.35-1.006-0.612s-3.104-1.532-3.585-1.707s-0.831-0.262-1.181,0.263
+	s-1.355,1.706-1.661,2.056c-0.306,0.351-0.612,0.394-1.137,0.132c-0.525-0.263-2.214-0.817-4.219-2.604
+	c-1.56-1.39-2.612-3.108-2.919-3.633c-0.306-0.525-0.033-0.809,0.23-1.07c0.236-0.235,0.525-0.612,0.787-0.919
+	c0.262-0.306,0.349-0.525,0.524-0.875s0.087-0.657-0.044-0.919C27.078,24.56,26.058,21.966,25.592,20.928z" />
+		</svg>
+	</a> -->
+
+<!-- <form action="https://sendsay.ru/form/astralinux/6/" method="post"><label>Email*<input name="_member_email"></label><br/><label>q1<br/><label>Подтверждаю согласие<input type="checkbox" name="q1" value="1"  /></label></label><br/><label>По какому продукту вы бы хотели получать письма?<br/><label>ОС Astra Linux<input type="checkbox" name="q2" value="1"  /></label><br/><label>ALD Pro<input type="checkbox" name="q2" value="2"  /></label><br/><label>Astra Configuration Manager<input type="checkbox" name="q2" value="3"  /></label><br/><label>Termidesk<input type="checkbox" name="q2" value="4"  /></label></label><br/><input type="submit" value="submit"/></form> -->
+
+<div class="show-cookie">
+	<p class="">
+		Я соглашаюсь с использованием файлов cookie владельцем сайта в соответствии с
+		&nbsp;<a href="/cookie-policy/" class="">Политикой обработки файлов сookie</a>&nbsp;и&nbsp;
+		<a href="/protection-policy/" class="">Политикой о конфиденциальности данных ООО «РусБИТех-Астра»</a>, в том числе на передачу данных из файлов cookie статистическим службам Интернет, указанным в Политике.
+	</p>
+	<button class="btn btn--accent" onclick="AstraCookieAcceptBanner.acceptCookie()" type="button">Хорошо</button>
+	</div>
+
+
+<!-- Schema.org microdata --><div data-module=zverushki_microm itemscope itemtype="http://schema.org/Store" style="display:none"><meta itemprop="name" content="Astralinux"><div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><meta itemprop="streetAddress" content="Варшавское шоссе, д. 26"><meta itemprop="postalCode" content="117105"><meta itemprop="addressLocality" content="Москва"><meta itemprop="addressCountry" content="RU"></div><meta itemprop="image" content="http://stage-www.astralinux.ru/logo.png"><meta itemprop="telephone" content="+7 495 369 48 16"><meta itemprop="email" content="info@astralinux.ru"><meta itemprop="priceRange" content="100-10000"></div><!-- end Schema.org microdata --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.envybox.io/widget/cbk.js?wcb_code=00a57b5fb14a19d890f140f5f7b19a7d" charset="UTF-8" async></script>
+<script src="/local/templates/astralinux/js/bitrix24.js" charset="UTF-8" async></script>
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"MAIN_BASELINE_BROWSER_OUTDATED":"Вы используете устаревшую версию браузера. Обновите его для безопасной и стабильной работы","MAIN_BASELINE_DETAILS":"Подробнее","MAIN_BASELINE_CLOSE":"Закрыть"});</script><script src="/bitrix/js/main/baseline/dist/baseline.bundle.js?17918661856900"></script><script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script><script src="/bitrix/js/m

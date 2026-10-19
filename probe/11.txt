@@ -1,0 +1,60 @@
+https://career.rwb.ru/vacancies
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff" />
+    <meta
+      name="format-detection"
+      content="telephone=no, date=no, email=no, address=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <title>Карьера и вакансии в RWB</title>
+    <meta
+      name="description"
+      content="Стань частью молодой и амбициозной команды RWB. Компания RWB (Wildberries & Russ) — международная технологическая группа компаний, основанная в России. Она создана в результате объединения двух лидеров рынка — IT-компании Wildberries и оператора наружной рекламы Russ"
+    />
+    <script type="module" crossorigin src="/assets/index-BcTyhNwC.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cxwyjk0I.css">
+    <meta property="og:title" content="Карьера в RWB">
+    <meta property="og:description" content="Стань частью молодой и амбициозной команды RWB. Компания RWB (Wildberries & Russ) — международная технологическая группа компаний, основанная в России. Она создана в результате объединения двух лидеров рынка — IT-компании Wildberries и оператора наружной рекламы Russ">
+    <meta property="og:url" content="https://career.rwb.ru">
+    <meta property="og:image" content="https://career.rwb.ru/rwb-og.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Карьера в RWB">
+    <meta name="twitter:description" content="Стань частью молодой и амбициозной команды RWB. Компания RWB (Wildberries & Russ) — международная технологическая группа компаний, основанная в России. Она создана в результате объединения двух лидеров рынка — IT-компании Wildberries и оператора наружной рекламы Russ">
+    <meta name="twitter:image" content="https://career.rwb.ru/rwb-og.png">
+    <meta name="twitter:image:alt" content="Карьера в RWB">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

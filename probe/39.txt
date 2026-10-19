@@ -1,0 +1,3 @@
+https://api.hh.ru/vacancies?text=product&per_page=2
+
+{"errors":[{"type":"forbidden"}],"request_id":"179241582542733a43549d84a4cbc007"}

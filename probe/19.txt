@@ -1,0 +1,395 @@
+https://www.gazprombank.ru/vacancy/
+
+<!DOCTYPE html><html><head><script>window.gbid = "fd1c98e204026a326ba811403c64dd0e";</script><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,viewport-fit=cover" data-next-head=""/><title data-next-head="">Карьера в Газпромбанке — «Газпромбанк» (Акционерное общество)</title><link href="https://www.gazprombank.ru/personal/page/gpb-job/" rel="canonical" data-next-head=""/><meta content="Карьера в Газпромбанке | Газпромбанк предлагает полный спектр банковских услуг для физических и юридических лиц: кредитование, вклады и депозиты, ведение счетов, инвестиции, дистанционные сервисы. Для получения дополнительной информации позвоните по телефону единой справочной службы Газпромбанка 8 (800) 100-07-01." name="description" data-next-head=""/><link rel="icon" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon.ico" sizes="any" data-next-head=""/><link rel="apple-touch-icon" sizes="180x180" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon-180x180.png" data-next-head=""/><link rel="apple-touch-icon-precomposed" sizes="180x180" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon-180x180.png" data-next-head=""/><link rel="icon" type="image/png" sizes="32x32" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon-32x32.png" data-next-head=""/><link rel="icon" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/dark-favicon/favicon.ico" sizes="any" media="(prefers-color-scheme: dark)" data-next-head=""/><link rel="icon" type="image/svg+xml" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/dark-favicon/favicon-32x32.svg" media="(prefers-color-scheme: dark)" data-next-head=""/><link rel="icon" type="image/png" sizes="32x32" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/dark-favicon/favicon-32x32.png" media="(prefers-color-scheme: dark)" data-next-head=""/><link rel="apple-touch-icon" sizes="180x180" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/dark-favicon/favicon-180x180.png" media="(prefers-color-scheme: dark)" data-next-head=""/><link rel="icon" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon.ico" sizes="any" media="(prefers-color-scheme: light)" data-next-head=""/><link rel="icon" type="image/svg+xml" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon-32x32.svg" media="(prefers-color-scheme: light)" data-next-head=""/><link id="favicon-32" rel="icon" type="image/png" sizes="32x32" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon-32x32.png" media="(prefers-color-scheme: light)" data-next-head=""/><link rel="apple-touch-icon" sizes="180x180" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/favicons/default/light-favicon/favicon-180x180.png" media="(prefers-color-scheme: light)" data-next-head=""/><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/public/runtimeEnv.js"></script><script type="text/javascript">(function () {
+    function createStorage() {
+      try {
+        var testKey = "__test__metrica__storage__";
+        localStorage.setItem(testKey, testKey);
+        localStorage.removeItem(testKey);
+
+        return {
+          get: function get(key) {
+            return localStorage.getItem(key);
+          },
+          set: function set(key, data) {
+            try {
+              localStorage.setItem(key, data);
+            } catch (e) {}
+          },
+          remove: function remove(key) {
+            localStorage.removeItem(key);
+          },
+        };
+      } catch (e) {
+        var memoryStore = {};
+
+        return {
+          get: function get(key) {
+            var value = memoryStore[key];
+
+            if (value !== undefined) return value;
+
+            return null;
+          },
+          set: function set(key, data) {
+            memoryStore[key] = data;
+          },
+          remove: function remove(key) {
+            delete memoryStore[key];
+          },
+        };
+      }
+    }
+    function getMetricaStorageHelper() {
+      var storage = createStorage();
+
+      return {
+        set: function set(key, value) {
+          var ttl =
+            arguments.length > 2 && arguments[2] !== undefined
+              ? arguments[2]
+              : null;
+          var path =
+            arguments.length > 3 && arguments[3] !== undefined
+              ? arguments[3]
+              : "/";
+          var item = {
+            value: typeof value === 'string' ? btoa(encodeURIComponent(value)) : value,
+            path: path,
+            expiry: ttl ? Date.now() + ttl : null,
+          };
+          storage.set(key, JSON.stringify(item));
+        },
+        get: function get(key) {
+          var itemStr = storage.get(key);
+          if (!itemStr) return null;
+
+          try {
+            var item = JSON.parse(itemStr);
+            var currentPath = window.location.pathname;
+            
+            if (item.path && currentPath.indexOf(item.path) !== 0) {
+              return null;
+            }
+
+            if (item.expiry && Date.now() > item.expiry) {
+              storage.remove(key);
+
+              return null;
+            }
+
+            return typeof item.value === 'string' ? decodeURIComponent(atob(item.value)) : item.value;
+          } catch (error) {
+            console.error('Error getting storage key "' + key + '": ', error);
+            storage.remove(key);
+
+            return null;
+          }
+        },
+        remove: function(key) {
+          storage.remove(key);
+        }
+      };
+    }
+
+    function getQueryParams(search) {
+      function decode(str) {
+        return str
+          .replace(/[ +]/g, "%20")
+          .replace(/(%[a-f0-9]{2})+/gi, function (match) {
+            return decodeURIComponent(match);
+          });
+      }
+
+      if (search.indexOf("?") === 0) {
+        search = search.slice(1);
+      }
+
+      var params = {};
+
+      if (!search) {
+        return params;
+      }
+
+      var pairs = search.split("&");
+
+      for (var j = 0; j < pairs.length; j++) {
+        var value = pairs[j];
+        var index = value.indexOf("=");
+
+        if (index > -1) {
+          var name = decode(value.slice(0, index));
+          var val = decode(value.slice(index + 1));
+
+          params[name] = val;
+        } else if (value) {
+          params[decode(value)] = "";
+        }
+      }
+
+      return params;
+    }
+
+    function createMetricaData() {
+      var exceptionsUrl = [
+        "gpbmobile.ru",
+        "gazprombank.ru",
+        "gpbdev.ru",
+        "online.gpb.ru",
+        "gazprompay.ru",
+        "gpay.online.gpb.ru",
+        "ogon.ru",
+        "gosuslugi.ru",
+      ];
+
+      var searchEnginesList = [
+        "google",
+        "yandex",
+        "mail.ru",
+        "bing",
+        "duckduck",
+        "rambler",
+        "ecosia",
+        "yahoo",
+        "baidu",
+      ];
+
+      var clids = ["afclid","fclid","dclid","fbclid","gclid","mgclid","yclid"];
+      var utms = ["utm_campaign","utm_content","utm_medium","utm_source","utm_term"];
+      var trackedMetricaParams = {"id_campaign":{"metricaName":"campaignflocktoryid","isRootPath":true},"tmid":{"metricaName":"tmid","isRootPath":false}};
+
+      var maxAge = 1000 * 60 * 60 * 24 * 30; // 1 мес
+      var data = {};
+      var queryParams = getQueryParams(window.location.search);
+
+      function setMetricaParam(name, value, path) {
+        data[name] = {
+          value: value,
+          path: path || "",
+          ttl: maxAge,
+        };
+      }
+
+      function setUTMSourceAndMedium(source, medium) {
+        setMetricaParam("utm_source", source);
+        setMetricaParam("utm_medium", medium);
+        setMetricaParam("utm_campaign", "");
+        setMetricaParam("utm_term", "");
+        setMetricaParam("utm_content", "");
+      }
+
+      clids.forEach(function (clidName) {
+        if (queryParams[clidName]) {
+          setMetricaParam(clidName, queryParams[clidName]);
+        }
+      });
+
+      Object.keys(trackedMetricaParams).forEach(function (key) {
+        var metricaProperties = trackedMetricaParams[key];
+        var metricaName = metricaProperties.metricaName;
+        var isRootPath = metricaProperties.isRootPath;
+
+        if (queryParams[key]) {
+          setMetricaParam(
+            metricaName,
+            queryParams[key],
+            isRootPath ? "/" : window.location.pathname
+          );
+        }
+      });
+
+      var hasUtm = utms.some(function (utmName) {
+        return Object.prototype.hasOwnProperty.call(queryParams, utmName);
+      });
+
+      if (hasUtm) {
+        utms.forEach(function (utmName) {
+          setMetricaParam(utmName, queryParams[utmName] || "undefined");
+        });
+
+        return data;
+      }
+
+      var referrer = document.referrer;
+      var refererWithoutGetParams = referrer.split("?")[0];
+      var isRefInExceptions = exceptionsUrl.some(function(ex) {
+        return refererWithoutGetParams.indexOf(ex) !== -1;
+      });
+
+      if (refererWithoutGetParams && isRefInExceptions) return data;
+
+      if (refererWithoutGetParams) {
+        var isRefInSearchEngines = searchEnginesList.some(function(engine) {
+          return refererWithoutGetParams.indexOf(engine) !== -1;
+        });
+
+        setUTMSourceAndMedium(
+          refererWithoutGetParams,
+          isRefInSearchEngines ? "organic" : "referral"
+        );
+
+        return data;
+      }
+
+      var hasUtmInCookie = utms.some(function(utmName) {
+        return !!window.metricaStorageHelper.get(utmName);
+      });
+
+      if (!referrer && hasUtmInCookie) {
+        utms.forEach(function(utmName) {
+          setMetricaParam(
+            utmName,
+            window.metricaStorageHelper.get(utmName) || "undefined"
+          );
+        });
+
+        return data;
+      }
+
+      setUTMSourceAndMedium("(direct)", "(none)");
+
+      return data;
+    }
+
+    function deleteCookie(name) {
+      if (!name) return;
+
+      var cookieString = encodeURIComponent(name) + '=; Max-Age=-99999999; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Path=/; SameSite=Lax; Secure';
+
+      document.cookie = cookieString;
+    }
+  
+    window.metricaStorageHelper = getMetricaStorageHelper();
+
+    try {
+      var keys = ["afclid","fclid","dclid","fbclid","gclid","mgclid","yclid","campaignflocktoryid","tmid","utm_campaign","utm_content","utm_medium","utm_source","utm_term"];
+      var metricaParams = createMetricaData();
+      
+      for (var i = 0; i < keys.length; i++) {
+        var key = keys[i];
+        var value = metricaParams[key];
+
+        if (value) {
+          window.metricaStorageHelper.set(
+            key,
+            value.value,
+            value.ttl,
+            value.path
+          );
+        }
+        
+        deleteCookie(key)
+      }
+    } catch (error) {
+      console.error("Tracking init error", error);
+    }
+  })()</script><script type="text/javascript">var metricaParams = ["afclid","fclid","dclid","fbclid","gclid","mgclid","yclid","campaignflocktoryid","tmid","utm_campaign","utm_content","utm_medium","utm_source","utm_term"]; function getIsMetricaName(name) { return metricaParams.indexOf(name) !== -1 }; var Cookies = {get: function(name) { if (window.metricaStorageHelper && getIsMetricaName(name)) { return window.metricaStorageHelper.get(name)} var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));return matches ? decodeURIComponent(matches[1]) : undefined;},set: function (name, value, options) { if (window.metricaStorageHelper && getIsMetricaName(name)) { var ttl = options.expires ? 1000 * 60 * 60 * 24 * options.expires : undefined; var path = options.path ? options.path : "/"; window.metricaStorageHelper.set(name, value, ttl, path); return; } options = Object.assign({ path: "/" }, options);var updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);for (var optionKey in options) {updatedCookie += "; " + optionKey;var optionValue = options[optionKey];if (optionValue !== true) {updatedCookie += "=" + optionValue;}}document.cookie = updatedCookie;}};function addTag(attributes, tag) {var s = document.createElement(tag || "script");Object.keys(attributes).forEach(function (key) {var value = attributes[key];if (key === "style") Object.keys(value).forEach(function (style) {s.style[style] = value[style];}); else s.setAttribute(key, key === "src" ? encodeURI(value) : value);document.body.appendChild(s);});};</script><meta name="theme-color" content="#FFFFFF"/><meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF"/><meta content="ya-title=#FFFFFF,ya-dock=fade"/><meta name="msapplication-navbutton-color" content="#FFFFFF"/><meta name="msapplication-TileColor" content="#FFFFFF"/><link rel="manifest" href="/api/manifest/"/><link data-next-font="" rel="preconnect" href="/" crossorigin="anonymous"/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/a23d3bef17c4b216.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/a23d3bef17c4b216.css" data-n-g=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/56b1f72631d0dfa3.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/56b1f72631d0dfa3.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/e1170dc5116c123e.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/e1170dc5116c123e.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/4d01ce4be281e505.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/4d01ce4be281e505.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/59342a8ba46af1b1.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/59342a8ba46af1b1.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/f05c5c12168c3904.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/f05c5c12168c3904.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/30a656392cf7c199.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/30a656392cf7c199.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/a6848ca9ba63f5f1.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/a6848ca9ba63f5f1.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/fa980e0d388b39ca.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/fa980e0d388b39ca.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/c7f6470df798cbe4.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/c7f6470df798cbe4.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/fa243fa50243340e.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/fa243fa50243340e.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/dd06fb9ce9583351.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/dd06fb9ce9583351.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/d9d46116167d9f36.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/d9d46116167d9f36.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/76366ca49774d8a8.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/76366ca49774d8a8.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/49fd78782e0f398a.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/49fd78782e0f398a.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/c3ceb20d559f107b.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/c3ceb20d559f107b.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/838febd1b8c30547.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/838febd1b8c30547.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/833ef3a6a3080e85.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/833ef3a6a3080e85.css" data-n-p=""/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/a0458157a98ef89a.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/a0458157a98ef89a.css"/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/b7154968722f15f9.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/b7154968722f15f9.css"/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/8ff38784fc81f4b6.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/8ff38784fc81f4b6.css"/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/c70c52a472aabd33.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/c70c52a472aabd33.css"/><link rel="preload" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/630aabc252463a9b.css" as="style"/><link rel="stylesheet" href="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/css/630aabc252463a9b.css"/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script defer="" src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/92727.fbc549920a3d3817.js"></script><script defer="" src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/59011.efe62bc73822f2a7.js"></script><script defer="" src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/21810-fe9b50c9398a94ee.js"></script><script defer="" src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/48040.67d7ab2165bc8c2c.js"></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/webpack-d4515eee0ba15cf1.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/framework-13df7183a89bfe93.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/main-df3367dbd298ab09.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/pages/_app-336c55e4436ab832.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/79496-99570633d356f7e0.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/75644-e3949955443322d6.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/24127-e61e2ea8b997af56.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/7891-92596378f0a737a0.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/82246-8cda43b7190969f8.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/48036-ed71258950168514.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/10493-8efadc57176c28ba.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/81776-74378c172027914a.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/57974-f2fb23d8318c248e.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/82033-14f639a4c2268b55.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/69918-e1af0094a076dd00.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/2046-0bf205b6b62c326c.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/84294-1eff1104b5246642.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/809-4bb85f04f686a22f.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/28202-d417ab4bd596b5c9.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/4426-472eaeb8f7d0b4eb.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/49258-b44b22fc8a86ad0e.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/86609-a550db2eca18d935.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/18030-4a24a31a1b8c2850.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/41921-6158b1b57c7a9311.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/chunks/pages/personal/page/%5BpageId%5D-735d876f75191870.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/7ac385dc97962132ae8d1c6198369063/_buildManifest.js" defer=""></script><script src="/_next/7ac385dc97962132ae8d1c6198369063/_next/static/7ac385dc97962132ae8d1c6198369063/_ssgManifest.js" defer=""></script><style data-styled="" data-styled-version="5.3.11">.fWcQar{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;background-color:var(--bui-Background-ErrorBold);color:var(--bui-Text-Static-White);position:relative;isolation:isolate;box-sizing:content-box;border-radius:var(--bui-frame-radius-full);font:var(--jar-Typeface-P3-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P3);-moz-letter-spacing:var(--Typeface-Letter-spacing-P3);-ms-letter-spacing:var(--Typeface-Letter-spacing-P3);letter-spacing:var(--Typeface-Letter-spacing-P3);width:8px;height:8px;}/*!sc*/
+.fWcQar::after{content:'';display:block;position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;background-color:var(--bui-Background-ErrorBold);-webkit-animation:hAuWEt 1.4s infinite ease-out;animation:hAuWEt 1.4s infinite ease-out;}/*!sc*/
+.fWcQar img,.fWcQar svg{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;}/*!sc*/
+data-styled.g7[id="sc-gsFSXq"]{content:"fWcQar,"}/*!sc*/
+.cKDSGe{padding:0;background:none;outline:none;border:0;border-radius:0;-webkit-tap-highlight-color:transparent;}/*!sc*/
+data-styled.g9[id="sc-imWYAI"]{content:"cKDSGe,"}/*!sc*/
+.ijuenu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-radius:var(--bui-action-radius-full);-webkit-backdrop-filter:var(--bui-blur-bg-blur-24);backdrop-filter:var(--bui-blur-bg-blur-24);cursor:pointer;-webkit-transition:background-color 0.2s ease-in-out,color 0.2s ease-in-out;transition:background-color 0.2s ease-in-out,color 0.2s ease-in-out;position:relative;width:24px;height:24px;color:var(--bui-Icons-Primary);background-color:var(--bui-Background-Transparent-6);}/*!sc*/
+.ijuenu::before{content:'';position:absolute;display:none;z-index:99;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px);border:4px solid var(--bui-Special-focus);top:-4px;left:-4px;box-sizing:border-box;border-radius:99px;}/*!sc*/
+.ijuenu::before{display:none;}/*!sc*/
+.ijuenu:focus::before{display:block;}/*!sc*/
+.ijuenu:focus:not(:focus-visible)::before{display:none;}/*!sc*/
+.ijuenu:focus-visible::before{display:block;}/*!sc*/
+@media (pointer:fine) and (hover:hover){.ijuenu:hover{color:var(--bui-Icons-Primary-hover);background-color:var(--bui-Background-Transparent-6-hover);}}/*!sc*/
+.ijuenu:active{color:var(--bui-Icons-Primary-active);background-color:var(--bui-Background-Transparent-6-active);}/*!sc*/
+.ijuenu:disabled{color:var(--bui-Icons-Primary-disable);background-color:var(--bui-Background-Transparent-6-disable);}/*!sc*/
+.ijuenu:disabled{cursor:not-allowed;pointer-events:none;}/*!sc*/
+data-styled.g24[id="sc-dAbbOL"]{content:"ijuenu,"}/*!sc*/
+.faiNLB{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;position:relative;isolation:isolate;-webkit-tap-highlight-color:transparent;outline:none;border:0;background-color:transparent;border-radius:var(--bui-action-radius-m);height:var(--bui-action-size-s);min-width:var(--bui-action-min-width-s);padding:0 var(--bui-action-padding-s);gap:var(--bui-action-gap-s);color:var(--button-color,var(--bui-Text-Primary));background-color:var(--button-background,var(--bui-Background-Transparent-6));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.faiNLB:hover{color:var( --button-color-hover, var(--bui-Text-Primary-hover) );}.faiNLB:active{color:var( --button-color-active, var(--bui-Text-Primary-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.faiNLB{-webkit-transition:background-color 0.2s ease-out;transition:background-color 0.2s ease-out;}.faiNLB:hover{background-color:var( --button-background-hover, var(--bui-Background-Transparent-6-hover) );}.faiNLB:active{background-color:var( --button-background-active, var(--bui-Background-Transparent-6-active) );-webkit-transition:background-color 0.1s ease-in;transition:background-color 0.1s ease-in;}}/*!sc*/
+.faiNLB:disabled{cursor:not-allowed;pointer-events:none;color:var(--button-color-disabled,var(--bui-Text-Primary-disable));background-color:var( --button-background-disabled, var(--bui-Background-Primary-disable) );}/*!sc*/
+@media (pointer:fine) and (hover:hover){.faiNLB{position:relative;}.faiNLB::before{content:'';position:absolute;display:none;z-index:99;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px);border:4px solid var(--bui-Special-focus);top:-4px;left:-4px;box-sizing:border-box;border-radius:12px;}.faiNLB::before{display:none;}.faiNLB:focus::before{display:block;}.faiNLB:focus:not(:focus-visible)::before{display:none;}.faiNLB:focus-visible::before{display:block;}}/*!sc*/
+.kinxiz{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;position:relative;isolation:isolate;-webkit-tap-highlight-color:transparent;outline:none;border:0;background-color:transparent;border-radius:var(--bui-action-radius-m);height:var(--bui-action-size-s);min-width:var(--bui-action-min-width-s);padding:0 var(--bui-action-padding-s);gap:var(--bui-action-gap-s);color:var(--button-color,var(--bui-Text-Inverse));background-color:var(--button-background,var(--bui-Background-Black));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.kinxiz:hover{color:var( --button-color-hover, var(--bui-Text-Inverse-hover) );}.kinxiz:active{color:var( --button-color-active, var(--bui-Text-Inverse-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.kinxiz{-webkit-transition:background-color 0.2s ease-out;transition:background-color 0.2s ease-out;}.kinxiz:hover{background-color:var( --button-background-hover, var(--bui-Background-Black-hover) );}.kinxiz:active{background-color:var( --button-background-active, var(--bui-Background-Black-active) );-webkit-transition:background-color 0.1s ease-in;transition:background-color 0.1s ease-in;}}/*!sc*/
+.kinxiz:disabled{cursor:not-allowed;pointer-events:none;color:var(--button-color-disabled,var(--bui-Text-Primary-disable));background-color:var( --button-background-disabled, var(--bui-Background-Primary-disable) );}/*!sc*/
+@media (pointer:fine) and (hover:hover){.kinxiz{position:relative;}.kinxiz::before{content:'';position:absolute;display:none;z-index:99;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px);border:4px solid var(--bui-Special-focus);top:-4px;left:-4px;box-sizing:border-box;border-radius:12px;}.kinxiz::before{display:none;}.kinxiz:focus::before{display:block;}.kinxiz:focus:not(:focus-visible)::before{display:none;}.kinxiz:focus-visible::before{display:block;}}/*!sc*/
+.fsxHHy{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;position:relative;isolation:isolate;-webkit-tap-highlight-color:transparent;outline:none;border:0;background-color:transparent;border-radius:var(--bui-action-radius-m);height:var(--bui-action-size-m);min-width:var(--bui-action-min-width-m);padding:0 var(--bui-action-padding-m);gap:var(--bui-action-gap-m);color:var(--button-color,var(--bui-Text-Primary));background-color:var(--button-background,var(--bui-Background-Transparent-6));width:100%;}/*!sc*/
+@media (pointer:fine) and (hover:hover){.fsxHHy:hover{color:var( --button-color-hover, var(--bui-Text-Primary-hover) );}.fsxHHy:active{color:var( --button-color-active, var(--bui-Text-Primary-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.fsxHHy{-webkit-transition:background-color 0.2s ease-out;transition:background-color 0.2s ease-out;}.fsxHHy:hover{background-color:var( --button-background-hover, var(--bui-Background-Transparent-6-hover) );}.fsxHHy:active{background-color:var( --button-background-active, var(--bui-Background-Transparent-6-active) );-webkit-transition:background-color 0.1s ease-in;transition:background-color 0.1s ease-in;}}/*!sc*/
+.fsxHHy:disabled{cursor:not-allowed;pointer-events:none;color:var(--button-color-disabled,var(--bui-Text-Primary-disable));background-color:var( --button-background-disabled, var(--bui-Background-Primary-disable) );}/*!sc*/
+@media (pointer:fine) and (hover:hover){.fsxHHy{position:relative;}.fsxHHy::before{content:'';position:absolute;display:none;z-index:99;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px);border:4px solid var(--bui-Special-focus);top:-4px;left:-4px;box-sizing:border-box;border-radius:12px;}.fsxHHy::before{display:none;}.fsxHHy:focus::before{display:block;}.fsxHHy:focus:not(:focus-visible)::before{display:none;}.fsxHHy:focus-visible::before{display:block;}}/*!sc*/
+.lltlSj{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-text-decoration:none;text-decoration:none;cursor:pointer;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;position:relative;isolation:isolate;-webkit-tap-highlight-color:transparent;outline:none;border:0;background-color:transparent;border-radius:var(--bui-action-radius-m);height:var(--bui-action-size-l);min-width:var(--bui-action-min-width-l);padding:0 var(--bui-action-padding-l);gap:var(--bui-action-gap-l);color:var(--button-color,var(--bui-Text-Inverse));background-color:var(--button-background,var(--bui-Background-Black));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.lltlSj:hover{color:var( --button-color-hover, var(--bui-Text-Inverse-hover) );}.lltlSj:active{color:var( --button-color-active, var(--bui-Text-Inverse-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.lltlSj{-webkit-transition:background-color 0.2s ease-out;transition:background-color 0.2s ease-out;}.lltlSj:hover{background-color:var( --button-background-hover, var(--bui-Background-Black-hover) );}.lltlSj:active{background-color:var( --button-background-active, var(--bui-Background-Black-active) );-webkit-transition:background-color 0.1s ease-in;transition:background-color 0.1s ease-in;}}/*!sc*/
+.lltlSj:disabled{cursor:not-allowed;pointer-events:none;color:var(--button-color-disabled,var(--bui-Text-Primary-disable));background-color:var( --button-background-disabled, var(--bui-Background-Primary-disable) );}/*!sc*/
+@media (pointer:fine) and (hover:hover){.lltlSj{position:relative;}.lltlSj::before{content:'';position:absolute;display:none;z-index:99;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px);border:4px solid var(--bui-Special-focus);top:-4px;left:-4px;box-sizing:border-box;border-radius:12px;}.lltlSj::before{display:none;}.lltlSj:focus::before{display:block;}.lltlSj:focus:not(:focus-visible)::before{display:none;}.lltlSj:focus-visible::before{display:block;}}/*!sc*/
+data-styled.g46[id="sc-kdBSHD"]{content:"faiNLB,kinxiz,fsxHHy,lltlSj,"}/*!sc*/
+.eaRJlf{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:100%;width:auto;}/*!sc*/
+data-styled.g48[id="sc-esYiGF"]{content:"eaRJlf,"}/*!sc*/
+.bhawsd{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}/*!sc*/
+data-styled.g49[id="sc-fXSgeo"]{content:"bhawsd,"}/*!sc*/
+.fSqeIG .sc-fXSgeo{max-width:220px;}/*!sc*/
+.fSqeIG .sc-esYiGF svg{width:16px;height:16px;}/*!sc*/
+.fSqeIG .sc-fXSgeo,.fSqeIG .sc-tagGq,.fSqeIG .sc-esYiGF,.fSqeIG .sc-esYiGF{opacity:1;-webkit-transition:opacity 0.2s ease-out;transition:opacity 0.2s ease-out;}/*!sc*/
+.fSqeIG .sc-tagGq{background-color:var(--button-counter-bg,var(--bui-Background-Inverse));color:var(--button-counter-text,var(--bui-Text-Primary));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.fSqeIG .sc-tagGq:hover{background-color:var( --button-counter-bg-hover, var(--bui-Background-Inverse-hover) );}.fSqeIG .sc-tagGq:active{background-color:var( --button-counter-bg-active, var(--bui-Background-Inverse-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.fSqeIG .sc-tagGq:hover{color:var( --button-counter-text-hover, var(--bui-Text-Primary-hover) );}.fSqeIG .sc-tagGq:active{color:var( --button-counter-text-active, var(--bui-Text-Primary-active) );}}/*!sc*/
+.fSqeIG .sc-fXSgeo{font:var(--jar-Typeface-P2-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P2);-moz-letter-spacing:var(--Typeface-Letter-spacing-P2);-ms-letter-spacing:var(--Typeface-Letter-spacing-P2);letter-spacing:var(--Typeface-Letter-spacing-P2);}/*!sc*/
+.fSqeIG .sc-JrDLc::after{background-color:var(--bui-Background-TransparentInvert16);}/*!sc*/
+.bsrckV .sc-fXSgeo{max-width:220px;}/*!sc*/
+.bsrckV .sc-esYiGF svg{width:16px;height:16px;}/*!sc*/
+.bsrckV .sc-fXSgeo,.bsrckV .sc-tagGq,.bsrckV .sc-esYiGF,.bsrckV .sc-esYiGF{opacity:1;-webkit-transition:opacity 0.2s ease-out;transition:opacity 0.2s ease-out;}/*!sc*/
+.bsrckV .sc-tagGq{background-color:var(--button-counter-bg,var(--bui-Background-Transparent-16));color:var(--button-counter-text,var(--bui-Text-Primary));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.bsrckV .sc-tagGq:hover{background-color:var( --button-counter-bg-hover, var(--bui-Background-Transparent-16-hover) );}.bsrckV .sc-tagGq:active{background-color:var( --button-counter-bg-active, var(--bui-Background-Transparent-16-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.bsrckV .sc-tagGq:hover{color:var( --button-counter-text-hover, var(--bui-Text-Primary-hover) );}.bsrckV .sc-tagGq:active{color:var( --button-counter-text-active, var(--bui-Text-Primary-active) );}}/*!sc*/
+.bsrckV .sc-fXSgeo{font:var(--jar-Typeface-P2-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P2);-moz-letter-spacing:var(--Typeface-Letter-spacing-P2);-ms-letter-spacing:var(--Typeface-Letter-spacing-P2);letter-spacing:var(--Typeface-Letter-spacing-P2);}/*!sc*/
+.bsrckV .sc-JrDLc::after{background-color:var(--bui-Background-TransparentInvert40);}/*!sc*/
+.kwPzeI .sc-fXSgeo{max-width:252px;}/*!sc*/
+.kwPzeI .sc-esYiGF svg{width:20px;height:20px;}/*!sc*/
+.kwPzeI .sc-fXSgeo,.kwPzeI .sc-tagGq,.kwPzeI .sc-esYiGF,.kwPzeI .sc-esYiGF{opacity:1;-webkit-transition:opacity 0.2s ease-out;transition:opacity 0.2s ease-out;}/*!sc*/
+.kwPzeI .sc-tagGq{background-color:var(--button-counter-bg,var(--bui-Background-Transparent-16));color:var(--button-counter-text,var(--bui-Text-Primary));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.kwPzeI .sc-tagGq:hover{background-color:var( --button-counter-bg-hover, var(--bui-Background-Transparent-16-hover) );}.kwPzeI .sc-tagGq:active{background-color:var( --button-counter-bg-active, var(--bui-Background-Transparent-16-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.kwPzeI .sc-tagGq:hover{color:var( --button-counter-text-hover, var(--bui-Text-Primary-hover) );}.kwPzeI .sc-tagGq:active{color:var( --button-counter-text-active, var(--bui-Text-Primary-active) );}}/*!sc*/
+.kwPzeI .sc-fXSgeo{font:var(--jar-Typeface-P1-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);-moz-letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);-ms-letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);}/*!sc*/
+.kwPzeI .sc-JrDLc::after{background-color:var(--bui-Background-TransparentInvert40);}/*!sc*/
+.dqjrOn .sc-fXSgeo{max-width:252px;}/*!sc*/
+.dqjrOn .sc-esYiGF svg{width:20px;height:20px;}/*!sc*/
+.dqjrOn .sc-fXSgeo,.dqjrOn .sc-tagGq,.dqjrOn .sc-esYiGF,.dqjrOn .sc-esYiGF{opacity:1;-webkit-transition:opacity 0.2s ease-out;transition:opacity 0.2s ease-out;}/*!sc*/
+.dqjrOn .sc-tagGq{background-color:var(--button-counter-bg,var(--bui-Background-Inverse));color:var(--button-counter-text,var(--bui-Text-Primary));}/*!sc*/
+@media (pointer:fine) and (hover:hover){.dqjrOn .sc-tagGq:hover{background-color:var( --button-counter-bg-hover, var(--bui-Background-Inverse-hover) );}.dqjrOn .sc-tagGq:active{background-color:var( --button-counter-bg-active, var(--bui-Background-Inverse-active) );}}/*!sc*/
+@media (pointer:fine) and (hover:hover){.dqjrOn .sc-tagGq:hover{color:var( --button-counter-text-hover, var(--bui-Text-Primary-hover) );}.dqjrOn .sc-tagGq:active{color:var( --button-counter-text-active, var(--bui-Text-Primary-active) );}}/*!sc*/
+.dqjrOn .sc-fXSgeo{font:var(--jar-Typeface-P1-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);-moz-letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);-ms-letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);letter-spacing:var(--Typeface-Letter-spacing-P1-Medium);}/*!sc*/
+.dqjrOn .sc-JrDLc::after{background-color:var(--bui-Background-TransparentInvert16);}/*!sc*/
+data-styled.g51[id="sc-fjvvzt"]{content:"fSqeIG,bsrckV,kwPzeI,dqjrOn,"}/*!sc*/
+.fqkybu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:100%;width:auto;opacity:1;-webkit-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out;}/*!sc*/
+data-styled.g52[id="sc-bbSZdi"]{content:"fqkybu,"}/*!sc*/
+.ffrdPO{position:relative;padding:0;-webkit-tap-highlight-color:transparent;width:var(--bui-action-size-s);height:var(--bui-action-size-s);}/*!sc*/
+.ffrdPO .sc-bbSZdi{font:var(--jar-Typeface-P2-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P2);-moz-letter-spacing:var(--Typeface-Letter-spacing-P2);-ms-letter-spacing:var(--Typeface-Letter-spacing-P2);letter-spacing:var(--Typeface-Letter-spacing-P2);}/*!sc*/
+.ffrdPO .sc-bbSZdi svg{width:16px;height:16px;}/*!sc*/
+.ffrdPO .sc-fBWQRz{-webkit-transform:translate(4px,-4px);-ms-transform:translate(4px,-4px);transform:translate(4px,-4px);}/*!sc*/
+.ffrdPO .sc-fXSgeo{overflow:auto;}/*!sc*/
+data-styled.g54[id="sc-hknOHE"]{content:"ffrdPO,"}/*!sc*/
+.fAAGcR{max-width:800px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}/*!sc*/
+data-styled.g88[id="sc-guJBdh"]{content:"fAAGcR,"}/*!sc*/
+.calqDy{padding:0;background:none;outline:none;border:0;border-radius:0;-webkit-text-decoration:none;text-decoration:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;box-sizing:border-box;min-width:36px;border-radius:var(--bui-action-radius-s);height:var(--bui-action-size-xs);padding-inline:var(--bui-action-padding-xs);gap:var(--bui-action-gap-xs);color:var(--bui-Text-Static-White);background-color:var(--bui-Background-Black);}/*!sc*/
+.calqDy .sc-guJBdh{font:var(--jar-Typeface-P2-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P2);-moz-letter-spacing:var(--Typeface-Letter-spacing-P2);-ms-letter-spacing:var(--Typeface-Letter-spacing-P2);letter-spacing:var(--Typeface-Letter-spacing-P2);}/*!sc*/
+.calqDy .sc-jGKxIK > svg,.calqDy .sc-jGKxIK > img{max-height:20px;width:auto;}/*!sc*/
+data-styled.g89[id="sc-hZDyAQ"]{content:"calqDy,"}/*!sc*/
+.frkXCb{display:block;white-space:nowrap;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;overflow:hidden;text-overflow:ellipsis;}/*!sc*/
+data-styled.g164[id="sc-leSDtu"]{content:"frkXCb,"}/*!sc*/
+.TOlbi{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0;padding:0;background:none;border:none;outline:none;-webkit-tap-highlight-color:transparent;box-sizing:border-box;max-width:250px;cursor:pointer;}/*!sc*/
+@media (pointer:fine) and (hover:hover){.TOlbi{position:relative;}.TOlbi::before{content:'';position:absolute;display:none;z-index:99;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px);border:4px solid var(--bui-Special-focus);top:-4px;left:-4px;box-sizing:border-box;border-radius:12px;}.TOlbi::before{display:none;}.TOlbi:focus::before{display:block;}.TOlbi:focus:not(:focus-visible)::before{display:none;}.TOlbi:focus-visible::before{display:block;}}/*!sc*/
+.TOlbi .sc-leSDtu{font:var(--jar-Typeface-P2-Medium);-webkit-letter-spacing:var(--Typeface-Letter-spacing-P2);-moz-letter-spacing:var(--Typeface-Letter-spacing-P2);-ms-letter-spacing:var(--Typeface-Letter-spacing-P2);letter-spacing:var(--Typeface-Letter-spacing-P2);}/*!sc*/
+data-styled.g165[id="sc-bJBgwP"]{content:"TOlbi,"}/*!sc*/
+.kZVRoo{position:relative;overflow:hidden;isolation:isolate;min-width:40px;box-sizing:border-box;border-radius:var(--bui-action-radius-m);-webkit-transition:background-color 0.2s ease-in-out,color 0.2s ease-in-out;transition:background-color 0.2s ease-in-out,color 0.2s ease-in-out;padding-inline:var(--bui-action-padding-s);height:var(--bui-action-size-s);gap:var(--bui-action-gap-l);background-color:var(--bui-Background-Black);color:var(--bui-Text-Inverse);}/*!sc*/
+.iWIcdg{position:relative;overflow:hidden;isolation:isolate;min-width:40px;box-sizing:border-box;border-radius:var(--bui-action-radius-m);-webkit-transition:background-color 0.2s ease-in-out,color 0.2s ease-in-out;transition:background-color 0.2s ease-in-out,color 0.2s ease-in-out;padding-inline:var(--bui-action-padding-s);height:var(--bui-action-size-s);gap:var(--bui-action-gap-l);background-color:var(--bui-Background-Transparent-8);color:var(--bui-Text-Primary);}/*!sc*/
+@media (pointer:fine) and (hover:hover){.iWIcdg:hover{background-color:var(--bui-Background-Transparent-8-hover);color:var(--bui-Text-Primary-hover);}}/*!sc*/
+.iWIcdg:active{background-color:var(--bui-Background-Transparent-8-active);color:var(--bui-Text-Primary-active);}/*!sc*/
+data-styled.g168[id="sc-bkSUFG"]{content:"kZVRoo,iWIcdg,"}/*!sc*/
+.yhUPd{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;gap:4px;}/*!sc*/
+data-styled.g179[id="sc-kgOKUu"]{content:"yhUPd,"}/*!sc*/
+.cUQSDa{overflow-x:scroll;overflow-y:hidden;-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;padding:4px;box-sizing:border-box;}/*!sc*/
+@supports not selector(::-webkit-scrollbar-thumb){.cUQSDa{-webkit-scrollbar-width:none;-moz-scrollbar-width:none;-ms-scrollbar-width:none;scrollbar-width:none;}}/*!sc*/
+.cUQSDa::-webkit-scrollbar{display:none;}/*!sc*/
+data-styled.g180[id="sc-bfhvDw"]{content:"cUQSDa,"}/*!sc*/
+@-webkit-keyframes hAuWEt{0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1;}43%,100%{-webkit-transform:scale(2.25);-ms-transform:scale(2.25);transform:scale(2.25);opacity:0;}}/*!sc*/
+@keyframes hAuWEt{0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1;}43%,100%{-webkit-transform:scale(2.25);-ms-transform:scale(2.25);transform:scale(2.25);opacity:0;}}/*!sc*/
+data-styled.g392[id="sc-keyframes-hAuWEt"]{content:"hAuWEt,"}/*!sc*/
+</style></head><body><div id="__next"><div id="layout" class="Layout_root__gxcxR"><div class="Layout_root__top__C3EQM"><div class="HeaderFullSkeleton_root__l2hX1"><div class="HeaderFullSkeleton_root__mobile__V5KYs"><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border8__sv6ns"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div></div><div class="HeaderFullSkeleton_root__desktopS__xXslb HeaderFullSkeleton_menu__WiEST"><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border8__sv6ns"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border8__sv6ns"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border6__HfLQi"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div></div><div class="HeaderFullSkeleton_root__desktopM_wrapper__74uh8"><div class="HeaderFullSkeleton_root__desktopM__3dsqD HeaderFullSkeleton_menu__WiEST"><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border8__sv6ns"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border8__sv6ns"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border4__2VfSy"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border4__2VfSy"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border4__2VfSy"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border4__2VfSy"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border4__2VfSy"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border4__2VfSy"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border6__HfLQi"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div><div class="HeaderFullSkeleton_bone__g_Mg0 HeaderFullSkeleton_border12__nfFHc"></div></div></div></div><div class="HeaderFull_root__header__EXazy HeaderFull_hidden__TEuQz"><header class="HeaderFullDesktop_root__JW4uh" data-menu-open="false" data-test-id="header-menu"><div class="HeaderFullDesktop_root__header__hIz37"><div class="HeaderFullDesktop_root__header__left__CcQTH"><div class="HeaderFullDesktop_root__header__left__candy_and_logo__VNWD1"><div><div data-test-id="header-candy-button" class="HeaderFullDesktopCandyMenu_root__candy_button__gI7WY"><div class="CandyButton_root__QZLpl"><svg width="25" height="24" viewBox="0 0 25 24" xmlns="http://www.w3.org/2000/svg" fill="none"><circle cx="2.5" cy="2" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="12.5" cy="2" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="22.5" cy="2" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="2.5" cy="12" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="12.5" cy="12" r="2.1" fill="var(--bui-Text-Static-Black)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="22.5" cy="12" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="2.5" cy="22" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="12.5" cy="22" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle><circle cx="22.5" cy="22" r="2.1" fill="rgba(30, 34, 46, 0.32)" class="CandyButton_root__dot__xYl9E" stroke="none" style="--wh-candy-button-fill:var(--bui-Text-Static-Black)"></circle></svg></div></div><div style="height:440px" class="HeaderFullDesktopDropdown_root__UDyyk HeaderFullDesktopCandyMenu_root__dropdown__coVtg"><div class="HeaderFullDesktopDropdown_root__children__UYTP8"><div class="Scrollbar_root__OqKKk  Scrollbar_hide_tracks__n84Ra"><div style="position:relative;height:100%;max-height:100%" class="ScrollbarsCustom"><div class="ScrollbarsCustom-Wrapper Scrollbar_scrollbars__crb9d" style="position:absolute;overflow:hidden"><div data-ios-scroll="true" class="" style="position:absolute;top:0;left:0;bottom:0;right:0;-webkit-overflow-scrolling:touch;overflow-y:hidden;overflow-x:hidden"><div class="ScrollbarsCustom-Content Scrollbar_scrollbars__content__STYYB" style="display:table-cell"><div class="HeaderPopupLinks_root__wrapper__5X_io"><div class="HeaderPopupLinks_root__title__9Ccfe">Все проекты банка</div><a href="https://www.gazprombank.ru/personal/privileges/" target="_self"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпром Бонус" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/79e/a5fbaz3qjyo8556f8cnr1mzyq6rwr6jr/GPB-Bonus-kendi.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпром Бонус</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Больше, чем выгодно</div></div></div></a><a href="https://gpbmobile.ru/?utm_source=gazprombank&amp;utm_medium=referral&amp;utm_campaign=projectgpb" target="_blank" rel="nofollow"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпромбанк Мобайл" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/401/9lxdjwz06ogwiizyeya46ai0qc6ysjob/Desktop_80x80px_gpb-mobile.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпромбанк Мобайл</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Наш мобильный оператор</div></div></div></a><a href="https://www.gazprombank.ru/pro-finance/" target="_self"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпромбанк Про Финансы" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/f9c/xlpmtvevnge9wycxsafp7150k6vlyxzm/Pro-finansy.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпромбанк Про Финансы</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Понятно о деньгах</div></div></div></a><a href="https://www.gazprombank.ru/personal/page/cybersecurity/" target="_blank"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Кибербезопасность" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/0c4/ggyjangoarlwkjfrmk7mqbqgg3p7j88f/Icon_KA_80x80-1.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Кибербезопасность</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Ваш гид по защите</div></div></div></a><a href="https://www.gazprombank.ru/knowledge-base/" target="_self"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпромбанк База Знаний" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/303/t4ubxjingqkdv9lk7s2sqsjovk3ohdjo/Baza-znaniy.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпромбанк База Знаний</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Финансовый глоссарий</div></div></div></a><a href="https://travel.gazprombank.ru/" target="_blank" rel="nofollow"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпромбанк Travel" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/3e4/cjgg3kqd0h5h3eaya130v2gvlm5cuc2b/Trevel.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпромбанк Travel</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Портал для путешественников</div></div></div></a><a href="https://research.gazprombank.ru/ru/" target="_blank"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпромбанк Аналитика" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/d89/1bkwdn07p5o0eknb8kphf4bqhxgbcay5/DARK.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпромбанк Аналитика</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Про экономику и рынки капитала</div></div></div></a><a href="https://www.gazprombank.ru/sustainability/" target="_self"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Устойчивое развитие" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/b7e/rost.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Устойчивое развитие</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Ответcтвенное ведение бизнеса</div></div></div></a><a href="https://www.gazprombank.ru/corporate/page/megaigrok/" target="_self"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="#МЕГАИГРОК" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/9f4/Menu-Item_Name_80x80-7876876.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">#МЕГАИГРОК</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Инфраструктура и ГЧП</div></div></div></a><a href="https://www.gazprombank.tech" target="_blank"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Газпромбанк.Тех" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/587/gpb_space.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Газпромбанк.Тех</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Карьера в ИТ большого банка</div></div></div></a><a href="https://www.gazprompay.ru/?utm_source=gpb_site&amp;utm_medium=gpb&amp;utm_campaign=gpb_main_page_dropdown_list_of_projects|ct:main_page_bank_projects_dropdown_list|adt:digital|crn:not_info|ten:not_info|loc:all_regions|d:gpb|pn:gazprompay|rt:link|rk:forweb|ag:gpb&amp;utm_content=adf:link" target="_blank"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="Gazprom Pay" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/1e0/o6dvaqidjeru2ngb363piro5b4f3bcfj/Gazprom-Pay.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">Gazprom Pay</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Платежи в одно касание </div></div></div></a><a href="https://www.gazprombank.ru/personal/page/gorodpay/" target="_blank"><div class="HeaderPopupLinks_root__link__jWSBd"><img alt="GorodPay" class="HeaderPopupLinks_root__img__KH8U6" src="https://cdn.gpb.ru/upload/files/iblock/4ea/GorodPay.png" aria-hidden="true"/><div class="HeaderPopupLinks_root__block__EIghq"><div class="HeaderPopupLinks_root__block_name__uS0O1">GorodPay</div><div class="HeaderPopupLinks_root__block_subtitle__dVCXc">Приложение для пассажиров</div></div></div></a></div></div></div></div><div class="ScrollbarsCustom-Track ScrollbarsCustom-TrackY HeaderFullDesktopCandyMenu_root__scrollbar_trackY__ne47_ Scrollbar_scrollbars__trackY__iircV" style="display:none"><div class="ScrollbarsCustom-Thumb ScrollbarsCustom-ThumbY Scrollbar_scrollbars__thumbY__PyY2v"></div></div><div class="ScrollbarsCustom-Track ScrollbarsCustom-TrackX Scrollbar_scrollbars__trackX__N0pFV" style="display:none"><div class="ScrollbarsCustom-Thumb ScrollbarsCustom-ThumbX Scrollbar_scrollbars__thumbX__DBNgX"></div></div></div></div></div></div></div><a data-test-id="header-logo" class="HeaderFullLogo_root__C4Eyf" title="Перейти на главную страницу раздела &quot;Для всех&quot; сайта ГПБ" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="878" height="109" fill="none" viewBox="0 0 878 109"><path fill="#2355d7" d="M25.266 26.586v79.797H0v-104h54.978v24.224zM104.02 89.602H81.923l-3.127 16.781h-24.82l20.8-104h36.837l20.8 104h-25.267zm-4.424-24.224-6.55-35.368-6.678 35.368zM151.522 103.341c-5.785-3.616-10.166-8.465-13.144-14.569s-4.466-12.803-4.466-20.14h25.266c0 5.55 1.191 9.719 3.573 12.484s5.594 4.168 9.656 4.168c3.658 0 6.444-1.106 8.316-3.339 1.871-2.233 2.828-4.976 2.828-8.252 0-3.275-1.169-6.061-3.488-8.103s-5.423-3.041-9.294-3.041h-7.72v-20.8h7.869c4.169 0 7.21-.957 9.145-2.893 1.936-1.935 2.893-4.083 2.893-6.465 0-2.871-.93

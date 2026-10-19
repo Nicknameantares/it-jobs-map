@@ -1,98 +1,99 @@
 {
- "updated": "2026-10-19T14:02Z",
+ "updated": "2026-10-19T14:20Z",
  "paging": {
-  "sber": "single page (scheme 6)",
-  "ozon": "single page (scheme 4)",
-  "mts": "scheme 0"
+  "sber": "scheme 0",
+  "ozon": "single page (scheme 9)",
+  "mts": "scheme 0",
+  "tochka": "scheme 0",
+  "tochka_lead": "single page (scheme 0)"
  },
  "sources": {
   "yandex": {
    "ok": true,
    "n": 512,
-   "sec": 61.1,
+   "sec": 55.3,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 10,
-   "sec": 20.9,
+   "n": 2966,
+   "sec": 92.7,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/inzhener-po-soprovozhdeniyu-vneshneekonomicheskoe-razvitie-4580577/"
+   "final": "https://rabota.sber.ru/search/starshiy-klientskiy-menedzher-4572832/"
   },
   "vk": {
    "ok": true,
    "n": 274,
-   "sec": 13.2,
+   "sec": 10.7,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 8.4,
-   "link": 307
+   "sec": 11.9,
+   "link": 200,
+   "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2557,
-   "sec": 59.4,
+   "n": 2559,
+   "sec": 54.1,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/718813097426423023"
+   "final": "https://job.mts.ru/vacancy/715187564113297524"
   },
   "tbank": {
-   "ok": true,
-   "n": 466,
-   "sec": 136.4,
-   "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
+   "ok": false,
+   "error": "<HTTPError 429: 'Too Many Requests'>",
+   "stale_from": "2026-10-19T14:02Z"
   },
   "alfa": {
    "ok": true,
    "n": 2338,
-   "sec": 94.3,
+   "sec": 71.0,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/rukovoditel-strategicheskikh-proektov_39332"
+   "final": "https://job.alfabank.ru/vacancies/barnaul/central-office/nachalnik-otdela-kreditnogo-analiza_39334"
   },
   "tochka": {
    "ok": true,
-   "n": 20,
-   "sec": 4.2,
+   "n": 47,
+   "sec": 6.2,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/vedushhijj-produktovyjj-marketolog/"
   },
   "rwb": {
    "ok": true,
    "n": 124,
-   "sec": 5.6,
+   "sec": 4.8,
    "link": 200,
    "final": "https://career.rwb.ru/vacancies/39907"
   },
   "x5": {
    "ok": true,
    "n": 325,
-   "sec": 5.8,
+   "sec": 4.6,
    "link": 200,
    "final": "https://rabota.x5.ru/vacancies/e256a212-b8bb-455f-b754-4122e17bea19"
   },
   "lamoda": {
    "ok": true,
    "n": 171,
-   "sec": 16.3,
+   "sec": 3.6,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/moskva/sistemniy-administrator-rts-bykovo--3295"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 1.3,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3807"
   },
   "avito": {
    "ok": true,
    "n": 48,
-   "sec": 9.8,
+   "sec": 9.3,
    "mode": "render",
    "link": 200,
    "final": "https://career.avito.com/vacancies/prodazhi/20745/"
@@ -100,7 +101,7 @@
   "kaspersky": {
    "ok": true,
    "n": 76,
-   "sec": 22.0,
+   "sec": 20.5,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25825"
@@ -108,7 +109,7 @@
   "gis": {
    "ok": true,
    "n": 90,
-   "sec": 102.8,
+   "sec": 103.4,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/601"
@@ -116,7 +117,7 @@
   "megafon": {
    "ok": true,
    "n": 305,
-   "sec": 231.6,
+   "sec": 231.5,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/krasnoarsk/biznes-napravlenia/menedzher-po-prodazham-iot-reshenij-4802"
@@ -124,7 +125,7 @@
   "kontur": {
    "ok": true,
    "n": 38,
-   "sec": 13.1,
+   "sec": 9.9,
    "mode": "render",
    "link": 200,
    "final": "https://kontur.ru/career/vacancies/3728"

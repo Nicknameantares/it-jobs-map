@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Карта ИТ-работодателей</title>
-<meta name="description" content="Прямые ссылки на карьерные сайты 28 крупных ИТ-компаний России: Яндекс, Сбер, VK, Авито, Ozon, банки, телеком. Поиск роли на hh.ru, список откликов и таблица Excel.">
+<title>Карта ИТ-работодателей — поиск вакансий в 28 ИТ-компаниях России</title>
+<meta name="description" content="Поиск вакансий сразу по карьерным сайтам Яндекса, Сбера, VK, Ozon, МТС, Т-Банка, Авито и других крупных ИТ-компаний России. Обновляется каждый день.">
 <meta property="og:title" content="Карта ИТ-работодателей">
 <meta property="og:description" content="Карьерные сайты 28 крупных ИТ-компаний России в одном месте: прямые ссылки, поиск роли на hh.ru, трекер откликов.">
 <meta property="og:type" content="website">
@@ -235,98 +235,177 @@ dialog.sheet[open]{animation:slidein .22s ease-out}
 @media (max-width:480px){.ml-t{display:none}.ml-i{display:block;color:var(--l2)}.logo{font-size:15px}.mylist{padding:7px 10px}}
 @media (max-width:640px){.mob-only{display:inline-flex}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+/* ===== search hero ===== */
+.hero{max-width:none;padding-block:36px 8px}
+.hero h1{max-width:16ch}
+.qbox{margin-top:8px;display:flex;gap:8px;background:var(--surface);border:1.5px solid var(--ink);border-radius:18px;padding:8px;box-shadow:0 18px 40px -28px rgba(20,24,34,.5);max-width:860px}
+.qbox .inp{flex:1;min-width:0}
+.qbox .inp input{border:0;background:transparent;font-size:19px;padding:14px 40px 14px 48px}
+.qbox .inp input:focus{box-shadow:none}
+.qbox .inp svg{left:16px}
+.qbox .btn{border-radius:12px;padding:0 24px;font-size:16px}
+.examples{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:14px;color:var(--muted);margin-top:4px}
+.examples button{border:0;background:var(--hover);padding:6px 12px;border-radius:999px;cursor:pointer;font-size:14px;color:var(--ink)}
+.examples button:hover{background:color-mix(in srgb,var(--ink) 12%,var(--hover))}
+.status{font-size:14px;color:var(--muted);display:flex;gap:6px 16px;flex-wrap:wrap}
+.status b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.live{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--l3);margin-right:6px;vertical-align:1px;box-shadow:0 0 0 3px color-mix(in srgb,var(--l3) 25%,transparent)}
+/* results */
+.results{margin-top:28px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px;align-items:start}
+.side{position:sticky;top:12px;display:grid;gap:22px;max-height:calc(100dvh - 24px);overflow:auto;padding-right:4px;scrollbar-width:thin}
+.fgroup h3{font-size:14px;font-weight:600;color:var(--muted);margin:0 0 8px}
+.fopts{display:grid;gap:2px}
+.fopt{display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:8px;cursor:pointer;font-size:14px;border:0;background:none;text-align:left;width:100%}
+.fopt:hover{background:var(--hover)}
+.fopt .bx{width:18px;height:18px;border-radius:5px;border:1.5px solid var(--faint);flex:none;display:grid;place-items:center}
+.fopt[aria-pressed="true"] .bx{background:var(--ink);border-color:var(--ink)}
+.fopt[aria-pressed="true"] .bx::after{content:"";width:9px;height:5px;border:2px solid var(--bg);border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px)}
+.fopt .lbl{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fopt .ct{font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+.fopt .cd{width:8px;height:8px;border-radius:50%;background:var(--c);flex:none}
+.fopt[disabled]{opacity:.4;cursor:default}
+.more-co{font-size:13px;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 8px}
+.rhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.rhead .cnt{font-size:15px;color:var(--muted)}
+.rhead .cnt b{color:var(--ink);font-size:17px}
+.sortsel{font:inherit;font-size:14px;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.active-f{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.af{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:var(--bg);border:0;border-radius:999px;padding:5px 10px 5px 12px;font-size:13px;cursor:pointer}
+.vlist{display:grid;gap:8px}
+.vac{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;transition:border-color .12s,transform .12s}
+.vac:hover{border-color:var(--ink)}
+.vac:active{transform:scale(.995)}
+.vac .vt{font-weight:600;font-size:16px;line-height:1.3}
+.vac .vm{grid-column:1;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:14px;color:var(--muted);align-items:center}
+.vac .co{display:inline-flex;align-items:center;gap:6px;color:var(--ink);font-weight:500}
+.vac .co i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.vac .go{grid-row:1/3;grid-column:2;color:var(--faint)}
+.vac:hover .go{color:var(--ink)}
+.fmt{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--hover);color:var(--ink)}
+.fmt.remote{background:var(--ok-bg);color:var(--ok)}
+.loadmore{margin:16px auto 0;display:flex}
+.skel{height:72px;border-radius:14px;background:linear-gradient(90deg,var(--hover),var(--surface),var(--hover));background-size:200% 100%;animation:sk 1.2s linear infinite}
+@keyframes sk{to{background-position:-200% 0}}
+.cover{margin-top:18px;background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:16px 18px;font-size:14px;color:var(--muted)}
+.cover b{color:var(--ink)}
+.cover .cl{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.cover a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:5px 11px;text-decoration:none;color:var(--ink);font-size:13px;background:var(--bg)}
+.cover a:hover{border-color:var(--ink)}
+.cover a i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.fbtn{display:none}
+.stop .cnt{display:block;font-size:12px;color:var(--muted);margin-top:2px;font-variant-numeric:tabular-nums}
+@media (max-width:960px){
+  .results{grid-template-columns:1fr}
+  .side{position:fixed;inset:auto 0 0 0;top:auto;max-height:80dvh;background:var(--surface);z-index:60;padding:20px 20px max(20px,env(safe-area-inset-bottom));border-radius:22px 22px 0 0;box-shadow:var(--shadow);transform:translateY(105%);transition:transform .25s}
+  .side.open{transform:none}
+  .fbtn{display:inline-flex}
+  .side-close{display:flex!important}
+}
+.side-close{display:none;justify-content:space-between;align-items:center}
+.side-close h3{margin:0;font-size:18px}
+@media (max-width:640px){
+  .qbox{flex-direction:column;border-radius:16px}
+  .qbox .btn{padding:13px}
+  .qbox .inp input{font-size:17px}
+  .vac .go{display:none}
+  .vac{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <a class="logo" href="#">
+    <a class="logo" href="./">
       <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M5 12h22" stroke="#F28C18" stroke-width="3"/><path d="M5 20h22" stroke="#2E9E4F" stroke-width="3"/><circle cx="17" cy="12" r="3.5" fill="#1B1D23" stroke="#fff" stroke-width="2"/><circle cx="11" cy="20" r="3.5" fill="#1B1D23" stroke="#fff" stroke-width="2"/></svg>
       Карта ИТ-работодателей
     </a>
     <nav aria-label="Разделы">
-      <a href="#companies">Компании</a><a href="#tools">Таблица и агрегаторы</a><a href="#how">Как искать</a><a href="#feedback">Отзыв</a>
-      <button class="mylist" id="mylist" type="button" aria-pressed="false" aria-label="Мой список"><span class="ml-t">Мой список</span><svg class="ml-i" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span class="badge" id="favn">0</span></button>
+      <a href="#search">Поиск</a><a href="#companies">Компании</a><a href="#tools">Таблица</a><a href="#feedback">Отзыв</a>
+      <button class="mylist" id="mylist" type="button" aria-label="Мой список"><span class="ml-t">Мой список</span><svg class="ml-i" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span class="badge" id="favn">0</span></button>
     </nav>
   </header>
 
-  <div class="hero">
-    <h1>Карьерные сайты 28 ИТ-компаний России на одной карте</h1>
-    <p class="lead">Прямые ссылки на вакансии Яндекса, Сбера, VK, Авито, Ozon, банков и телекома. Нажмите на станцию, чтобы открыть все разделы компании, или найдите свою роль сразу у всех работодателей.</p>
-  </div>
-
-  <div class="scheme" aria-labelledby="sch-h">
-    <div class="scheme-head">
-      <h2 id="sch-h">Схема работодателей</h2>
-      <p>Ветка — сегмент рынка, станция — компания</p>
-    </div>
-    <div class="lines" id="lines"></div>
-    <div class="scheme-foot">
-      <span><i class="k-dot" aria-hidden="true"></i>Станция открывает карточку компании</span>
-      <span><i class="k-dot on" aria-hidden="true"></i>Компания в вашем списке</span>
-      <span>Название ветки фильтрует список ниже</span>
-    </div>
-  </div>
-
-  <div class="finder" id="finder" role="search">
-    <div class="fields">
+  <div class="hero" id="search">
+    <h1>Вакансии крупных ИТ-компаний в одном поиске</h1>
+    <p class="lead">Собираем вакансии с карьерных сайтов Яндекса, Сбера, VK, Ozon, МТС, Т-Банка, Авито и других компаний каждый день. Введите должность и сразу получите список со ссылками на сами вакансии.</p>
+    <form class="qbox" id="qform" role="search">
       <div class="inp">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <label class="sr" for="q">Найти компанию</label>
-        <input id="q" type="search" placeholder="Компания: Авито, банк, телеком" autocomplete="off" enterkeyhint="search">
-        <button class="clr" id="q-clr" type="button" aria-label="Очистить поиск" hidden>✕</button>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <label class="sr" for="vq">Должность или ключевые слова</label>
+        <input id="vq" type="search" placeholder="Должность, навык или направление" autocomplete="off" enterkeyhint="search">
+        <button class="clr" id="vq-clr" type="button" aria-label="Очистить" hidden>✕</button>
       </div>
-      <div class="inp">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
-        <label class="sr" for="role">Роль для поиска на hh.ru</label>
-        <input id="role" type="text" placeholder="Ваша роль: product manager, аналитик…" autocomplete="off">
-        <button class="clr" id="role-clr" type="button" aria-label="Очистить роль" hidden>✕</button>
-      </div>
-    </div>
-    <div class="filters" id="filters" aria-label="Фильтры"></div>
+      <button class="btn primary" type="submit">Найти</button>
+    </form>
+    <div class="examples" id="examples"><span>Например:</span></div>
+    <div class="status" id="status"><span>Загружаю вакансии…</span></div>
   </div>
 
-  <main id="companies">
-    <h2 class="sr">Компании</h2>
-    <div class="rolehint" id="rolehint" hidden></div>
-    <div class="resultbar"><span id="count" aria-live="polite"></span><button class="linkbtn" id="reset" type="button" hidden>Сбросить фильтры</button></div>
-    <div class="dir" id="dir"></div>
-  </main>
+  <div class="results" id="results">
+    <aside class="side" id="side" aria-label="Фильтры">
+      <div class="side-close"><h3>Фильтры</h3><button class="close" type="button" id="side-x" aria-label="Закрыть фильтры"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+      <div class="fgroup"><h3>Формат работы</h3><div class="fopts" id="f-fmt"></div></div>
+      <div class="fgroup"><h3>Город</h3><div class="fopts" id="f-city"></div></div>
+      <div class="fgroup"><h3>Компания</h3><div class="fopts" id="f-co"></div></div>
+      <div class="fgroup"><h3>Только мой список</h3><div class="fopts" id="f-fav"></div></div>
+    </aside>
+    <div>
+      <div class="rhead">
+        <span class="cnt" id="rcount" aria-live="polite"></span>
+        <span style="display:flex;gap:8px">
+          <button class="btn fbtn" id="fbtn" type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Фильтры</button>
+          <label class="sr" for="sort">Сортировка</label>
+          <select class="sortsel" id="sort"><option value="rel">Сначала подходящие</option><option value="new">Сначала новые</option></select>
+        </span>
+      </div>
+      <div class="active-f" id="activef"></div>
+      <div class="vlist" id="vlist"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
+      <button class="btn lg loadmore" id="more" type="button" hidden>Показать ещё</button>
+      <div class="cover" id="cover" hidden></div>
+    </div>
+  </div>
+
+  <section id="companies">
+    <h2 class="sec-h">Компании на карте</h2>
+    <p class="sec-p">Ветка — сегмент рынка, станция — компания. Под названием — сколько вакансий нашли сегодня. Нажмите на станцию, чтобы открыть карточку компании.</p>
+    <div class="scheme"><div class="lines" id="lines"></div>
+      <div class="scheme-foot"><span><i class="k-dot" aria-hidden="true"></i>Открыть карточку компании</span><span><i class="k-dot on" aria-hidden="true"></i>Компания в вашем списке</span></div>
+    </div>
+  </section>
 
   <section id="tools">
     <h2 class="sec-h">Таблица и агрегаторы</h2>
-    <p class="sec-p">Возьмите список с собой в Excel и ищите параллельно на агрегаторах. Если вы ввели роль, ссылки ниже сразу ищут её.</p>
+    <p class="sec-p">Возьмите список компаний в Excel и ищите параллельно на агрегаторах — по вашему запросу из поиска.</p>
     <div class="grid2">
       <div class="card">
         <h3>Таблица Excel</h3>
-        <p>Все компании и ссылки плюс готовый шаблон для учёта откликов.</p>
+        <p>Все компании и ссылки плюс шаблон для учёта откликов.</p>
         <ul class="sheets">
           <li><b>Компании</b><span>ссылки по сегментам</span></li>
-          <li><b>Мои отклики</b><span>статусы, даты, сводка, просроченные шаги</span></li>
+          <li><b>Мои отклики</b><span>статусы, даты, сводка</span></li>
           <li><b>Агрегаторы</b><span>где искать ещё</span></li>
-          <li><b>Как пользоваться</b><span>порядок работы</span></li>
         </ul>
         <div class="btnrow">
-          <a class="btn primary lg" href="karta-it-rabotodateley.xlsx" download="Карта ИТ-работодателей.xlsx">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>Скачать .xlsx</a>
-          <button class="btn lg" id="dl-csv" type="button">Выгрузить мой список .csv</button>
+          <a class="btn primary lg" href="karta-it-rabotodateley.xlsx" download="Карта ИТ-работодателей.xlsx"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>Скачать .xlsx</a>
+          <button class="btn lg" id="dl-csv" type="button">Мой список в .csv</button>
         </div>
       </div>
       <div class="card">
         <h3>Агрегаторы вакансий</h3>
-        <p id="aggp">Собирают вакансии сотен компаний, включая те, что не попали на карту.</p>
+        <p>Вакансии сотен других компаний.</p>
         <div class="agg" id="agg"></div>
       </div>
     </div>
   </section>
 
   <section id="how">
-    <h2 class="sec-h">Как искать по карте</h2>
+    <h2 class="sec-h">Как искать</h2>
     <p class="sec-p">Четыре шага, которые экономят недели поиска.</p>
     <ol class="steps">
-      <li><h3>Соберите свой список</h3><p>Откройте 10–15 компаний и добавьте их в «Мой список». Список хранится в вашем браузере.</p></li>
-      <li><h3>Подпишитесь на hh.ru</h3><p>В карточке компании есть ссылка на страницу работодателя. Включите там уведомления о новых вакансиях.</p></li>
-      <li><h3>Раз в неделю проверяйте сайты</h3><p>Часть вакансий выходит только на карьерном сайте. Смотрите раздел своей роли у компаний из списка.</p></li>
+      <li><h3>Найдите вакансии</h3><p>Введите должность в поиске. Сузьте результат форматом работы, городом и компанией.</p></li>
+      <li><h3>Соберите свой список</h3><p>Добавьте 10–15 компаний в «Мой список» — фильтр покажет вакансии только у них.</p></li>
+      <li><h3>Заходите раз в пару дней</h3><p>Вакансии обновляются каждое утро. Поиск запоминается в ссылке — сохраните её в закладки.</p></li>
       <li><h3>Откликайтесь с контактом</h3><p>После отклика найдите знакомого в компании или нанимающего менеджера. Рекомендация ускоряет ответ.</p></li>
     </ol>
   </section>
@@ -334,8 +413,8 @@ dialog.sheet[open]{animation:slidein .22s ease-out}
   <section id="feedback">
     <div class="fb">
       <div>
-        <h2 class="sec-h">Помогла ли карта?</h2>
-        <p class="sec-p">Это первая версия. Расскажите, чего не хватает: каких компаний, разделов или функций. Отзыв публикуется на GitHub, для этого нужен аккаунт. Без аккаунта скопируйте текст и отправьте тому, кто поделился ссылкой.</p>
+        <h2 class="sec-h">Помог ли поиск?</h2>
+        <p class="sec-p">Это ранняя версия. Расскажите, чего не хватает: компаний, фильтров, функций. Отзыв публикуется на GitHub, нужен аккаунт. Без аккаунта скопируйте текст и отправьте тому, кто поделился ссылкой.</p>
       </div>
       <form class="card fbform" id="fbform" novalidate>
         <div><span class="q" id="rq">Насколько полезно</span>
@@ -344,21 +423,18 @@ dialog.sheet[open]{animation:slidein .22s ease-out}
           </div></div>
         <div><span class="q" id="uq">Что пригодилось</span>
           <div class="checks" id="useful" role="group" aria-labelledby="uq">
-            <button type="button" class="chip" aria-pressed="false">Схема компаний</button><button type="button" class="chip" aria-pressed="false">Прямые ссылки</button><button type="button" class="chip" aria-pressed="false">Поиск роли на hh.ru</button><button type="button" class="chip" aria-pressed="false">Мой список и статусы</button><button type="button" class="chip" aria-pressed="false">Таблица Excel</button>
+            <button type="button" class="chip" aria-pressed="false">Поиск вакансий</button><button type="button" class="chip" aria-pressed="false">Фильтры</button><button type="button" class="chip" aria-pressed="false">Схема компаний</button><button type="button" class="chip" aria-pressed="false">Мой список</button><button type="button" class="chip" aria-pressed="false">Таблица Excel</button>
           </div></div>
         <div><label class="q" for="fb-add">Каких компаний не хватает</label><input type="text" id="fb-add" placeholder="Например, Kaspi, Skyeng, Купер"></div>
         <div><label class="q" for="fb-text">Что улучшить</label><textarea id="fb-text" rows="3" placeholder="Что неудобно, какая ссылка не открылась, что добавить"></textarea></div>
-        <div class="btnrow">
-          <button class="btn primary lg" type="submit">Отправить на GitHub</button>
-          <button class="btn lg" type="button" id="fbcopy">Скопировать текст</button>
-        </div>
+        <div class="btnrow"><button class="btn primary lg" type="submit">Отправить на GitHub</button><button class="btn lg" type="button" id="fbcopy">Скопировать текст</button></div>
         <p class="hint" id="fbnote">Можно заполнить только оценку.</p>
       </form>
     </div>
   </section>
 
   <footer>
-    <span>Ссылки собраны по открытым источникам, октябрь 2026. Если адрес перестал открываться, сообщите в отзыве.</span>
+    <span>Вакансии собираются автоматически с открытых карьерных сайтов компаний каждое утро. Откликаться — на сайте компании.</span>
     <span><a href="https://github.com/Nicknameantares/it-jobs-map">Исходный код на GitHub</a></span>
   </footer>
 </div>
@@ -367,141 +443,163 @@ dialog.sheet[open]{animation:slidein .22s ease-out}
 <div class="toast" id="toast" role="status"></div>
 
 <script>
-const DATA={"segments": ["Экосистемы", "Маркетплейсы и e-com", "Финтех и банки", "Телеком", "Классифайды и сервисы", "B2B SaaS и облака", "Кибербезопасность и софт", "Интеграторы"], "companies": [{"n": "Яндекс", "s": "Экосистемы", "hh": 1740, "d": "Поиск, Маркет, Go, Еда, Облако, Реклама и другие бизнес-юниты на одном сайте", "l": [["all", "Все вакансии", "https://yandex.ru/jobs/vacancies"], ["biz", "Развитие бизнеса", "https://yandex.ru/jobs/professions/bis-dev-manager"]]}, {"n": "Сбер", "s": "Экосистемы", "hh": 3529, "d": "Банк и дочерние компании экосистемы; отдельный раздел для опытных специалистов", "l": [["all", "Поиск вакансий", "https://rabota.sber.ru/search/"], ["biz", "Профессионалам и руководителям", "https://rabota.sber.ru/professionally/"]]}, {"n": "VK", "s": "Экосистемы", "hh": 15478, "d": "Соцсети, VK Tech, VK Cloud, реклама, медиа; фильтры по специальностям", "l": [["all", "Все вакансии", "https://team.vk.company/vacancy/"], ["it", "Backend", "https://team.vk.company/vacancy/?specialty=282"], ["biz", "Продажи и развитие бизнеса", "https://team.vk.company/vacancy/?specialty=263"], ["remote", "Удалённо", "https://team.vk.company/vacancy/?remote=true"]]}, {"n": "Ozon", "s": "Маркетплейсы и e-com", "hh": 2180, "d": "Маркетплейс, логистика и Ozon Fintech", "l": [["all", "Все вакансии", "https://career.ozon.ru/vacancy/"], ["it", "Разработка", "https://career.ozon.ru/vacancy/programmist-razrabotchik/"], ["extra", "Ozon Fintech", "https://career.ozon.ru/fintech/vacancies"]]}, {"n": "Wildberries (RWB)", "s": "Маркетплейсы и e-com", "hh": 87021, "d": "Маркетплейс, логистика, банк; много линейных вакансий, офисные ищите по ключевым словам", "l": [["all", "Карьера", "https://career.rwb.ru/"], ["intern", "Стажировки", "https://career.rwb.ru/intern"]]}, {"n": "X5 Group", "s": "Маркетплейсы и e-com", "hh": 4233, "d": "Ритейл, X5 Tech, доставка и цифровые бизнесы", "l": [["all", "Карьерный портал", "https://rabota.x5.ru/"], ["it", "X5 Tech", "https://techcrew.start.x5.ru/"]]}, {"n": "Самокат (ecom.tech)", "s": "Маркетплейсы и e-com", "hh": null, "d": "Быстрая доставка; ИТ-команда работает под брендом ecom.tech", "l": [["it", "ИТ-вакансии", "https://samokat.tech/vacancies"], ["biz", "Бизнес и процессы", "https://vacancy.samokat.ru/vacancies-business"]]}, {"n": "Lamoda", "s": "Маркетплейсы и e-com", "hh": null, "d": "Fashion e-commerce: ИТ, коммерция, логистика", "l": [["all", "Карьерный сайт", "https://job.lamoda.ru/"]]}, {"n": "Т-Банк", "s": "Финтех и банки", "hh": 78638, "d": "Финтех-экосистема; отдельные разделы для ИТ и офисных ролей", "l": [["all", "Карьера", "https://www.tbank.ru/career/"], ["it", "Работа в ИТ", "https://www.tbank.ru/career/it/about/"], ["biz", "Маркетинг, финансы, HR, аналитика", "https://www.tbank.ru/career/vacancies/back-office/"]]}, {"n": "Альфа-Банк", "s": "Финтех и банки", "hh": 80, "d": "Alfa Digital — ИТ-подразделение банка", "l": [["it", "Alfa Digital", "https://digital.alfabank.ru/vacancies"], ["remote", "Удалённо", "https://job.alfabank.ru/vacancies/remotework"]]}, {"n": "ВТБ", "s": "Финтех и банки", "hh": 4181, "d": "Банк; отдельный раздел для ИТ и стажировки", "l": [["all", "Карьера", "https://rabota.vtb.ru/"], ["it", "ИТ в ВТБ", "https://rabota.vtb.ru/career-it/"], ["intern", "ВТБ Юниор", "https://rabota.vtb.ru/internship/vtb-yunior/"]]}, {"n": "Газпромбанк", "s": "Финтех и банки", "hh": null, "d": "Банк и цифровые сервисы", "l": [["all", "Вакансии", "https://www.gazprombank.ru/vacancy/"]]}, {"n": "Совкомбанк", "s": "Финтех и банки", "hh": null, "d": "Банк, партнёрские сети, цифровые продукты", "l": [["all", "Вакансии", "https://people.sovcombank.ru/vacancies"]]}, {"n": "Точка", "s": "Финтех и банки", "hh": null, "d": "Банк для предпринимателей; много удалённых вакансий", "l": [["remote", "Удалённые вакансии", "https://hr.tochka.com/vacancies/remote-work/"]]}, {"n": "МТС", "s": "Телеком", "hh": 3776, "d": "Телеком и цифровая экосистема: MWS, МТС Линк, МТС Банк", "l": [["all", "Все вакансии", "https://job.mts.ru/vacancies"], ["intern", "Стажировки", "https://job.mts.ru/programs"]]}, {"n": "МегаФон", "s": "Телеком", "hh": 3127, "d": "Телеком, B2B и цифровые сервисы; вакансии по регионам", "l": [["all", "Вакансии", "https://job.megafon.ru/"]]}, {"n": "Билайн", "s": "Телеком", "hh": 4934, "d": "Телеком и ИТ; раздел вакансий для экспертов", "l": [["all", "Вакансии для экспертов", "https://job.beeline.ru/job-specialists/all/"]]}, {"n": "Ростелеком", "s": "Телеком", "hh": 2748, "d": "Телеком, облака, цифровые сервисы для государства и бизнеса", "l": [["all", "Работа в Ростелекоме", "https://job.rt.ru/"], ["biz", "Продажи и обслуживание", "https://www.company.rt.ru/career/vacancy/d1357/"]]}, {"n": "Авито", "s": "Классифайды и сервисы", "hh": 84585, "d": "Вакансии разбиты по командам: Услуги, Работа, Товары, Авто, Недвижимость", "l": [["all", "Все вакансии", "https://career.avito.com/vacancies/"], ["it", "Разработка", "https://career.avito.com/directions/developer/"]]}, {"n": "Циан", "s": "Классифайды и сервисы", "hh": null, "d": "Сервис недвижимости: продукт, ИТ, продажи", "l": [["all", "Вакансии", "https://www.cian.ru/vacancies/"]]}, {"n": "2ГИС", "s": "Классифайды и сервисы", "hh": 64174, "d": "Карты и справочник; офисы во многих городах", "l": [["all", "Вакансии", "https://job.2gis.ru/vacancies"]]}, {"n": "СКБ Контур", "s": "B2B SaaS и облака", "hh": 41862, "d": "Сервисы для бизнеса; фильтры по направлениям и городам", "l": [["all", "Вакансии", "https://kontur.ru/career/vacancies"], ["biz", "Продажи", "https://kontur.ru/career/vacancies?direction=sales"]]}, {"n": "Selectel", "s": "B2B SaaS и облака", "hh": null, "d": "Облака и дата-центры, штаб-квартира в Санкт-Петербурге", "l": [["all", "Вакансии", "https://selectel.ru/careers/all/"], ["biz", "Продажи", "https://careers.selectel.ru/page555"], ["intern", "Стажировки", "https://selectel.ru/careers/internships/"]]}, {"n": "Лаборатория Касперского", "s": "Кибербезопасность и софт", "hh": 1057, "d": "Кибербезопасность: разработка, исследования, продажи", "l": [["all", "Вакансии", "https://careers.kaspersky.ru/vacancies"]]}, {"n": "Positive Technologies", "s": "Кибербезопасность и софт", "hh": null, "d": "Кибербезопасность; стажировка PT Start", "l": [["all", "Вакансии", "https://ptsecurity.com/about/vacancy/"], ["intern", "Стажировки", "https://internship.ptsecurity.com"]]}, {"n": "Группа Астра", "s": "Кибербезопасность и софт", "hh": null, "d": "Системное ПО: Astra Linux и продукты экосистемы", "l": [["all", "Вакансии", "https://astra.ru/about/career/vacancies/"]]}, {"n": "Softline", "s": "Интеграторы", "hh": null, "d": "ИТ-решения и дистрибуция; много вакансий в продажах", "l": [["all", "Вакансии", "https://softline.ru/about/vacancies"]]}, {"n": "ЛАНИТ", "s": "Интеграторы", "hh": null, "d": "Группа ИТ-компаний: интеграция, разработка, консалтинг", "l": [["all", "Карьера", "https://job.lanit.ru/"]]}], "agg": [{"n": "hh.ru", "d": "Крупнейший сайт вакансий; можно подписаться на работодателя", "q": "https://hh.ru/search/vacancy?text={q}", "u": "https://hh.ru/"}, {"n": "Хабр Карьера", "d": "Вакансии ИТ-компаний с зарплатами и фильтром по квалификации", "q": "https://career.habr.com/vacancies?q={q}", "u": "https://career.habr.com/vacancies"}, {"n": "getmatch", "d": "ИТ-вакансии с вилкой зарплаты в каждом объявлении", "q": null, "u": "https://getmatch.ru/"}, {"n": "GeekJob", "d": "ИТ-вакансии и удалённая работа", "q": null, "u": "https://geekjob.ru/"}]};
+const DATA={"segments": ["Экосистемы", "Маркетплейсы и e-com", "Финтех и банки", "Телеком", "Классифайды и сервисы", "B2B SaaS и облака", "Кибербезопасность и софт", "Интеграторы"], "companies": [{"src": "yandex", "n": "Яндекс", "s": "Экосистемы", "hh": 1740, "d": "Поиск, Маркет, Go, Еда, Облако, Реклама и другие бизнес-юниты на одном сайте", "l": [["all", "Все вакансии", "https://yandex.ru/jobs/vacancies"], ["biz", "Развитие бизнеса", "https://yandex.ru/jobs/professions/bis-dev-manager"]]}, {"src": "sber", "n": "Сбер", "s": "Экосистемы", "hh": 3529, "d": "Банк и дочерние компании экосистемы; отдельный раздел для опытных специалистов", "l": [["all", "Поиск вакансий", "https://rabota.sber.ru/search/"], ["biz", "Профессионалам и руководителям", "https://rabota.sber.ru/professionally/"]]}, {"src": "vk", "n": "VK", "s": "Экосистемы", "hh": 15478, "d": "Соцсети, VK Tech, VK Cloud, реклама, медиа; фильтры по специальностям", "l": [["all", "Все вакансии", "https://team.vk.company/vacancy/"], ["it", "Backend", "https://team.vk.company/vacancy/?specialty=282"], ["biz", "Продажи и развитие бизнеса", "https://team.vk.company/vacancy/?specialty=263"], ["remote", "Удалённо", "https://team.vk.company/vacancy/?remote=true"]]}, {"src": "ozon", "n": "Ozon", "s": "Маркетплейсы и e-com", "hh": 2180, "d": "Маркетплейс, логистика и Ozon Fintech", "l": [["all", "Все вакансии", "https://career.ozon.ru/vacancy/"], ["it", "Разработка", "https://career.ozon.ru/vacancy/programmist-razrabotchik/"], ["extra", "Ozon Fintech", "https://career.ozon.ru/fintech/vacancies"]]}, {"src": "rwb", "n": "Wildberries (RWB)", "s": "Маркетплейсы и e-com", "hh": 87021, "d": "Маркетплейс, логистика, банк; много линейных вакансий, офисные ищите по ключевым словам", "l": [["all", "Карьера", "https://career.rwb.ru/"], ["intern", "Стажировки", "https://career.rwb.ru/intern"]]}, {"src": "x5", "n": "X5 Group", "s": "Маркетплейсы и e-com", "hh": 4233, "d": "Ритейл, X5 Tech, доставка и цифровые бизнесы", "l": [["all", "Карьерный портал", "https://rabota.x5.ru/"], ["it", "X5 Tech", "https://techcrew.start.x5.ru/"]]}, {"src": null, "n": "Самокат (ecom.tech)", "s": "Маркетплейсы и e-com", "hh": null, "d": "Быстрая доставка; ИТ-команда работает под брендом ecom.tech", "l": [["it", "ИТ-вакансии", "https://samokat.tech/vacancies"], ["biz", "Бизнес и процессы", "https://vacancy.samokat.ru/vacancies-business"]]}, {"src": "lamoda", "n": "Lamoda", "s": "Маркетплейсы и e-com", "hh": null, "d": "Fashion e-commerce: ИТ, коммерция, логистика", "l": [["all", "Карьерный сайт", "https://job.lamoda.ru/"]]}, {"src": "tbank", "n": "Т-Банк", "s": "Финтех и банки", "hh": 78638, "d": "Финтех-экосистема; отдельные разделы для ИТ и офисных ролей", "l": [["all", "Карьера", "https://www.tbank.ru/career/"], ["it", "Работа в ИТ", "https://www.tbank.ru/career/it/about/"], ["biz", "Маркетинг, финансы, HR, аналитика", "https://www.tbank.ru/career/vacancies/back-office/"]]}, {"src": "alfa", "n": "Альфа-Банк", "s": "Финтех и банки", "hh": 80, "d": "Alfa Digital — ИТ-подразделение банка", "l": [["it", "Alfa Digital", "https://digital.alfabank.ru/vacancies"], ["remote", "Удалённо", "https://job.alfabank.ru/vacancies/remotework"]]}, {"src": null, "n": "ВТБ", "s": "Финтех и банки", "hh": 4181, "d": "Банк; отдельный раздел для ИТ и стажировки", "l": [["all", "Карьера", "https://rabota.vtb.ru/"], ["it", "ИТ в ВТБ", "https://rabota.vtb.ru/career-it/"], ["intern", "ВТБ Юниор", "https://rabota.vtb.ru/internship/vtb-yunior/"]]}, {"src": null, "n": "Газпромбанк", "s": "Финтех и банки", "hh": null, "d": "Банк и цифровые сервисы", "l": [["all", "Вакансии", "https://www.gazprombank.ru/vacancy/"]]}, {"src": null, "n": "Совкомбанк", "s": "Финтех и банки", "hh": null, "d": "Банк, партнёрские сети, цифровые продукты", "l": [["all", "Вакансии", "https://people.sovcombank.ru/vacancies"]]}, {"src": "tochka", "n": "Точка", "s": "Финтех и банки", "hh": null, "d": "Банк для предпринимателей; много удалённых вакансий", "l": [["remote", "Удалённые вакансии", "https://hr.tochka.com/vacancies/remote-work/"]]}, {"src": "mts", "n": "МТС", "s": "Телеком", "hh": 3776, "d": "Телеком и цифровая экосистема: MWS, МТС Линк, МТС Банк", "l": [["all", "Все вакансии", "https://job.mts.ru/vacancies"], ["intern", "Стажировки", "https://job.mts.ru/programs"]]}, {"src": "megafon", "n": "МегаФон", "s": "Телеком", "hh": 3127, "d": "Телеком, B2B и цифровые сервисы; вакансии по регионам", "l": [["all", "Вакансии", "https://job.megafon.ru/"]]}, {"src": null, "n": "Билайн", "s": "Телеком", "hh": 4934, "d": "Телеком и ИТ; раздел вакансий для экспертов", "l": [["all", "Вакансии для экспертов", "https://job.beeline.ru/job-specialists/all/"]]}, {"src": null, "n": "Ростелеком", "s": "Телеком", "hh": 2748, "d": "Телеком, облака, цифровые сервисы для государства и бизнеса", "l": [["all", "Работа в Ростелекоме", "https://job.rt.ru/"], ["biz", "Продажи и обслуживание", "https://www.company.rt.ru/career/vacancy/d1357/"]]}, {"src": "avito", "n": "Авито", "s": "Классифайды и сервисы", "hh": 84585, "d": "Вакансии разбиты по командам: Услуги, Работа, Товары, Авто, Недвижимость", "l": [["all", "Все вакансии", "https://career.avito.com/vacancies/"], ["it", "Разработка", "https://career.avito.com/directions/developer/"]]}, {"src": null, "n": "Циан", "s": "Классифайды и сервисы", "hh": null, "d": "Сервис недвижимости: продукт, ИТ, продажи", "l": [["all", "Вакансии", "https://www.cian.ru/vacancies/"]]}, {"src": "gis", "n": "2ГИС", "s": "Классифайды и сервисы", "hh": 64174, "d": "Карты и справочник; офисы во многих городах", "l": [["all", "Вакансии", "https://job.2gis.ru/vacancies"]]}, {"src": "kontur", "n": "СКБ Контур", "s": "B2B SaaS и облака", "hh": 41862, "d": "Сервисы для бизнеса; фильтры по направлениям и городам", "l": [["all", "Вакансии", "https://kontur.ru/career/vacancies"], ["biz", "Продажи", "https://kontur.ru/career/vacancies?direction=sales"]]}, {"src": null, "n": "Selectel", "s": "B2B SaaS и облака", "hh": null, "d": "Облака и дата-центры, штаб-квартира в Санкт-Петербурге", "l": [["all", "Вакансии", "https://selectel.ru/careers/all/"], ["biz", "Продажи", "https://careers.selectel.ru/page555"], ["intern", "Стажировки", "https://selectel.ru/careers/internships/"]]}, {"src": "kaspersky", "n": "Лаборатория Касперского", "s": "Кибербезопасность и софт", "hh": 1057, "d": "Кибербезопасность: разработка, исследования, продажи", "l": [["all", "Вакансии", "https://careers.kaspersky.ru/vacancies"]]}, {"src": null, "n": "Positive Technologies", "s": "Кибербезопасность и софт", "hh": null, "d": "Кибербезопасность; стажировка PT Start", "l": [["all", "Вакансии", "https://ptsecurity.com/about/vacancy/"], ["intern", "Стажировки", "https://internship.ptsecurity.com"]]}, {"src": null, "n": "Группа Астра", "s": "Кибербезопасность и софт", "hh": null, "d": "Системное ПО: Astra Linux и продукты экосистемы", "l": [["all", "Вакансии", "https://astra.ru/about/career/vacancies/"]]}, {"src": null, "n": "Softline", "s": "Интеграторы", "hh": null, "d": "ИТ-решения и дистрибуция; много вакансий в продажах", "l": [["all", "Вакансии", "https://softline.ru/about/vacancies"]]}, {"src": "lanit", "n": "ЛАНИТ", "s": "Интеграторы", "hh": null, "d": "Группа ИТ-компаний: интеграция, разработка, консалтинг", "l": [["all", "Карьера", "https://job.lanit.ru/"]]}], "agg": [{"n": "hh.ru", "d": "Крупнейший сайт вакансий; можно подписаться на работодателя", "q": "https://hh.ru/search/vacancy?text={q}", "u": "https://hh.ru/"}, {"n": "Хабр Карьера", "d": "Вакансии ИТ-компаний с зарплатами и фильтром по квалификации", "q": "https://career.habr.com/vacancies?q={q}", "u": "https://career.habr.com/vacancies"}, {"n": "getmatch", "d": "ИТ-вакансии с вилкой зарплаты в каждом объявлении", "q": null, "u": "https://getmatch.ru/"}, {"n": "GeekJob", "d": "ИТ-вакансии и удалённая работа", "q": null, "u": "https://geekjob.ru/"}]};
 const REPO="Nicknameantares/it-jobs-map";
 const SEG=DATA.segments, CO=DATA.companies, AGG=DATA.agg;
 const LINE={}; SEG.forEach((s,i)=>LINE[s]=`var(--l${i+1})`);
+const BYSRC={}; CO.forEach(c=>{if(c.src)BYSRC[c.src]=c;});
 const SHORT={"Лаборатория Касперского":"Касперский","Positive Technologies":"Positive Tech","Wildberries (RWB)":"Wildberries","Самокат (ecom.tech)":"Самокат","СКБ Контур":"Контур","Группа Астра":"Астра"};
 const KIND={all:"Все вакансии",it:"ИТ и разработка",biz:"Бизнес и менеджмент",intern:"Стажировки",remote:"Удалённая работа",extra:"Отдельный раздел"};
-const DIRS=[["it","ИТ и разработка"],["biz","Бизнес и менеджмент"],["intern","Стажировки"],["remote","Удалённо"]];
 const STATUSES=[["want","Хочу откликнуться"],["sent","Отклик отправлен"],["contact","Связался рекрутер"],["iv","Интервью"],["offer","Оффер"],["no","Отказ"]];
+const FMT={remote:"Удалённо",hybrid:"Гибрид",office:"Офис"};
+const EXAMPLES=["product manager","аналитик данных","руководитель продаж","Go разработчик","дизайнер","директор"];
+const SYN=[["product","продукт","продакт"],["manager","менеджер"],["developer","разработчик","engineer","инженер","программист"],["analyst","аналитик"],["qa","тестировщик","test"],["designer","дизайнер"],["head","руководитель","lead","лид","директор","director"],["sales","продаж","продажи"],["marketing","маркетинг","маркетолог"],["data","данных","дата"],["frontend","фронтенд"],["backend","бэкенд","бекенд"],["devops","девопс"],["hr","рекрутер","recruiter"],["support","поддержк"],["project","проект"]];
 const KEY="itmap.v1";
 const store={fav:{},st:{}};
 try{const p=JSON.parse(localStorage.getItem(KEY)||"{}");store.fav=p.fav||{};store.st=p.st||{};}catch(e){}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(store))}catch(e){}};
-const params=new URLSearchParams(location.search);
-const state={q:params.get("q")||"",role:params.get("role")||"",seg:params.get("seg")||"",dir:params.get("dir")||"",fav:params.get("list")==="1"};
-if(!state.role){try{state.role=localStorage.getItem(KEY+".role")||""}catch(e){}}
+const P=new URLSearchParams(location.search);
+const S={q:P.get("q")||"",fmt:new Set((P.get("fmt")||"").split(",").filter(Boolean)),city:new Set((P.get("city")||"").split("|").filter(Boolean)),co:new Set((P.get("co")||"").split(",").filter(Boolean)),fav:P.get("list")==="1",sort:P.get("sort")||"rel",shown:40,coAll:false};
+let VAC=[],META=null,UPDATED="";
 
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const enc=encodeURIComponent;
 const host=u=>{try{return new URL(u).host.replace(/^www\./,"")}catch(e){return u}};
+const norm=s=>(s||"").toLowerCase().replace(/ё/g,"е").replace(/[^a-zа-я0-9+#]+/g," ").trim();
 const ext='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg>';
+const arrow='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>';
 const starSvg=on=>`<svg width="18" height="18" viewBox="0 0 24 24" fill="${on?"currentColor":"none"}" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>`;
-const role=()=>state.role.trim();
 const mainLink=c=>c.l.find(x=>x[0]==="all")||c.l[0];
-const dirLink=c=>state.dir?c.l.find(x=>x[0]===state.dir):null;
-function hhLink(c){const r=role();
-  if(c.hh) return r?`https://hh.ru/search/vacancy?text=${enc(r)}&employer_id=${c.hh}`:`https://hh.ru/employer/${c.hh}`;
-  return `https://hh.ru/search/vacancy?text=${enc((r?r+" ":"")+c.n)}`;}
-function hl(t){const q=state.q.trim();if(!q)return esc(t);const i=t.toLowerCase().indexOf(q.toLowerCase());if(i<0)return esc(t);return esc(t.slice(0,i))+"<mark>"+esc(t.slice(i,i+q.length))+"</mark>"+esc(t.slice(i+q.length));}
+const hhLink=(c,q)=>q?`https://hh.ru/search/vacancy?text=${enc(q)}${c.hh?"&employer_id="+c.hh:"+"+enc(c.n)}`:(c.hh?`https://hh.ru/employer/${c.hh}`:`https://hh.ru/search/vacancy?text=${enc(c.n)}`);
 function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("on"),2400);}
-function syncURL(){const p=new URLSearchParams();if(state.q)p.set("q",state.q);if(role())p.set("role",role());if(state.seg)p.set("seg",state.seg);if(state.dir)p.set("dir",state.dir);if(state.fav)p.set("list","1");
-  const s=p.toString();history.replaceState(null,"",location.pathname+(s?"?"+s:"")+location.hash);}
-function matches(c,ignoreSeg){const q=state.q.trim().toLowerCase();
-  if(q&&!(c.n.toLowerCase().includes(q)||c.s.toLowerCase().includes(q)||c.d.toLowerCase().includes(q)))return false;
-  if(!ignoreSeg&&state.seg&&c.s!==state.seg)return false;
-  if(state.dir&&!c.l.some(x=>x[0]===state.dir))return false;
-  if(state.fav&&!store.fav[c.n])return false;return true;}
+function plural(n,a,b,c){n=Math.abs(n)%100;const n1=n%10;if(n>10&&n<20)return c;if(n1>1&&n1<5)return b;if(n1===1)return a;return c;}
+function cityKey(c){c=(c||"").split(",")[0].trim();return c.replace(/^г\.?\s+/i,"");}
 
-/* scheme */
+/* ---------- data ---------- */
+async function load(){
+  try{
+    const r=await fetch("data/vacancies.json",{cache:"no-cache"});if(!r.ok)throw 0;const d=await r.json();
+    UPDATED=d.updated;
+    for(const [src,o] of Object.entries(d.sources)){const c=BYSRC[src];if(!c)continue;
+      for(const v of o.v){VAC.push({t:v.t,u:v.u,c:cityKey(v.c),f:v.f||[],a:v.a||"",d:v.d||"",co:c,k:norm(v.t+" "+v.a),kt:norm(v.t)});}}
+  }catch(e){$("#status").innerHTML="Не удалось загрузить вакансии. Обновите страницу.";$("#vlist").innerHTML="";return;}
+  const n=new Set(VAC.map(v=>v.co.n)).size;
+  const dt=UPDATED?new Date(UPDATED.replace("Z",":00Z")):null;
+  const when=dt?dt.toLocaleString("ru-RU",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):"";
+  $("#status").innerHTML=`<span><i class="live" aria-hidden="true"></i><b>${VAC.length.toLocaleString("ru-RU")}</b> ${plural(VAC.length,"вакансия","вакансии","вакансий")} в <b>${n}</b> ${plural(n,"компании","компаниях","компаниях")}</span>${when?`<span>Обновлено ${when}</span>`:""}`;
+  renderScheme();search();
+}
+/* ---------- search ---------- */
+function terms(q){return norm(q).split(" ").filter(w=>w.length>1).map(w=>{const g=SYN.find(g=>g.some(x=>w.startsWith(x)||x.startsWith(w)&&w.length>=4));return g?[w,...g]:[w];});}
+function scoreV(v,T){if(!T.length)return 1;let s=0;for(const alts of T){let hit=0;for(const a of alts){if(v.kt.includes(a)){hit=3;break}if(v.k.includes(a))hit=Math.max(hit,1);}if(!hit)return 0;s+=hit;}return s;}
+let LAST=[];
+function filtered(ex){
+  const T=terms(S.q);const out=[];
+  for(const v of VAC){
+    if(ex!=="fmt"&&S.fmt.size&&!v.f.some(f=>S.fmt.has(f)))continue;
+    if(ex!=="city"&&S.city.size&&!S.city.has(v.c))continue;
+    if(ex!=="co"&&S.co.size&&!S.co.has(v.co.src))continue;
+    if(S.fav&&!store.fav[v.co.n])continue;
+    const sc=scoreV(v,T);if(!sc)continue;out.push([sc,v]);
+  }
+  return out;
+}
+function search(){
+  const res=filtered();
+  if(S.sort==="new"||!S.q.trim())res.sort((a,b)=>(b[1].d||"").localeCompare(a[1].d||"")||b[0]-a[0]);
+  else res.sort((a,b)=>b[0]-a[0]||(b[1].d||"").localeCompare(a[1].d||""));
+  LAST=res.map(x=>x[1]);
+  renderResults();renderFilters();renderCover();syncURL();
+}
+function renderResults(){
+  const L=$("#vlist");const n=LAST.length;
+  $("#rcount").innerHTML=S.q.trim()?`<b>${n.toLocaleString("ru-RU")}</b> ${plural(n,"вакансия","вакансии","вакансий")} по запросу «${esc(S.q.trim())}»`:`<b>${n.toLocaleString("ru-RU")}</b> ${plural(n,"вакансия","вакансии","вакансий")} · сначала новые`;
+  if(!n){L.innerHTML=`<div class="empty"><b>Ничего не нашлось</b>Попробуйте другую формулировку: например, «аналитик» вместо «бизнес-аналитик», или снимите фильтры.</div>`;$("#more").hidden=true;return;}
+  L.innerHTML=LAST.slice(0,S.shown).map(v=>{
+    const f=v.f.map(x=>`<span class="fmt ${x}">${FMT[x]}</span>`).join("");
+    const d=v.d?new Date(v.d).toLocaleDateString("ru-RU",{day:"numeric",month:"short"}):"";
+    return `<a class="vac" href="${esc(v.u)}" target="_blank" rel="noopener"><span class="vt">${esc(v.t)}</span><span class="vm"><span class="co" style="--c:${LINE[v.co.s]}"><i aria-hidden="true"></i>${esc(v.co.n)}</span>${v.c?`<span>${esc(v.c)}</span>`:""}${f}${v.a?`<span>${esc(v.a.length>60?v.a.slice(0,58)+"…":v.a)}</span>`:""}${d?`<span>${d}</span>`:""}</span><span class="go">${arrow}</span></a>`;}).join("");
+  $("#more").hidden=n<=S.shown;$("#more").textContent=`Показать ещё ${Math.min(40,n-S.shown)}`;
+}
+function fopt(label,count,pressed,on,color){const b=document.createElement("button");b.type="button";b.className="fopt";b.setAttribute("aria-pressed",String(pressed));if(!count&&!pressed)b.disabled=true;
+  b.innerHTML=`<span class="bx" aria-hidden="true"></span>${color?`<i class="cd" style="--c:${color}" aria-hidden="true"></i>`:""}<span class="lbl">${esc(label)}</span><span class="ct">${count.toLocaleString("ru-RU")}</span>`;b.onclick=on;return b;}
+function renderFilters(){
+  const cnt=(arr,key)=>{const m=new Map();for(const [,v] of arr){for(const k of [].concat(key(v)))if(k)m.set(k,(m.get(k)||0)+1);}return m;};
+  const ff=$("#f-fmt");ff.innerHTML="";const fm=cnt(filtered("fmt"),v=>v.f);
+  for(const k of ["remote","hybrid","office"])ff.appendChild(fopt(FMT[k],fm.get(k)||0,S.fmt.has(k),()=>{S.fmt.has(k)?S.fmt.delete(k):S.fmt.add(k);S.shown=40;search();}));
+  const fc=$("#f-city");fc.innerHTML="";const cm=cnt(filtered("city"),v=>v.c);
+  const cities=[...cm.entries()].sort((a,b)=>b[1]-a[1]).slice(0,8).map(x=>x[0]);S.city.forEach(c=>{if(!cities.includes(c))cities.push(c)});
+  cities.forEach(c=>fc.appendChild(fopt(c,cm.get(c)||0,S.city.has(c),()=>{S.city.has(c)?S.city.delete(c):S.city.add(c);S.shown=40;search();})));
+  const fo=$("#f-co");fo.innerHTML="";const om=cnt(filtered("co"),v=>v.co.src);
+  const cos=CO.filter(c=>c.src&&(om.get(c.src)||S.co.has(c.src))).sort((a,b)=>(om.get(b.src)||0)-(om.get(a.src)||0));
+  (S.coAll?cos:cos.slice(0,8)).forEach(c=>fo.appendChild(fopt(c.n,om.get(c.src)||0,S.co.has(c.src),()=>{S.co.has(c.src)?S.co.delete(c.src):S.co.add(c.src);S.shown=40;search();},LINE[c.s])));
+  if(cos.length>8){const m=document.createElement("button");m.type="button";m.className="more-co";m.textContent=S.coAll?"Свернуть":`Все компании (${cos.length})`;m.onclick=()=>{S.coAll=!S.coAll;renderFilters();};fo.appendChild(m);}
+  const fv=$("#f-fav");fv.innerHTML="";const nf=Object.keys(store.fav).length;
+  fv.appendChild(fopt(nf?`Компании из списка (${nf})`:"Список пуст",nf?LAST.length&&S.fav?LAST.length:VAC.filter(v=>store.fav[v.co.n]).length:0,S.fav,()=>{S.fav=!S.fav;S.shown=40;search();}));
+  // active chips
+  const A=$("#activef");A.innerHTML="";const chip=(t,on)=>{const b=document.createElement("button");b.type="button";b.className="af";b.innerHTML=`${esc(t)} <span aria-hidden="true">✕</span>`;b.setAttribute("aria-label","Убрать фильтр "+t);b.onclick=on;A.appendChild(b);};
+  S.fmt.forEach(k=>chip(FMT[k],()=>{S.fmt.delete(k);search();}));S.city.forEach(c=>chip(c,()=>{S.city.delete(c);search();}));S.co.forEach(k=>chip(BYSRC[k]?.n||k,()=>{S.co.delete(k);search();}));if(S.fav)chip("Мой список",()=>{S.fav=false;search();});
+  const nAct=S.fmt.size+S.city.size+S.co.size+(S.fav?1:0);$("#fbtn").innerHTML=`<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Фильтры${nAct?` · ${nAct}`:""}`;
+}
+function renderCover(){
+  const q=S.q.trim();const covered=new Set(VAC.map(v=>v.co.src));
+  const rest=CO.filter(c=>!c.src||!covered.has(c.src));const box=$("#cover");
+  if(!rest.length||!VAC.length){box.hidden=true;return;}box.hidden=false;
+  box.innerHTML=`<b>Ещё ${rest.length} ${plural(rest.length,"компания","компании","компаний")}</b> не отдают вакансии автоматически. ${q?`Проверьте «${esc(q)}» у них на hh.ru:`:"Их вакансии смотрите на сайтах компаний:"}<div class="cl">${rest.map(c=>`<a href="${esc(q?hhLink(c,q):mainLink(c)[2])}" target="_blank" rel="noopener" style="--c:${LINE[c.s]}"><i aria-hidden="true"></i>${esc(SHORT[c.n]||c.n)}</a>`).join("")}</div>`;
+}
+function syncURL(){const p=new URLSearchParams();if(S.q.trim())p.set("q",S.q.trim());if(S.fmt.size)p.set("fmt",[...S.fmt].join(","));if(S.city.size)p.set("city",[...S.city].join("|"));if(S.co.size)p.set("co",[...S.co].join(","));if(S.fav)p.set("list","1");if(S.sort!=="rel")p.set("sort",S.sort);
+  const s=p.toString();history.replaceState(null,"",location.pathname+(s?"?"+s:"")+location.hash);}
+
+/* ---------- scheme & company sheet ---------- */
+function vcount(c){return c.src?VAC.filter(v=>v.co===c).length:0;}
 function renderScheme(){
   const box=$("#lines");box.innerHTML="";
   SEG.forEach(s=>{const items=CO.filter(c=>c.s===s);
     const ln=document.createElement("div");ln.className="ln";ln.style.setProperty("--c",LINE[s]);
-    ln.innerHTML=`<button class="ln-name" type="button" aria-pressed="${state.seg===s}"><span class="pill">${items.length}</span>${esc(s)}</button><div class="track"></div>`;
-    ln.querySelector(".ln-name").onclick=()=>{state.seg=state.seg===s?"":s;render();$("#finder").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});};
+    ln.innerHTML=`<div class="ln-name" style="cursor:default"><span class="pill">${items.length}</span>${esc(s)}</div><div class="track"></div>`;
     const tr=ln.querySelector(".track");
-    items.forEach(c=>{const b=document.createElement("button");b.type="button";b.className="stop"+(store.fav[c.n]?" fav":"");
-      const st=STATUSES.find(x=>x[0]===store.st[c.n]);
-      b.innerHTML=`<i class="dot" aria-hidden="true"></i><span class="nm">${esc(SHORT[c.n]||c.n)}</span>${st?`<span class="st">${esc(st[1])}</span>`:""}`;
+    items.forEach(c=>{const b=document.createElement("button");b.type="button";b.className="stop"+(store.fav[c.n]?" fav":"");const n=vcount(c);
+      b.innerHTML=`<i class="dot" aria-hidden="true"></i><span class="nm">${esc(SHORT[c.n]||c.n)}</span><span class="cnt">${n?n.toLocaleString("ru-RU")+" "+plural(n,"вакансия","вакансии","вакансий"):"на сайте компании"}</span>`;
       b.setAttribute("aria-label",`${c.n}: открыть карточку`);b.onclick=()=>openSheet(c);tr.appendChild(b);});
     box.appendChild(ln);});
 }
-/* filters */
-function renderFilters(){
-  const f=$("#filters");f.innerHTML="";
-  const mk=(label,pressed,on,color)=>{const b=document.createElement("button");b.type="button";b.className="chip";b.setAttribute("aria-pressed",String(pressed));
-    b.innerHTML=(color?`<i class="cd" style="--c:${color}" aria-hidden="true"></i>`:"")+esc(label);b.onclick=on;f.appendChild(b);};
-  const rb=document.createElement("button");rb.type="button";rb.className="chip mob-only";rb.setAttribute("aria-pressed",String($("#finder").classList.contains("role-open")||!!role()));rb.textContent="Искать роль на hh.ru";
-  rb.onclick=()=>{$("#finder").classList.toggle("role-open");renderFilters();if($("#finder").classList.contains("role-open"))$("#role").focus();};f.appendChild(rb);
-  DIRS.forEach(([k,l])=>mk(l,state.dir===k,()=>{state.dir=state.dir===k?"":k;render();}));
-  const sp=document.createElement("i");sp.className="sep";f.appendChild(sp);
-  SEG.forEach(s=>{const n=CO.filter(c=>c.s===s&&matches(c,true)).length;mk(`${s} ${n}`,state.seg===s,()=>{state.seg=state.seg===s?"":s;render();},LINE[s]);});
-}
-/* directory */
-function statusTag(c){const st=STATUSES.find(x=>x[0]===store.st[c.n]);return st?`<span class="tag s-${st[0]}">${esc(st[1])}</span>`:"";}
-function renderDir(){
-  const list=CO.filter(c=>matches(c));
-  const d=$("#dir");d.innerHTML="";
-  const active=state.q||state.seg||state.dir||state.fav;
-  $("#reset").hidden=!active;
-  $("#count").innerHTML=state.fav?`<b>${list.length}</b> в вашем списке`:`Показано <b>${list.length}</b> из ${CO.length} компаний`;
-  if(!list.length){
-    d.innerHTML=state.fav&&!Object.keys(store.fav).length
-      ?`<div class="empty"><b>Ваш список пока пуст</b>Нажмите звёздочку у компании или на станции схемы, чтобы добавить её сюда.</div>`
-      :`<div class="empty"><b>Ничего не нашлось</b>Попробуйте другое название или сбросьте фильтры.</div>`;return;}
-  SEG.forEach(s=>{const items=list.filter(c=>c.s===s);if(!items.length)return;
-    const g=document.createElement("div");g.className="group";g.style.setProperty("--c",LINE[s]);
-    g.innerHTML=`<h3><i aria-hidden="true"></i>${esc(s)}</h3><div class="rows"></div>`;
-    const rows=g.querySelector(".rows");
-    items.forEach(c=>{const m=dirLink(c)||mainLink(c);const fav=!!store.fav[c.n];
-      const r=document.createElement("div");r.className="row";
-      r.innerHTML=`<button class="who${fav?" fav":""}" type="button" style="--c:${LINE[s]}"><i class="dot" aria-hidden="true"></i><span class="nm">${hl(c.n)}${statusTag(c)}</span><span class="ds">${esc(c.d)}</span></button>
-      <div class="acts">
-        <a class="btn" href="${esc(m[2])}" target="_blank" rel="noopener">${esc(state.dir?KIND[state.dir]:"Вакансии")}${ext}</a>
-        <a class="btn" href="${esc(hhLink(c))}" target="_blank" rel="noopener">${role()?"hh.ru: роль":"hh.ru"}${ext}</a>
-        <button class="icon-btn" type="button" aria-pressed="${fav}" aria-label="${fav?"Убрать из списка":"Добавить в список"}: ${esc(c.n)}">${starSvg(fav)}</button>
-      </div>`;
-      r.querySelector(".who").onclick=()=>openSheet(c);
-      r.querySelector(".icon-btn").onclick=()=>toggleFav(c);
-      rows.appendChild(r);});
-    d.appendChild(g);});
-}
-function renderAgg(){const r=role();const box=$("#agg");box.innerHTML="";
-  AGG.forEach(a=>{const u=r&&a.q?a.q.replace("{q}",enc(r)):a.u;const el=document.createElement("a");el.href=u;el.target="_blank";el.rel="noopener";
-    el.innerHTML=`<span><span class="an">${esc(a.n)}${r&&a.q?`: «${esc(r)}»`:""}</span><small>${esc(a.d)}</small></span>${ext}`;box.appendChild(el);});}
-function renderRoleHint(){const h=$("#rolehint");const r=role();h.hidden=!r;
-  if(r)h.innerHTML=`Кнопка «hh.ru: роль» ищет <b>«${esc(r)}»</b> у каждой компании`;
-  $("#role-clr").hidden=!r;$("#q-clr").hidden=!state.q;}
-function render(){
-  $("#favn").textContent=Object.keys(store.fav).length;
-  $("#mylist").setAttribute("aria-pressed",String(state.fav));
-  renderScheme();renderFilters();renderDir();renderAgg();renderRoleHint();syncURL();}
-function toggleFav(c){if(store.fav[c.n])delete store.fav[c.n];else store.fav[c.n]=1;save();
-  toast(store.fav[c.n]?`${c.n} в вашем списке`:`${c.n} убрана из списка`);render();if($("#sheet").open)openSheet(c,true);}
-
-/* sheet */
+function toggleFav(c){if(store.fav[c.n])delete store.fav[c.n];else store.fav[c.n]=1;save();toast(store.fav[c.n]?`${c.n} в вашем списке`:`${c.n} убрана из списка`);$("#favn").textContent=Object.keys(store.fav).length;renderScheme();search();if($("#sheet").open)openSheet(c,true);}
 function openSheet(c,refresh){
-  const dlg=$("#sheet");const box=$("#sh-in");const fav=!!store.fav[c.n];const r=role();
+  const dlg=$("#sheet"),box=$("#sh-in"),fav=!!store.fav[c.n],n=vcount(c),q=S.q.trim();
   box.style.setProperty("--c",LINE[c.s]);
-  const links=c.l.map(([k,lab,u],i)=>`<a class="sh-link${i===0?" main":""}" href="${esc(u)}" target="_blank" rel="noopener"><span><b>${esc(lab)}</b><small>${esc(KIND[k])} · ${esc(host(u))}</small></span>${ext}</a>`).join("");
+  const links=c.l.map(([k,lab,u])=>`<a class="sh-link" href="${esc(u)}" target="_blank" rel="noopener"><span><b>${esc(lab)}</b><small>${esc(KIND[k])} · ${esc(host(u))}</small></span>${ext}</a>`).join("");
   box.innerHTML=`<div class="sh-top"><span class="sh-seg"><i aria-hidden="true"></i>${esc(c.s)}</span><button class="close" type="button" aria-label="Закрыть"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
   <div><h2 id="sh-name">${esc(c.n)}</h2><p class="ds">${esc(c.d)}</p></div>
+  ${n?`<button class="sh-link main" type="button" id="sh-show" style="text-align:left;cursor:pointer;width:100%"><span><b>Показать ${n.toLocaleString("ru-RU")} ${plural(n,"вакансию","вакансии","вакансий")} здесь</b><small>${q?`С фильтром по запросу «${esc(q)}»`:"Поиск по вакансиям компании"}</small></span>${arrow}</button>`:`<p class="hint">Компания не отдаёт вакансии автоматически — смотрите их на карьерном сайте.</p>`}
   <div><p class="sh-h">Карьерный сайт</p><div class="sh-links">${links}</div></div>
-  <div><p class="sh-h">hh.ru</p><div class="sh-links"><a class="sh-link" href="${esc(hhLink(c))}" target="_blank" rel="noopener"><span><b>${r?`Искать «${esc(r)}»`:(c.hh?"Страница работодателя":"Вакансии компании")}</b><small>${c.hh?"Можно подписаться на новые вакансии":"Поиск по названию компании"}</small></span>${ext}</a></div></div>
+  <div><p class="sh-h">hh.ru</p><div class="sh-links"><a class="sh-link" href="${esc(hhLink(c,q))}" target="_blank" rel="noopener"><span><b>${q?`Искать «${esc(q)}»`:(c.hh?"Страница работодателя":"Вакансии компании")}</b><small>${c.hh?"Можно подписаться на новые вакансии":"Поиск по названию компании"}</small></span>${ext}</a></div></div>
   <div><p class="sh-h">Мой статус</p><div class="seg-ctl" id="stctl">${STATUSES.map(([v,t])=>`<button type="button" data-v="${v}" aria-pressed="${store.st[c.n]===v}">${t}</button>`).join("")}</div></div>
   <button class="btn lg${fav?"":" primary"}" type="button" id="shfav">${starSvg(fav)}${fav?"Убрать из моего списка":"Добавить в мой список"}</button>`;
   box.querySelector(".close").onclick=()=>dlg.close();
   box.querySelector("#shfav").onclick=()=>toggleFav(c);
-  box.querySelectorAll("#stctl button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;if(store.st[c.n]===v)delete store.st[c.n];else{store.st[c.n]=v;store.fav[c.n]=1;}save();render();openSheet(c,true);});
+  const sh=box.querySelector("#sh-show");if(sh)sh.onclick=()=>{S.co=new Set([c.src]);S.shown=40;dlg.close();search();$("#results").scrollIntoView({behavior:"smooth"});};
+  box.querySelectorAll("#stctl button").forEach(b=>b.onclick=()=>{const v=b.dataset.v;if(store.st[c.n]===v)delete store.st[c.n];else{store.st[c.n]=v;store.fav[c.n]=1;}save();$("#favn").textContent=Object.keys(store.fav).length;renderScheme();openSheet(c,true);});
   if(!refresh&&!dlg.open){dlg.showModal();box.querySelector(".close").focus();}
 }
 $("#sheet").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close();});
 
-/* inputs */
-const qEl=$("#q"),roleEl=$("#role");qEl.value=state.q;roleEl.value=state.role;
-if(state.role)$("#finder").classList.add("role-open");
-qEl.addEventListener("input",()=>{state.q=qEl.value;render();});
-roleEl.addEventListener("input",()=>{state.role=roleEl.value;try{localStorage.setItem(KEY+".role",state.role)}catch(e){}render();});
-$("#q-clr").onclick=()=>{qEl.value="";state.q="";render();qEl.focus();};
-$("#role-clr").onclick=()=>{roleEl.value="";state.role="";try{localStorage.removeItem(KEY+".role")}catch(e){}render();roleEl.focus();};
-$("#reset").onclick=()=>{state.q="";state.seg="";state.dir="";state.fav=false;qEl.value="";render();};
-$("#mylist").onclick=()=>{state.fav=!state.fav;render();document.getElementById("finder").scrollIntoView({behavior:"smooth"});};
-document.addEventListener("keydown",e=>{if(e.key==="/"&&document.activeElement.tagName!=="INPUT"&&document.activeElement.tagName!=="TEXTAREA"){e.preventDefault();qEl.focus();}});
-const sentinel=document.createElement("div");$("#finder").before(sentinel);
-new IntersectionObserver(([en])=>$("#finder").classList.toggle("stuck",!en.isIntersecting)).observe(sentinel);
+/* ---------- inputs ---------- */
+const qEl=$("#vq");qEl.value=S.q;$("#vq-clr").hidden=!S.q;
+let tmr;qEl.addEventListener("input",()=>{S.q=qEl.value;$("#vq-clr").hidden=!S.q;S.shown=40;clearTimeout(tmr);tmr=setTimeout(()=>{search();renderAgg();},120);});
+$("#qform").addEventListener("submit",e=>{e.preventDefault();S.q=qEl.value;search();renderAgg();qEl.blur();$("#results").scrollIntoView({behavior:"smooth",block:"start"});});
+$("#vq-clr").onclick=()=>{qEl.value="";S.q="";$("#vq-clr").hidden=true;search();renderAgg();qEl.focus();};
+const ex=$("#examples");EXAMPLES.forEach(t=>{const b=document.createElement("button");b.type="button";b.textContent=t;b.onclick=()=>{qEl.value=t;S.q=t;$("#vq-clr").hidden=false;S.shown=40;search();renderAgg();};ex.appendChild(b);});
+$("#sort").value=S.sort;$("#sort").onchange=e=>{S.sort=e.target.value;search();};
+$("#more").onclick=()=>{S.shown+=40;renderResults();};
+$("#fbtn").onclick=()=>$("#side").classList.add("open");$("#side-x").onclick=()=>$("#side").classList.remove("open");
+$("#mylist").onclick=()=>{S.fav=!Object.keys(store.fav).length?false:!S.fav;if(!Object.keys(store.fav).length)toast("Добавьте компании в список через карточку компании");search();$("#results").scrollIntoView({behavior:"smooth"});};
+$("#favn").textContent=Object.keys(store.fav).length;
+document.addEventListener("keydown",e=>{if(e.key==="/"&&!["INPUT","TEXTAREA"].includes(document.activeElement.tagName)){e.preventDefault();qEl.focus();}});
+function renderAgg(){const r=S.q.trim();const box=$("#agg");box.innerHTML="";
+  AGG.forEach(a=>{const u=r&&a.q?a.q.replace("{q}",enc(r)):a.u;const el=document.createElement("a");el.href=u;el.target="_blank";el.rel="noopener";
+    el.innerHTML=`<span><span class="an">${esc(a.n)}${r&&a.q?`: «${esc(r)}»`:""}</span><small>${esc(a.d)}</small></span>${ext}`;box.appendChild(el);});}
+renderAgg();
 
 /* csv */
 $("#dl-csv").onclick=()=>{const list=CO.filter(c=>store.fav[c.n]||store.st[c.n]);
@@ -511,7 +609,6 @@ $("#dl-csv").onclick=()=>{const list=CO.filter(c=>store.fav[c.n]||store.st[c.n])
   list.forEach(c=>{const st=(STATUSES.find(x=>x[0]===store.st[c.n])||["",""])[1];lines.push([c.n,c.s,st,mainLink(c)[2],hhLink(c)].map(q).join(";"));});
   const blob=new Blob(["﻿"+lines.join("\r\n")],{type:"text/csv;charset=utf-8"});
   const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="Мой список работодателей.csv";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast("Список выгружен");};
-
 /* feedback */
 let rating=0;
 document.querySelectorAll("#rate button").forEach(b=>b.onclick=()=>{rating=+b.dataset.v;document.querySelectorAll("#rate button").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));});
@@ -522,13 +619,12 @@ function fbText(){const useful=[...document.querySelectorAll('#useful .chip[aria
   if(add)L.push(`Не хватает компаний: ${add}`);if(txt)L.push(`Что улучшить: ${txt}`);return L;}
 $("#fbform").addEventListener("submit",e=>{e.preventDefault();const L=fbText();
   if(!L.length){$("#fbnote").textContent="Поставьте оценку или напишите пару слов.";return;}
-  const url=`https://github.com/${REPO}/issues/new?title=${enc("Отзыв"+(rating?`: ${rating} из 5`:""))}&labels=feedback&body=${enc(L.join("\n\n"))}`;
+  const url=`https://github.com/${REPO}/issues/new?title=${enc("Отзыв"+(rating?`: ${rating} из 5`:""))}&body=${enc(L.join("\n\n"))}`;
   window.open(url,"_blank","noopener");$("#fbnote").textContent="Открылась страница GitHub. Нажмите там «Create», чтобы отправить отзыв.";});
 $("#fbcopy").onclick=()=>{const L=fbText();if(!L.length){$("#fbnote").textContent="Поставьте оценку или напишите пару слов.";return;}
   const t="Отзыв о «Карте ИТ-работодателей»\n"+L.join("\n");
   (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{toast("Текст скопирован");$("#fbnote").textContent="Отправьте текст тому, кто поделился ссылкой.";},()=>{$("#fbnote").textContent=t;});};
-
-render();
+renderScheme();load();
 </script>
 </body>
 </html>

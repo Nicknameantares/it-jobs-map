@@ -1,0 +1,317 @@
+{
+ "sber": {
+  "url": "https://rabota.sber.ru/search/",
+  "status": 200,
+  "final": "https://rabota.sber.ru/search/",
+  "clicks": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "reqs": [
+   {
+    "url": "https://s.sberbank.ru/ru/person",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/profAreas",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/experiences",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/schedules",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/publications?skip=0&take=50",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://rabota.sber.ru/_next/static/css/e3a64e551f6f907a.css",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://rabota.sber.ru/_next/static/css/36d11f390d5c4255.css",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://code.jivo.ru/script/widget/config/VzF7JJ3lP1",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://node-sber1-az1-20.jivo.ru/widget/status/2421170/VzF7JJ3lP1?rnd=0.4089899233519956",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=nJb8ULmhP-NdHdDHkSwU2",
+    "m": "POST",
+    "post": "{\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"sendReason\":1}"
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=nJb8ULmhP-NdHdDHkSwU2",
+    "m": "POST",
+    "post": "{\"asyncMetrics\":{\"testWebGL\":{\"extensionsParams_hash\":\"d366e0a72baf611f86df15eed226976e\",\"_status\":\"0\"},\"testAudio\":{\"total_hash\":\"5b48c7420cff640e201100eb982b9b5f\",\"_status\":\"0\"},\"testFontPreferences\":{\"total_hash\":\"fdbc9c752ce1bc7be85edb1a4ef22def\"},\"testCanvas2d\":{\"paintCpuURI_hash\":\"c1576ec7ded3b2f857a61a6b5e274f3f\",\"_status\":\"0\"}},\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"asyncMetricsStrategy\":\"immediate\",\"sendReason\":3}"
+   },
+   {
+    "url": "https://rabota.sber.ru/public/app-candidate-public-api-gateway/api/v1/publications?skip=50&take=50",
+    "m": "GET",
+    "post": ""
+   }
+  ]
+ },
+ "ozon": {
+  "url": "https://career.ozon.ru/vacancy/",
+  "status": 403,
+  "final": "https://career.ozon.ru/vacancy/?__rr=1",
+  "clicks": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "reqs": [
+   {
+    "url": "https://career.ozon.ru/abt/result",
+    "m": "POST",
+    "post": "{\"token\":\"sc:QkPGB-Nx98r9RgT0Kn4-5Q:-0phAzZe9Bbs63P2yraWetqB-FhKq3d43c41S-k_j0LCMr4eyKUoHFDchnGCTfDslJeItWGtKfdcbmjJi652NfcIPoCgvuM7opVG8uC_uJ4fezwFIcFHXQTOTvn2ilTAh04yuHlYKNoke1pkdQB-nie38B8kq5AIO8UIimMAiU9xWTG9hXcA53vBgJEacwEwK8L9Tfv8lmcX3Cs3TDjppJ357ANt8F3TIWiw1MUDN8r_bfUDE6chKfnnutqbIpZatx1hg-f_Lh6D2TFNSxCQU6A_83BFszetuhX1eGXtKM4d4g8yOX0uMbD4o4VS1PThjNYV4ru8sSgjtED3C12tTZfijk-SWAMXSqq4fwNQAsiLXAMpR0ysngF88h8GHZpAn-JMirDZvyXnUlW2Gf0KIVMvGcJkovEMUohplRZ7wjq_RzxBvIaQ2V4DX-ikmsOKo23_ma2HYGsk7UTlfFxUOzVIVT_MTsUCq4LQ2wEmutYfwMb-u-MxHp1SwXmESMHaedEQDb5U6IINLAji5lWrW9SSwlZZB0OneoXiBNfxJ2cZRrUzcYoC8xIe-zy0ZN_o4VQS-jd9YtRpWLr2IPVHkN8_dTqiqCp-L8spIIGtyBDmQo0Du12GzA0cFofbbD8odDk9jBKAv_xlLeCTPHsUtYxuyK6opnDyZUc9WL2wVlMep53ogm5LtQQzXGQxKaDIjvoJSvLwtdGvSPR4CUoxFfxEzRmOxywKaTS5WaQwAjCdccV_dYL2fLMjyfrB"
+   }
+  ]
+ },
+ "tochka": {
+  "url": "https://hr.tochka.com/vacancies/",
+  "status": 200,
+  "final": "https://hr.tochka.com/vacancies/",
+  "clicks": [
+   "Показать ещё",
+   "Показать ещё",
+   "2",
+   "Показать ещё"
+  ],
+  "reqs": [
+   {
+    "url": "https://hr.tochka.com/data/v2/hr/categories.json",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://hr.tochka.com/data/v2/hr/vacancies/list.json",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://hr.tochka.com/api/v2/hr/vacancies/?isLead=false&page=2",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://hr.tochka.com/it/?_rsc=m7xpy",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1460594294.1792418682&gtm=45He6af0h2v6950805za200zd6950805xeaxf1&fmt=8",
+    "m": "POST",
+    "post": ""
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=BTh2GWNdXLfUcK3o9ItXc",
+    "m": "POST",
+    "post": "{\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"sendReason\":1}"
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=BTh2GWNdXLfUcK3o9ItXc",
+    "m": "POST",
+    "post": "{\"asyncMetrics\":{\"testWebGL\":{\"extensionsParams_hash\":\"d366e0a72baf611f86df15eed226976e\",\"_status\":\"0\"},\"testAudio\":{\"total_hash\":\"5b48c7420cff640e201100eb982b9b5f\",\"_status\":\"0\"},\"testFontPreferences\":{\"total_hash\":\"fdbc9c752ce1bc7be85edb1a4ef22def\"},\"testCanvas2d\":{\"paintCpuURI_hash\":\"c1576ec7ded3b2f857a61a6b5e274f3f\",\"_status\":\"0\"}},\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"asyncMetricsStrategy\":\"immediate\",\"sendReason\":3}"
+   },
+   {
+    "url": "https://hr.tochka.com/api/v2/hr/vacancies/?isLead=false&page=3",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://hr.tochka.com/api/v2/hr/vacancies/?isLead=false&page=2",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://hr.tochka.com/api/v2/hr/vacancies/?isLead=false&page=3",
+    "m": "GET",
+    "post": ""
+   }
+  ]
+ },
+ "avito": {
+  "url": "https://career.avito.com/vacancies/",
+  "status": 200,
+  "final": "https://career.avito.com/vacancies/",
+  "clicks": [
+   "2",
+   "2",
+   "2",
+   "2"
+  ],
+  "reqs": [
+   {
+    "url": "https://career-api.avito.ru/public/service-ap-career-composition/v1/ping",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://career.avito.com/bitrix/services/main/ajax.php?mode=class&c=agima%3Apopups&action=list",
+    "m": "POST",
+    "post": "trigger=page_load&signedParameters=YToyOntzOjY6IlBPUFVQUyI7YToxOntpOjA7czozMzoiQWdpbWFcUG9wdXBzXFBvcHVwc1xIaFN1cnZleVBvcHVwIjt9czo0OiJQQUdFIjtzOjExOiIvdmFjYW5jaWVzLyI7fQ%3D%3D.668ae312d4a0c058f6c29e9f0f7ca1d74e8f8a7fc350b20e22a0c6a0547bbcf5"
+   },
+   {
+    "url": "https://career.avito.com/bitrix/services/main/ajax.php?mode=class&c=agima%3Apopups&action=shown",
+    "m": "POST",
+    "post": "popupId=hh_survey&signedParameters=YToyOntzOjY6IlBPUFVQUyI7YToxOntpOjA7czozMzoiQWdpbWFcUG9wdXBzXFBvcHVwc1xIaFN1cnZleVBvcHVwIjt9czo0OiJQQUdFIjtzOjExOiIvdmFjYW5jaWVzLyI7fQ%3D%3D.668ae312d4a0c058f6c29e9f0f7ca1d74e8f8a7fc350b20e22a0c6a0547bbcf5"
+   },
+   {
+    "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+    "m": "POST",
+    "post": "H4sIAAAAAAAAA11QTW7UMBS+SvXWdidOnLHHuy6gitQFYkbdIISe7ZfWInFC7ClCVRdwAsRJqq5GSHAG90ZopogFy0/6/u9hDj6BeSc3Sta1fs8guSXM+ZqWFKYIRlRVVTUbBjmMBEaoTS2FVlVTt4qBn0YMEQw4XIiWc7wLeTp30wgM9ssABm5znpNZrf4nrO7QYXSB0goYfCabQqZtuIk4vKVPe0q582DAEpGiRnOxlj1H7GuOhMjJ9pVrXdNL1QKDGW/oakJ/0pD2cu16ze1aVVw67Thqr7hQom2ltNr3FTAIabdgTANm8mB6HBIxGMJrfEmGI7gMGPMLGENyYO5hTnabMRMYLh+OLlchfiTfxYt5/mdz7LMLeSAwUH6Ux/KzPJZfz1/LoRzOytNZ+V6eyuH5W/kNDG5pBBP3w8AgnQ7YfZmPwjcXl68+XHfbbvd3YRdTxujo1E/UdS0a77iztuEN6pq7TWt5Za1ode9JeQcPfwAmmLip4QEAAA=="
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=yovbJlbYbRu1H7Q7dTQSs",
+    "m": "POST",
+    "post": "{\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"sendReason\":1}"
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=yovbJlbYbRu1H7Q7dTQSs",
+    "m": "POST",
+    "post": "{\"asyncMetrics\":{\"testWebGL\":{\"extensionsParams_hash\":\"d366e0a72baf611f86df15eed226976e\",\"_status\":\"0\"},\"testAudio\":{\"total_hash\":\"5b48c7420cff640e201100eb982b9b5f\",\"_status\":\"0\"},\"testFontPreferences\":{\"total_hash\":\"fdbc9c752ce1bc7be85edb1a4ef22def\"},\"testCanvas2d\":{\"paintCpuURI_hash\":\"c1576ec7ded3b2f857a61a6b5e274f3f\",\"_status\":\"0\"}},\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"asyncMetricsStrategy\":\"immediate\",\"sendReason\":3}"
+   }
+  ]
+ },
+ "kontur": {
+  "url": "https://kontur.ru/career/vacancies",
+  "status": 200,
+  "final": "https://kontur.ru/career/vacancies",
+  "clicks": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "reqs": [
+   {
+    "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1850682074.1792418723&gtm=45He6ae1v6444809za200zd6444809xeaxf1&fmt=8",
+    "m": "POST",
+    "post": ""
+   },
+   {
+    "url": "https://fcpe.beeline.ru/sync/me/redirect?guid=111EBAB6-B0C0-4A93-9A62-0949FAC9BB2A&redirect_url=https%3A%2F%2Fwcm.weborama-tech.ru%2Ffcgi-bin%2Fdispatch.fcgi%3Fa.A%3Dim%26a.si%3D10047%26a.te%3D2211%26a.he%3D1%26a.wi%3D1%26a.hr%3Dp%26a.ycp%3D%7BCid%7D%26a.ra%3D%5BRANDOM%5D",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://redirect-frontend.weborama-tech.ru/rd?f=1&url=https%3A%2F%2F%7BWEBO_ENC_CID%7D.wcm.weborama-tech.ru%2Ffcgi-bin%2Fdispatch.fcgi%3Fa.A%3Dim%26a.si%3D10047%26a.te%3D2212%26a.he%3D1%26a.wi%3D1%26a.hr%3Dp%26a.ra%3D%7BRANDOM%7D",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://services.kontur.ru/abtests/api/v1/experiments/active",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://services.kontur.ru/abtests/api/v1/experiments/active/map?domain=kontur.ru",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://services.kontur.ru/showcase/api/v1/content/resolve",
+    "m": "POST",
+    "post": "{\"placements\":{\"cb4888f4-004c-4ae8-a8bc-973e4cc8065d\":{\"placementId\":\"ws_konturru_offers\",\"placementProductId\":null,\"placementDate\":null,\"placementDivision\":null,\"placementEmbedId\":null,\"showcaseIds\":null,\"showcaseFormats\":[\"CardGraphic\"],\"showMarking\":null,\"count\":1,\"viewType\":\"Slider1\"}},\"specificData\":{\"pageUrl\":\"https://kontur.ru/career/vacancies\",\"ngtoken\":\"LhHOC2rWI6AEO9PeEgZxAg==\",\"utm\":null,\"promocode\":null}}"
+   },
+   {
+    "url": "https://services.kontur.ru/showcase/api/v1/content/resolve",
+    "m": "POST",
+    "post": "{\"placements\":{\"202c0696-1900-4a4e-916e-a408a2daba50\":{\"placementId\":\"ws_konturru_default\",\"placementProductId\":null,\"placementDate\":null,\"placementDivision\":null,\"placementEmbedId\":null,\"showcaseIds\":null,\"showcaseFormats\":[\"Lightbox\"],\"showMarking\":null,\"count\":1},\"fd09b676-1390-48f7-88a2-1d8a7899512f\":{\"placementId\":\"ws_konturru_default\",\"placementProductId\":null,\"placementDate\":null,\"placementDivision\":null,\"placementEmbedId\":null,\"showcaseIds\":null,\"showcaseFormats\":[\"Top\"],\"showMarking\":null,\"count\":1},\"039fecde-5987-45c7-b36a-fca8f3f91189\":{\"placementId\":\"ws_konturru_default\",\"placementProductId\":null,\"placementDate\":null,\"placementDivision\":null,\"placementEmbedId\":null,\"showcaseIds\":null,\"showcaseFormats\":[\"Popup\"],\"showMarking\":null,\"count\":1}},\"specificData\":{\"pageUrl\":\"https://k"
+   },
+   {
+    "url": "https://services.kontur.ru/stats/v1/a29udHVyLnJ1",
+    "m": "POST",
+    "post": "L2NhcmVlci92YWNhbmNpZXM="
+   },
+   {
+    "url": "https://bobid-ip.hybrid.ai/",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://bobid-ip.hybrid.ai/",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://wsd-fingerprint.kontur.ru/api/v2/fingerprint",
+    "m": "POST",
+    "post": "{\"BrowserData\":{\"architecture\":255,\"audio\":124.04347527516074,\"canvas\":{\"winding\":true,\"geometry\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAABuCAYAAADoHgdpAAAAAXNSR0IArs4c6QAAGktJREFUeF7tnQl81dWVx7/nvZcQCBZZREFkS1BQlCXBtYrWBcXqiPtGBZdEp9ZpP93U2ta2Olo7ndapVgOtuBQXtK3aat2tSHFJgFjQEU3C5riAIiiQkOS9O+/833vJy9v+S942g+fzySdR7nLu/f3vdu7vnCsUUEyl+RJwKIbhGPZCGIZhGET/1t8R+RDDBwgf9Pg78t+vSpN8Zu7651iCOw8k5DsAOBDMCGA3oBzoF/09IFreVmA7sCP6+3OEDcBK8L1JILBKLj6opdJE9DMw3MBeAsMMEf30b0vPqH4GPhAi+sX+jv73q00inxWwm62qJd8KmApTieGrCKcAR2Ioca2DaYPg9sgPrSFGbDdMMH72BQa7Lq1HhnXAC2HFnvdLsH5wuXTu0dfH0HLYsz98qY/rwgU6DCwG/iLwRLNIk+tCspAh50Cbs4yfFRxJyAL2q2DB4U5MO3RshuC2CLimM33+IcD46M8o+085BNQrsFGA12TSrCyABfqw/jBuMPRz/40C70gE9L9MgSUPiwTddYa31DkD2lxvfNzHbAw/AbTLXUoQOj6Fzk+gc5vLvNHkA4HjgIOSATfAn4FfA//jpXTtuWG7wbhBMHY"
+   },
+   {
+    "url": "https://ad.adriver.ru/cgi-bin/json.cgi?sid=1&ad=719473&bt=55&pid=4425169&bid=12604289&bn=12604289&tuid=1&cfa=1&rnd=644790&loc=https%3A%2F%2Fkontur.ru%2Fcareer%2Fvacancies&custom=127%3D1%3B129%3D2.14.8%3B308%3D1792418724303097050%3B309%3D0%3B310%3D0",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://fpf.hybrid.ai/visitor/getcookie",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=NHbVX9W4YaDMBN6XbFGGd",
+    "m": "POST",
+    "post": "{\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"sendReason\":1}"
+   },
+   {
+    "url": "https://fpf.hybrid.ai/visitor/getcookie",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://wsd-fingerprint.kontur.ru/api/v2/fingerprint",
+    "m": "POST",
+    "post": "{\"BrowserData\":{\"architecture\":255,\"audio\":124.04347527516074,\"canvas\":{\"winding\":true,\"geometry\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAABuCAYAAADoHgdpAAAAAXNSR0IArs4c6QAAGktJREFUeF7tnQl81dWVx7/nvZcQCBZZREFkS1BQlCXBtYrWBcXqiPtGBZdEp9ZpP93U2ta2Olo7ndapVgOtuBQXtK3aat2tSHFJgFjQEU3C5riAIiiQkOS9O+/833vJy9v+S942g+fzySdR7nLu/f3vdu7vnCsUUEyl+RJwKIbhGPZCGIZhGET/1t8R+RDDBwgf9Pg78t+vSpN8Zu7651iCOw8k5DsAOBDMCGA3oBzoF/09IFreVmA7sCP6+3OEDcBK8L1JILBKLj6opdJE9DMw3MBeAsMMEf30b0vPqH4GPhAi+sX+jv73q00inxWwm62qJd8KmApTieGrCKcAR2Ioca2DaYPg9sgPrSFGbDdMMH72BQa7Lq1HhnXAC2HFnvdLsH5wuXTu0dfH0HLYsz98qY/rwgU6DCwG/iLwRLNIk+tCspAh50Cbs4yfFRxJyAL2q2DB4U5MO3RshuC2CLimM33+IcD46M8o+085BNQrsFGA12TSrCyABfqw/jBuMPRz/40C70gE9L9MgSUPiwTddYa31DkD2lxvfNzHbAw/AbTLXUoQOj6Fzk+gc5vLvNHkA4HjgIOSATfAn4FfA//jpXTtuWG7wbhBMHY"
+   },
+   {
+    "url": "https://auth.kontur.ru/checksession",
+    "m": "POST",
+    "post": "{\"FP\":\"9640708743b1517d75def8292ef15ceb9454bac1\"}"
+   },
+   {
+    "url": "https://privacy-cs.mail.ru/fp/?id=NHbVX9W4YaDMBN6XbFGGd",
+    "m": "POST",
+    "post": "{\"asyncMetrics\":{\"testWebGL\":{\"extensionsParams_hash\":\"d366e0a72baf611f86df15eed226976e\",\"_status\":\"0\"},\"testAudio\":{\"total_hash\":\"5b48c7420cff640e201100eb982b9b5f\",\"_status\":\"0\"},\"testFontPreferences\":{\"total_hash\":\"fdbc9c752ce1bc7be85edb1a4ef22def\"},\"testCanvas2d\":{\"paintCpuURI_hash\":\"c1576ec7ded3b2f857a61a6b5e274f3f\",\"_status\":\"0\"}},\"script\":{\"v\":\"v4.0.3\",\"b_id\":\"152552442\"},\"navigator\":{\"language\":\"ru-RU (ru-RU)\",\"plugins_hash\":\"cf252fdcd0c577918a558e3d5869780d\",\"properties_hash\":\"6b803aa10a261b21749a99c205820aea\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36\"},\"screen\":{\"availableScreenResolution\":\"720;1280\",\"screenResolution\":\"720;1280\"},\"asyncMetricsStrategy\":\"immediate\",\"sendReason\":3}"
+   },
+   {
+    "url": "https://api.kontur.ru/csi/support/v1/users/current/features?integrationId=kontur.ru",
+    "m": "GET",
+    "post": ""
+   },
+   {
+    "url": "https://api.kontur.ru/csi/support/v1.1/public/integrations/kontur.ru/get-segment",
+    "m": "POST",
+    "post": "{\"expectedSegmentId\":\"segment-career\",\"sourceUrl\":\"https://kontur.ru/career/vacancies\"}"
+   },
+   {
+    "url": "https://api.kontur.ru/csi/support/v1.1/public/integrations/kontur.ru?segmentId=segment-career",
+    "m": "GET",
+    "post": ""
+   }
+  ]
+ }
+}

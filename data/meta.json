@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T14:38Z",
+ "updated": "2026-10-20T08:47Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,124 +10,124 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 512,
-   "sec": 54.0,
+   "n": 504,
+   "sec": 43.7,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2969,
-   "sec": 103.5,
+   "n": 2946,
+   "sec": 89.9,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/menedzher-vyezdnogo-servisa-4254051/"
+   "final": "https://rabota.sber.ru/search/veduschiy-specialist-upravleniya-nedvizhimost-yu-4570883/"
   },
   "vk": {
    "ok": true,
-   "n": 272,
-   "sec": 13.7,
+   "n": 275,
+   "sec": 19.6,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.0,
+   "sec": 11.0,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2560,
-   "sec": 57.3,
+   "n": 2567,
+   "sec": 51.5,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/718832748017484069"
+   "final": "https://job.mts.ru/vacancy/719105187528051924"
   },
   "tbank": {
    "ok": true,
-   "n": 471,
-   "sec": 267.3,
+   "n": 473,
+   "sec": 174.7,
    "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2343,
-   "sec": 89.0,
+   "n": 2346,
+   "sec": 65.9,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/moskva/client-service/spetsialist-po-rabote-s-premialnyimi-klientami-v-otdelenii-banka_17860"
+   "final": "https://job.alfabank.ru/vacancies/myitishchi/client-service/menedzher-priamyikh-prodazh_39354"
   },
   "tochka": {
    "ok": true,
-   "n": 47,
-   "sec": 7.1,
+   "n": 46,
+   "sec": 4.9,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/vedushhijj-produktovyjj-marketolog/"
+   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-dejjstvujushhim-klientam-servisa-finlid/"
   },
   "rwb": {
    "ok": true,
    "n": 124,
-   "sec": 5.1,
+   "sec": 4.2,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/33783"
+   "final": "https://career.rwb.ru/vacancies/37369"
   },
   "x5": {
    "ok": true,
-   "n": 326,
-   "sec": 4.9,
+   "n": 330,
+   "sec": 4.4,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/b1a45f74-eb0c-4e01-b2e7-eccc9fa334d2"
+   "final": "https://rabota.x5.ru/vacancies/b3f56421-2219-474f-bdfb-2df29d699ccb"
   },
   "lamoda": {
    "ok": true,
-   "n": 171,
-   "sec": 5.4,
+   "n": 173,
+   "sec": 3.6,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/sistemniy-administrator-rts-bykovo--3295"
+   "final": "https://job.lamoda.ru/vacancies/bykovo/glavniy-inzhener-tekhnolog-vkhodyaschego-potoka--3330"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 1.4,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3807"
   },
   "avito": {
    "ok": true,
-   "n": 48,
-   "sec": 9.9,
+   "n": 47,
+   "sec": 9.0,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20382/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20526/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 76,
-   "sec": 20.8,
+   "n": 80,
+   "sec": 22.6,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25825"
   },
   "gis": {
    "ok": true,
-   "n": 90,
-   "sec": 102.3,
+   "n": 88,
+   "sec": 103.1,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/601"
   },
   "megafon": {
    "ok": true,
-   "n": 305,
-   "sec": 225.7,
+   "n": 297,
+   "sec": 244.5,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/krasnoarsk/biznes-napravlenia/menedzher-po-prodazham-iot-reshenij-4802"
+   "final": "https://job.megafon.ru/vacancy/celabinsk/set/menedzher-po-stroitelstvu-4804"
   },
   "kontur": {
    "ok": true,
    "n": 38,
-   "sec": 10.1,
+   "sec": 9.9,
    "mode": "render",
    "link": 200,
    "final": "https://kontur.ru/career/vacancies/3728"

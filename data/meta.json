@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T08:47Z",
+ "updated": "2026-10-21T08:51Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,127 +10,124 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 504,
-   "sec": 43.7,
+   "n": 490,
+   "sec": 42.9,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2946,
-   "sec": 89.9,
+   "n": 2947,
+   "sec": 93.5,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/veduschiy-specialist-upravleniya-nedvizhimost-yu-4570883/"
+   "final": "https://rabota.sber.ru/search/sistemnyy-analitik-bi-platforma-navigator-4528863/"
   },
   "vk": {
    "ok": true,
-   "n": 275,
-   "sec": 19.6,
+   "n": 266,
+   "sec": 10.1,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 11.0,
+   "sec": 11.7,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2567,
-   "sec": 51.5,
+   "n": 2551,
+   "sec": 92.0,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/719105187528051924"
+   "final": "https://job.mts.ru/vacancy/711171089790664809"
   },
   "tbank": {
    "ok": true,
-   "n": 473,
-   "sec": 174.7,
+   "n": 417,
+   "sec": 174.8,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2346,
-   "sec": 65.9,
+   "n": 2339,
+   "sec": 68.7,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/myitishchi/client-service/menedzher-priamyikh-prodazh_39354"
+   "final": "https://job.alfabank.ru/vacancies/tula/remote-job/glavnyii-menedzher-po-razvitiiu-kanalov-prodazh_39391"
   },
   "tochka": {
    "ok": true,
-   "n": 46,
-   "sec": 4.9,
+   "n": 47,
+   "sec": 6.7,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-dejjstvujushhim-klientam-servisa-finlid/"
+   "final": "https://hr.tochka.com/vacancies/catalog/hr-marketolog-massovogo-najjma/"
   },
   "rwb": {
    "ok": true,
-   "n": 124,
-   "sec": 4.2,
+   "n": 147,
+   "sec": 4.6,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/37369"
+   "final": "https://career.rwb.ru/vacancies/39590"
   },
   "x5": {
    "ok": true,
-   "n": 330,
-   "sec": 4.4,
+   "n": 332,
+   "sec": 4.6,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/b3f56421-2219-474f-bdfb-2df29d699ccb"
+   "final": "https://rabota.x5.ru/vacancies/fefbcb3a-e943-4829-aaaa-5eb38f6aa4a9"
   },
   "lamoda": {
    "ok": true,
-   "n": 173,
-   "sec": 3.6,
+   "n": 175,
+   "sec": 3.4,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/bykovo/glavniy-inzhener-tekhnolog-vkhodyaschego-potoka--3330"
+   "final": "https://job.lamoda.ru/vacancies/moskva/spetsialist-po-okhrane-truda-i-pozharnoy-bezopasnosti--3065"
   },
   "lanit": {
    "ok": true,
    "n": 20,
    "sec": 1.4,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3807"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3810"
   },
   "avito": {
    "ok": true,
    "n": 47,
-   "sec": 9.0,
+   "sec": 9.3,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20526/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20739/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 80,
-   "sec": 22.6,
+   "n": 77,
+   "sec": 26.3,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25825"
   },
   "gis": {
    "ok": true,
-   "n": 88,
-   "sec": 103.1,
+   "n": 84,
+   "sec": 103.2,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/601"
   },
   "megafon": {
    "ok": true,
-   "n": 297,
-   "sec": 244.5,
+   "n": 310,
+   "sec": 224.7,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/celabinsk/set/menedzher-po-stroitelstvu-4804"
+   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/trafik-menedzher-sms-4807"
   },
   "kontur": {
-   "ok": true,
-   "n": 38,
-   "sec": 9.9,
-   "mode": "render",
-   "link": 200,
-   "final": "https://kontur.ru/career/vacancies/3728"
+   "ok": false,
+   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
+   "stale_from": "2026-10-20T08:47Z"
   }
  }
 }

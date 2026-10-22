@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T08:51Z",
+ "updated": "2026-10-22T08:55Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,100 +10,100 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 490,
-   "sec": 42.9,
+   "n": 459,
+   "sec": 50.0,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2947,
-   "sec": 93.5,
+   "n": 2886,
+   "sec": 112.4,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/sistemnyy-analitik-bi-platforma-navigator-4528863/"
+   "final": "https://rabota.sber.ru/search/glavnyy-inzhener-po-inzhenerno-tehnicheskoy-ekspluatacii-4581084/"
   },
   "vk": {
    "ok": true,
-   "n": 266,
-   "sec": 10.1,
+   "n": 262,
+   "sec": 10.5,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 11.7,
+   "sec": 15.4,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2551,
-   "sec": 92.0,
+   "n": 2473,
+   "sec": 104.6,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/711171089790664809"
+   "final": "https://job.mts.ru/vacancy/714462794925211740"
   },
   "tbank": {
    "ok": true,
-   "n": 417,
-   "sec": 174.8,
+   "n": 432,
+   "sec": 221.9,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
    "n": 2339,
-   "sec": 68.7,
+   "sec": 89.7,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/tula/remote-job/glavnyii-menedzher-po-razvitiiu-kanalov-prodazh_39391"
+   "final": "https://job.alfabank.ru/vacancies/rostov-na-donu/field-job/ekspert-po-resheniiam-dlia-partnerov_39420"
   },
   "tochka": {
    "ok": true,
-   "n": 47,
-   "sec": 6.7,
+   "n": 46,
+   "sec": 7.5,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/hr-marketolog-massovogo-najjma/"
   },
   "rwb": {
    "ok": true,
-   "n": 147,
-   "sec": 4.6,
+   "n": 149,
+   "sec": 5.7,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/39590"
+   "final": "https://career.rwb.ru/vacancies/40760"
   },
   "x5": {
    "ok": true,
-   "n": 332,
-   "sec": 4.6,
+   "n": 338,
+   "sec": 6.0,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/fefbcb3a-e943-4829-aaaa-5eb38f6aa4a9"
+   "final": "https://rabota.x5.ru/vacancies/de597cb7-9d26-4d21-9e55-10431f9fde40"
   },
   "lamoda": {
    "ok": true,
-   "n": 175,
-   "sec": 3.4,
+   "n": 173,
+   "sec": 4.0,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/spetsialist-po-okhrane-truda-i-pozharnoy-bezopasnosti--3065"
+   "final": "https://job.lamoda.ru/vacancies/voronezh/prodavets-konsultant-galereya-chizhova--3336"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.4,
+   "sec": 1.9,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3810"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3812"
   },
   "avito": {
    "ok": true,
    "n": 47,
-   "sec": 9.3,
+   "sec": 9.7,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20739/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20097/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 77,
-   "sec": 26.3,
+   "n": 83,
+   "sec": 24.4,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25825"
@@ -111,23 +111,25 @@
   "gis": {
    "ok": true,
    "n": 84,
-   "sec": 103.2,
+   "sec": 103.3,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/saless/601"
+   "final": "https://job.2gis.ru/vacancies/saless/602"
   },
   "megafon": {
    "ok": true,
    "n": 310,
-   "sec": 224.7,
+   "sec": 251.1,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/trafik-menedzher-sms-4807"
+   "final": "https://job.megafon.ru/vacancy/krasnoarsk/set/starshij-inzhener-po-planirovaniyu-transportnoj-seti-4808"
   },
   "kontur": {
-   "ok": false,
-   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
-   "stale_from": "2026-10-20T08:47Z"
+   "ok": true,
+   "n": 37,
+   "sec": 11.3,
+   "mode": "render",
+   "link": 307
   }
  }
 }

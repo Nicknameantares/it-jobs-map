@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T08:55Z",
+ "updated": "2026-10-23T08:51Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,116 +10,116 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 459,
-   "sec": 50.0,
+   "n": 399,
+   "sec": 40.2,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2886,
-   "sec": 112.4,
+   "n": 2843,
+   "sec": 104.7,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/glavnyy-inzhener-po-inzhenerno-tehnicheskoy-ekspluatacii-4581084/"
+   "final": "https://rabota.sber.ru/search/senior-data-analyst-b-c-4581645/"
   },
   "vk": {
    "ok": true,
    "n": 262,
-   "sec": 10.5,
+   "sec": 10.0,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 15.4,
+   "sec": 12.3,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2473,
-   "sec": 104.6,
+   "n": 2458,
+   "sec": 49.0,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/714462794925211740"
+   "final": "https://job.mts.ru/vacancy/720186149905108202"
   },
   "tbank": {
    "ok": true,
-   "n": 432,
-   "sec": 221.9,
+   "n": 447,
+   "sec": 346.0,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2339,
-   "sec": 89.7,
+   "n": 2342,
+   "sec": 75.1,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/rostov-na-donu/field-job/ekspert-po-resheniiam-dlia-partnerov_39420"
+   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/produktovyii-analitik_39444"
   },
   "tochka": {
    "ok": true,
-   "n": 46,
-   "sec": 7.5,
+   "n": 50,
+   "sec": 6.4,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/hr-marketolog-massovogo-najjma/"
+   "final": "https://hr.tochka.com/vacancies/catalog/spec_pod/"
   },
   "rwb": {
    "ok": true,
-   "n": 149,
-   "sec": 5.7,
+   "n": 153,
+   "sec": 5.5,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/40760"
+   "final": "https://career.rwb.ru/vacancies/40389"
   },
   "x5": {
    "ok": true,
-   "n": 338,
-   "sec": 6.0,
+   "n": 339,
+   "sec": 5.0,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/de597cb7-9d26-4d21-9e55-10431f9fde40"
+   "final": "https://rabota.x5.ru/vacancies/a75e8fe6-6a9d-4e9e-8356-9343607c8f4f"
   },
   "lamoda": {
    "ok": true,
    "n": 173,
-   "sec": 4.0,
+   "sec": 4.2,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/voronezh/prodavets-konsultant-galereya-chizhova--3336"
+   "final": "https://job.lamoda.ru/vacancies/moskva/menedzher-produkta-dostavka-sng--2739"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.9,
+   "sec": 1.4,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3812"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3813"
   },
   "avito": {
    "ok": true,
    "n": 47,
-   "sec": 9.7,
+   "sec": 9.3,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20097/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20794/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 83,
-   "sec": 24.4,
+   "n": 84,
+   "sec": 23.7,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25825"
   },
   "gis": {
    "ok": true,
-   "n": 84,
-   "sec": 103.3,
+   "n": 82,
+   "sec": 102.1,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/602"
   },
   "megafon": {
    "ok": true,
-   "n": 310,
-   "sec": 251.1,
+   "n": 295,
+   "sec": 242.8,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/krasnoarsk/set/starshij-inzhener-po-planirovaniyu-transportnoj-seti-4808"
@@ -127,7 +127,7 @@
   "kontur": {
    "ok": true,
    "n": 37,
-   "sec": 11.3,
+   "sec": 10.5,
    "mode": "render",
    "link": 307
   }

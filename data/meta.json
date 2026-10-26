@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T08:41Z",
+ "updated": "2026-10-26T09:09Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,124 +10,122 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 320,
-   "sec": 34.5,
+   "n": 318,
+   "sec": 28.4,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2790,
-   "sec": 107.5,
+   "n": 2719,
+   "sec": 88.8,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/starshiy-klientskiy-menedzher-4482579/"
+   "final": "https://rabota.sber.ru/search/rukovoditel-proektov-po-tehnologicheskomu-razvitiyu-klientov-4557879/"
   },
   "vk": {
    "ok": true,
    "n": 260,
-   "sec": 11.5,
+   "sec": 9.6,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 14.0,
+   "sec": 11.7,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2434,
-   "sec": 58.8,
+   "n": 2422,
+   "sec": 53.4,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/719596607993020507"
+   "final": "https://job.mts.ru/vacancy/721281718899704071"
   },
   "tbank": {
    "ok": true,
-   "n": 396,
-   "sec": 173.2,
+   "n": 390,
+   "sec": 118.0,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
-   "ok": true,
-   "n": 2349,
-   "sec": 93.8,
-   "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/moskva/remote-job/razrabotchik-_net_39463"
+   "ok": false,
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
+   "stale_from": "2026-10-25T08:41Z"
   },
   "tochka": {
    "ok": true,
-   "n": 49,
-   "sec": 7.5,
+   "n": 48,
+   "sec": 5.8,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/hr-marketolog-massovogo-najjma/"
   },
   "rwb": {
    "ok": true,
-   "n": 159,
-   "sec": 6.0,
+   "n": 161,
+   "sec": 8.2,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/39802"
+   "final": "https://career.rwb.ru/vacancies/40083"
   },
   "x5": {
    "ok": true,
-   "n": 342,
-   "sec": 5.7,
+   "n": 344,
+   "sec": 4.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/c305f2f5-56a0-47d9-a852-f7afe76b59b3"
+   "final": "https://rabota.x5.ru/vacancies/3a9530dd-b313-4df5-b6ac-18a27f150fb4"
   },
   "lamoda": {
    "ok": true,
-   "n": 171,
-   "sec": 3.5,
+   "n": 169,
+   "sec": 3.8,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/moskva/analitik-operatsionnoy-effektivnosti--2221"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.5,
+   "sec": 1.2,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3813"
   },
   "avito": {
    "ok": true,
    "n": 46,
-   "sec": 10.4,
+   "sec": 9.1,
    "mode": "render",
    "link": 200,
    "final": "https://career.avito.com/vacancies/prodazhi/20704/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 85,
-   "sec": 24.0,
+   "n": 82,
+   "sec": 37.9,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 84,
-   "sec": 102.9,
+   "n": 88,
+   "sec": 103.3,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/development/604"
+   "final": "https://job.2gis.ru/vacancies/information_security/607"
   },
   "megafon": {
    "ok": true,
-   "n": 301,
-   "sec": 252.3,
+   "n": 300,
+   "sec": 223.9,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/krasnoarsk/set/starshij-inzhener-po-planirovaniyu-transportnoj-seti-4808"
+   "final": "https://job.megafon.ru/vacancy/moskva/set/inzhener-po-fiksirovannoj-svyazi-4810"
   },
   "kontur": {
    "ok": true,
-   "n": 37,
-   "sec": 11.1,
+   "n": 38,
+   "sec": 10.1,
    "mode": "render",
    "link": 307
   }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T09:09Z",
+ "updated": "2026-10-27T09:17Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,124 +10,124 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 318,
-   "sec": 28.4,
+   "n": 297,
+   "sec": 29.7,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2719,
-   "sec": 88.8,
+   "n": 2748,
+   "sec": 99.3,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/rukovoditel-proektov-po-tehnologicheskomu-razvitiyu-klientov-4557879/"
+   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klientami-m-pechatniki-4421489/"
   },
   "vk": {
    "ok": true,
-   "n": 260,
-   "sec": 9.6,
+   "n": 257,
+   "sec": 12.0,
    "link": 200,
-   "final": "https://team.vk.company/vacancy/54971/"
+   "final": "https://team.vk.company/vacancy/54984/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 11.7,
+   "sec": 13.3,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2422,
-   "sec": 53.4,
+   "n": 2415,
+   "sec": 49.3,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/721281718899704071"
+   "final": "https://job.mts.ru/vacancy/717301485905379422"
   },
   "tbank": {
    "ok": true,
-   "n": 390,
-   "sec": 118.0,
+   "n": 455,
+   "sec": 241.7,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
-   "ok": false,
-   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
-   "stale_from": "2026-10-25T08:41Z"
+   "ok": true,
+   "n": 2308,
+   "sec": 92.0,
+   "link": 200,
+   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/nachalnik-otdela_39500"
   },
   "tochka": {
    "ok": true,
    "n": 48,
-   "sec": 5.8,
+   "sec": 6.4,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/hr-marketolog-massovogo-najjma/"
+   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-vyezdnye-vstrechi-novosibirsk/"
   },
   "rwb": {
    "ok": true,
-   "n": 161,
-   "sec": 8.2,
+   "n": 171,
+   "sec": 6.3,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/40083"
+   "final": "https://career.rwb.ru/vacancies/40062"
   },
   "x5": {
    "ok": true,
    "n": 344,
-   "sec": 4.7,
+   "sec": 5.3,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/3a9530dd-b313-4df5-b6ac-18a27f150fb4"
+   "final": "https://rabota.x5.ru/vacancies/35b84c32-6fd0-4784-8e42-8e4893947910"
   },
   "lamoda": {
    "ok": true,
    "n": 169,
-   "sec": 3.8,
+   "sec": 3.9,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/analitik-operatsionnoy-effektivnosti--2221"
+   "final": "https://job.lamoda.ru/vacancies/sofino/rukovoditel-napravleniya-sofino--3416"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.2,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3813"
   },
   "avito": {
    "ok": true,
-   "n": 46,
+   "n": 44,
    "sec": 9.1,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20704/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20785/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 82,
-   "sec": 37.9,
+   "n": 79,
+   "sec": 23.6,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 88,
-   "sec": 103.3,
+   "n": 91,
+   "sec": 102.9,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/information_security/607"
+   "final": "https://job.2gis.ru/vacancies/testing/611"
   },
   "megafon": {
    "ok": true,
    "n": 300,
-   "sec": 223.9,
+   "sec": 263.4,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/set/inzhener-po-fiksirovannoj-svyazi-4810"
   },
   "kontur": {
-   "ok": true,
-   "n": 38,
-   "sec": 10.1,
-   "mode": "render",
-   "link": 307
+   "ok": false,
+   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
+   "stale_from": "2026-10-26T09:09Z"
   }
  }
 }

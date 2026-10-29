@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T09:58Z",
+ "updated": "2026-10-29T10:15Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,124 +10,124 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 295,
-   "sec": 29.9,
+   "n": 281,
+   "sec": 18.1,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2815,
-   "sec": 224.2,
+   "n": 2793,
+   "sec": 105.1,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/sistemnyy-analitik-mezhdunarodnoe-finansirovanie-4580893/"
+   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klientami-4254487/"
   },
   "vk": {
    "ok": true,
-   "n": 257,
-   "sec": 10.3,
+   "n": 248,
+   "sec": 9.6,
    "link": 200,
    "final": "https://team.vk.company/vacancy/54971/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 12.9,
+   "sec": 16.0,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2407,
-   "sec": 62.1,
+   "n": 2400,
+   "sec": 60.2,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/354985924964127848"
+   "final": "https://job.mts.ru/vacancy/448394588479029353"
   },
   "tbank": {
    "ok": true,
-   "n": 403,
-   "sec": 228.0,
+   "n": 365,
+   "sec": 197.8,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2313,
-   "sec": 90.7,
+   "n": 2317,
+   "sec": 174.6,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/kazan/client-service/biznes-sovetnik_39531"
+   "final": "https://job.alfabank.ru/vacancies/moskva/client-service/produktovyii-marketolog_39562"
   },
   "tochka": {
    "ok": true,
-   "n": 28,
-   "sec": 5.1,
+   "n": 35,
+   "sec": 7.1,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-vyezdnye-vstrechi-ekaterinburg/"
+   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-dejjstvujushhim-krupnym-klientam-novosibirsk/"
   },
   "rwb": {
    "ok": true,
-   "n": 173,
-   "sec": 6.8,
+   "n": 169,
+   "sec": 6.7,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/40924"
+   "final": "https://career.rwb.ru/vacancies/38506"
   },
   "x5": {
    "ok": true,
-   "n": 345,
-   "sec": 4.9,
+   "n": 341,
+   "sec": 6.9,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/6b67729c-cd61-4897-8893-b209ecf835dc"
+   "final": "https://rabota.x5.ru/vacancies/88889a9f-719d-4d97-ae4f-b9ea43a3da4f"
   },
   "lamoda": {
    "ok": true,
-   "n": 171,
-   "sec": 4.2,
+   "n": 167,
+   "sec": 5.5,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/spetsialist-po-dokumentooborotu--3427"
+   "final": "https://job.lamoda.ru/vacancies/obninsk/direktor-magazina-triumf-moll--3430"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.5,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3813"
   },
   "avito": {
    "ok": true,
    "n": 43,
-   "sec": 9.0,
+   "sec": 9.7,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20825/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20716/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 85,
-   "sec": 23.7,
+   "n": 86,
+   "sec": 24.8,
    "mode": "render",
    "link": 200,
-   "final": "https://careers.kaspersky.ru/vacancy/25923"
+   "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 90,
-   "sec": 102.0,
+   "n": 88,
+   "sec": 103.4,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/testing/611"
+   "final": "https://job.2gis.ru/vacancies/analytics/612"
   },
   "megafon": {
    "ok": true,
-   "n": 300,
-   "sec": 223.9,
+   "n": 301,
+   "sec": 241.5,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/set/inzhener-po-fiksirovannoj-svyazi-4810"
   },
   "kontur": {
    "ok": true,
-   "n": 34,
-   "sec": 10.4,
+   "n": 35,
+   "sec": 11.4,
    "mode": "render",
    "link": 307
   }

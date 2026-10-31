@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T10:16Z",
+ "updated": "2026-10-31T09:56Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,78 +10,78 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 254,
-   "sec": 16.6,
+   "n": 255,
+   "sec": 15.5,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2727,
-   "sec": 112.2,
+   "n": 2691,
+   "sec": 114.4,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/voditel-inkassator-4583516/"
+   "final": "https://rabota.sber.ru/search/rukovoditel-proektov-4579444/"
   },
   "vk": {
    "ok": true,
-   "n": 244,
-   "sec": 10.3,
+   "n": 243,
+   "sec": 9.9,
    "link": 200,
-   "final": "https://team.vk.company/vacancy/54971/"
+   "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 15.8,
+   "sec": 15.2,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
    "n": 2405,
-   "sec": 61.8,
+   "sec": 61.3,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/696766179607314547"
+   "final": "https://job.mts.ru/vacancy/680745608348172383"
   },
   "tbank": {
    "ok": true,
-   "n": 366,
-   "sec": 144.9,
+   "n": 406,
+   "sec": 154.8,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2321,
-   "sec": 150.2,
+   "n": 2304,
+   "sec": 133.6,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/riazan/client-service/mobilnyii-bankir_39588"
+   "final": "https://job.alfabank.ru/vacancies/mtsensk/client-service/glavnyii-universalnyii-menedzher-tochki-prodazh_39591"
   },
   "tochka": {
    "ok": true,
-   "n": 37,
-   "sec": 6.5,
+   "n": 36,
+   "sec": 6.0,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/specialist-po-uderzhaniju-i-rotacii/"
+   "final": "https://hr.tochka.com/vacancies/catalog/ux-redaktor/"
   },
   "rwb": {
    "ok": true,
-   "n": 170,
-   "sec": 7.7,
+   "n": 173,
+   "sec": 6.7,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/41294"
+   "final": "https://career.rwb.ru/vacancies/40135"
   },
   "x5": {
    "ok": true,
-   "n": 340,
-   "sec": 6.0,
+   "n": 343,
+   "sec": 5.6,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/c6a09751-00b2-4b89-88c3-6a687595f2f6"
+   "final": "https://rabota.x5.ru/vacancies/c3772bb5-d54e-4a37-adc2-c2ee711189ca"
   },
   "lamoda": {
    "ok": true,
-   "n": 164,
-   "sec": 5.0,
+   "n": 160,
+   "sec": 4.5,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/obninsk/direktor-magazina-triumf-moll--3430"
   },
@@ -95,31 +95,28 @@
   "avito": {
    "ok": true,
    "n": 43,
-   "sec": 10.3,
+   "sec": 10.1,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20122/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20810/"
   },
   "kaspersky": {
-   "ok": true,
-   "n": 81,
-   "sec": 29.8,
-   "mode": "render",
-   "link": 200,
-   "final": "https://careers.kaspersky.ru/vacancy/25675"
+   "ok": false,
+   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://careers.kaspersky.ru/vacancies?page=2\", waiting until \"domcontentloaded\"\\n')",
+   "stale_from": "2026-10-30T10:16Z"
   },
   "gis": {
    "ok": true,
    "n": 88,
-   "sec": 103.2,
+   "sec": 103.6,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/hr_administration/613"
   },
   "megafon": {
    "ok": true,
-   "n": 301,
-   "sec": 224.8,
+   "n": 300,
+   "sec": 255.5,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/bi-razrabotchik-razvitiya-analiticheskih-instrumentov-korporativnoj-otchetnosti-4814"
@@ -127,7 +124,7 @@
   "kontur": {
    "ok": true,
    "n": 34,
-   "sec": 11.4,
+   "sec": 11.1,
    "mode": "render",
    "link": 307
   }

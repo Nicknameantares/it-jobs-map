@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T10:44Z",
+ "updated": "2026-11-02T11:21Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,52 +10,52 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 255,
-   "sec": 16.0,
+   "n": 260,
+   "sec": 14.6,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2660,
-   "sec": 106.5,
+   "n": 2624,
+   "sec": 95.2,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/qa-inzhener-4583653/"
+   "final": "https://rabota.sber.ru/search/veduschiy-inzhener-po-soprovozhdeniyu-4582856/"
   },
   "vk": {
    "ok": true,
-   "n": 243,
-   "sec": 10.8,
+   "n": 239,
+   "sec": 13.4,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 14.7,
+   "sec": 13.2,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2398,
-   "sec": 55.9,
+   "n": 2366,
+   "sec": 51.5,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/529189265402232930"
+   "final": "https://job.mts.ru/vacancy/55520850597651769"
   },
   "tbank": {
    "ok": true,
-   "n": 438,
-   "sec": 212.4,
+   "n": 436,
+   "sec": 163.0,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2305,
-   "sec": 110.0,
+   "n": 2286,
+   "sec": 68.1,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/penza/central-office/glavnyii-kreditnyii-analitik_39592"
+   "final": "https://job.alfabank.ru/vacancies/krasnodar/client-service/glavnyii-ekspert-po-resheniiam-dlia-partnerov_39603"
   },
   "tochka": {
    "ok": true,
@@ -66,60 +66,60 @@
   },
   "rwb": {
    "ok": true,
-   "n": 173,
-   "sec": 6.7,
+   "n": 170,
+   "sec": 7.4,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/40135"
+   "final": "https://career.rwb.ru/vacancies/40292"
   },
   "x5": {
    "ok": true,
-   "n": 343,
+   "n": 361,
    "sec": 5.5,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/c3772bb5-d54e-4a37-adc2-c2ee711189ca"
+   "final": "https://rabota.x5.ru/vacancies/3962c87c-8dd3-439b-b162-0a09e3ea1885"
   },
   "lamoda": {
    "ok": true,
    "n": 160,
-   "sec": 4.4,
+   "sec": 3.6,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/obninsk/direktor-magazina-triumf-moll--3430"
+   "final": "https://job.lamoda.ru/vacancies/moskva/vacancy--3038"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.8,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3813"
   },
   "avito": {
    "ok": true,
    "n": 43,
-   "sec": 9.6,
+   "sec": 9.7,
    "mode": "render",
    "link": 200,
    "final": "https://career.avito.com/vacancies/prodazhi/20810/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 82,
-   "sec": 23.5,
+   "n": 83,
+   "sec": 23.2,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 87,
-   "sec": 103.0,
+   "n": 89,
+   "sec": 103.3,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/hr_administration/613"
+   "final": "https://job.2gis.ru/vacancies/hr_administration/614"
   },
   "megafon": {
    "ok": true,
    "n": 300,
-   "sec": 258.6,
+   "sec": 225.1,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/bi-razrabotchik-razvitiya-analiticheskih-instrumentov-korporativnoj-otchetnosti-4814"
@@ -127,7 +127,7 @@
   "kontur": {
    "ok": true,
    "n": 34,
-   "sec": 11.5,
+   "sec": 10.5,
    "mode": "render",
    "link": 307
   }

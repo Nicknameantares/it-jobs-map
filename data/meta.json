@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:07Z",
+ "updated": "2026-11-04T11:09Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,116 +10,114 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 268,
-   "sec": 14.2,
+   "n": 277,
+   "sec": 12.2,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2624,
-   "sec": 86.3,
+   "n": 2622,
+   "sec": 87.2,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/sistemnyy-analitik-komanda-operacionnaya-otchetnost-4582780/"
+   "final": "https://rabota.sber.ru/search/starshiy-inzhener-4575341/"
   },
   "vk": {
    "ok": true,
-   "n": 230,
-   "sec": 9.3,
+   "n": 225,
+   "sec": 7.9,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 12.4,
+   "sec": 11.7,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2376,
-   "sec": 58.0,
+   "n": 2367,
+   "sec": 46.8,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/724210189191872777"
+   "final": "https://job.mts.ru/vacancy/723597971916062798"
   },
   "tbank": {
    "ok": true,
-   "n": 366,
-   "sec": 137.4,
+   "n": 374,
+   "sec": 166.0,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
-   "ok": true,
-   "n": 2247,
-   "sec": 59.9,
-   "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/ekaterinburg/client-service/biznes-sovetnik_39631"
+   "ok": false,
+   "error": "URLError(TimeoutError('timed out'))",
+   "stale_from": "2026-11-03T11:07Z"
   },
   "tochka": {
    "ok": true,
-   "n": 36,
-   "sec": 4.8,
+   "n": 33,
+   "sec": 4.3,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/spec_pod/"
   },
   "rwb": {
    "ok": true,
-   "n": 181,
-   "sec": 5.4,
+   "n": 186,
+   "sec": 6.1,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/37858"
+   "final": "https://career.rwb.ru/vacancies/41317"
   },
   "x5": {
    "ok": true,
-   "n": 364,
-   "sec": 5.3,
+   "n": 369,
+   "sec": 4.6,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/20695623-b20f-45d2-8268-e8c322853e81"
+   "final": "https://rabota.x5.ru/vacancies/1c2fb9a4-8a15-4513-b72a-5f0bb42afeaa"
   },
   "lamoda": {
    "ok": true,
-   "n": 155,
-   "sec": 4.0,
+   "n": 154,
+   "sec": 3.5,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/sofino/starshiy-uchastka-1-kategorii-stok--3440"
+   "final": "https://job.lamoda.ru/vacancies/saratov/direktor-magazina--3443"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.5,
+   "sec": 1.4,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3826"
   },
   "avito": {
    "ok": true,
    "n": 45,
-   "sec": 9.8,
+   "sec": 8.6,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20719/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20354/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 82,
-   "sec": 22.8,
+   "n": 83,
+   "sec": 22.7,
    "mode": "render",
    "link": 200,
-   "final": "https://careers.kaspersky.ru/vacancy/25675"
+   "final": "https://careers.kaspersky.ru/vacancy/25833"
   },
   "gis": {
    "ok": true,
-   "n": 90,
-   "sec": 102.2,
+   "n": 92,
+   "sec": 102.4,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/product_management/616"
+   "final": "https://job.2gis.ru/vacancies/product_management/618"
   },
   "megafon": {
    "ok": true,
    "n": 288,
-   "sec": 245.5,
+   "sec": 235.6,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/bi-razrabotchik-razvitiya-analiticheskih-instrumentov-korporativnoj-otchetnosti-4814"
@@ -127,7 +125,7 @@
   "kontur": {
    "ok": true,
    "n": 34,
-   "sec": 10.5,
+   "sec": 10.2,
    "mode": "render",
    "link": 307
   }

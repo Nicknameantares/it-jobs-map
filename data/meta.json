@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:09Z",
+ "updated": "2026-11-05T11:14Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,114 +10,112 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 277,
-   "sec": 12.2,
+   "n": 281,
+   "sec": 18.8,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
-   "ok": true,
-   "n": 2622,
-   "sec": 87.2,
-   "link": 200,
-   "final": "https://rabota.sber.ru/search/starshiy-inzhener-4575341/"
+   "ok": false,
+   "error": "URLError(TimeoutError('timed out'))",
+   "stale_from": "2026-11-04T11:09Z"
   },
   "vk": {
    "ok": true,
-   "n": 225,
-   "sec": 7.9,
+   "n": 223,
+   "sec": 8.9,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 11.7,
+   "sec": 13.6,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2367,
-   "sec": 46.8,
+   "n": 2371,
+   "sec": 54.5,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/723597971916062798"
+   "final": "https://job.mts.ru/vacancy/724940712755334387"
   },
   "tbank": {
    "ok": true,
-   "n": 374,
-   "sec": 166.0,
+   "n": 387,
+   "sec": 146.4,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": false,
-   "error": "URLError(TimeoutError('timed out'))",
+   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
    "stale_from": "2026-11-03T11:07Z"
   },
   "tochka": {
    "ok": true,
    "n": 33,
-   "sec": 4.3,
+   "sec": 4.7,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/spec_pod/"
+   "final": "https://hr.tochka.com/vacancies/catalog/kreative_prod/"
   },
   "rwb": {
    "ok": true,
-   "n": 186,
-   "sec": 6.1,
+   "n": 189,
+   "sec": 5.9,
    "link": 200,
    "final": "https://career.rwb.ru/vacancies/41317"
   },
   "x5": {
    "ok": true,
-   "n": 369,
-   "sec": 4.6,
+   "n": 368,
+   "sec": 5.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/1c2fb9a4-8a15-4513-b72a-5f0bb42afeaa"
+   "final": "https://rabota.x5.ru/vacancies/0b691a24-b8dc-49ad-9486-057362943a4d"
   },
   "lamoda": {
    "ok": true,
-   "n": 154,
-   "sec": 3.5,
+   "n": 153,
+   "sec": 3.9,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/saratov/direktor-magazina--3443"
+   "final": "https://job.lamoda.ru/vacancies/moskva/menedzher-marketingovykh-kommunikatsiy--3073"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.4,
+   "sec": 1.5,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3826"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3830"
   },
   "avito": {
    "ok": true,
-   "n": 45,
-   "sec": 8.6,
+   "n": 46,
+   "sec": 9.7,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20354/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20805/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 83,
-   "sec": 22.7,
+   "n": 76,
+   "sec": 23.1,
    "mode": "render",
    "link": 200,
-   "final": "https://careers.kaspersky.ru/vacancy/25833"
+   "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 92,
-   "sec": 102.4,
+   "n": 93,
+   "sec": 102.9,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/product_management/618"
   },
   "megafon": {
    "ok": true,
-   "n": 288,
-   "sec": 235.6,
+   "n": 296,
+   "sec": 247.5,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/bi-razrabotchik-razvitiya-analiticheskih-instrumentov-korporativnoj-otchetnosti-4814"
@@ -125,7 +123,7 @@
   "kontur": {
    "ok": true,
    "n": 34,
-   "sec": 10.2,
+   "sec": 10.1,
    "mode": "render",
    "link": 307
   }

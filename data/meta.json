@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:14Z",
+ "updated": "2026-11-06T11:06Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,74 +10,78 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 281,
-   "sec": 18.8,
+   "n": 282,
+   "sec": 18.7,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
-   "ok": false,
-   "error": "URLError(TimeoutError('timed out'))",
-   "stale_from": "2026-11-04T11:09Z"
+   "ok": true,
+   "n": 2569,
+   "sec": 94.9,
+   "link": 200,
+   "final": "https://rabota.sber.ru/search/veduschiy-inzhener-po-soprovozhdeniyu-4584912/"
   },
   "vk": {
    "ok": true,
-   "n": 223,
-   "sec": 8.9,
+   "n": 224,
+   "sec": 10.8,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.6,
+   "sec": 14.3,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2371,
-   "sec": 54.5,
+   "n": 2335,
+   "sec": 57.7,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/724940712755334387"
+   "final": "https://job.mts.ru/vacancy/494501811688833301"
   },
   "tbank": {
    "ok": true,
-   "n": 387,
-   "sec": 146.4,
+   "n": 351,
+   "sec": 108.8,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
-   "ok": false,
-   "error": "URLError(ConnectionResetError(104, 'Connection reset by peer'))",
-   "stale_from": "2026-11-03T11:07Z"
+   "ok": true,
+   "n": 2231,
+   "sec": 87.3,
+   "link": 200,
+   "final": "https://job.alfabank.ru/vacancies/moskva/client-service/spetsialist-po-rabote-s-premialnyimi-klientami-v-otdelenii-banka_17860"
   },
   "tochka": {
    "ok": true,
    "n": 33,
-   "sec": 4.7,
+   "sec": 5.5,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/kreative_prod/"
   },
   "rwb": {
    "ok": true,
-   "n": 189,
-   "sec": 5.9,
+   "n": 192,
+   "sec": 6.7,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/41317"
+   "final": "https://career.rwb.ru/vacancies/7120"
   },
   "x5": {
    "ok": true,
-   "n": 368,
-   "sec": 5.7,
+   "n": 382,
+   "sec": 5.6,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/0b691a24-b8dc-49ad-9486-057362943a4d"
+   "final": "https://rabota.x5.ru/vacancies/ad5b98a1-d971-4843-8e28-eea7b17b7421"
   },
   "lamoda": {
    "ok": true,
-   "n": 153,
-   "sec": 3.9,
+   "n": 152,
+   "sec": 4.0,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/moskva/menedzher-marketingovykh-kommunikatsiy--3073"
   },
@@ -90,40 +94,40 @@
   },
   "avito": {
    "ok": true,
-   "n": 46,
-   "sec": 9.7,
+   "n": 44,
+   "sec": 9.2,
    "mode": "render",
    "link": 200,
    "final": "https://career.avito.com/vacancies/prodazhi/20805/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 76,
-   "sec": 23.1,
+   "n": 72,
+   "sec": 21.6,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 93,
-   "sec": 102.9,
+   "n": 92,
+   "sec": 103.3,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/product_management/618"
   },
   "megafon": {
    "ok": true,
-   "n": 296,
-   "sec": 247.5,
+   "n": 286,
+   "sec": 221.5,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/bi-razrabotchik-razvitiya-analiticheskih-instrumentov-korporativnoj-otchetnosti-4814"
+   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/spetsialist-po-analitike-rynka-i-infografike-4815"
   },
   "kontur": {
    "ok": true,
-   "n": 34,
-   "sec": 10.1,
+   "n": 37,
+   "sec": 11.0,
    "mode": "render",
    "link": 307
   }

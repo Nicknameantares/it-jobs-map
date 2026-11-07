@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:06Z",
+ "updated": "2026-11-07T10:26Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,124 +10,124 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 282,
-   "sec": 18.7,
+   "n": 278,
+   "sec": 17.8,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2569,
-   "sec": 94.9,
+   "n": 2512,
+   "sec": 114.5,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/veduschiy-inzhener-po-soprovozhdeniyu-4584912/"
+   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klyuchevymi-klientami-malogo-biznesa-4512747/"
   },
   "vk": {
    "ok": true,
-   "n": 224,
-   "sec": 10.8,
+   "n": 221,
+   "sec": 10.9,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 14.3,
+   "sec": 14.9,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2335,
-   "sec": 57.7,
+   "n": 2319,
+   "sec": 59.6,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/494501811688833301"
+   "final": "https://job.mts.ru/vacancy/719098333133537403"
   },
   "tbank": {
    "ok": true,
-   "n": 351,
-   "sec": 108.8,
+   "n": 445,
+   "sec": 272.9,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2231,
-   "sec": 87.3,
+   "n": 2226,
+   "sec": 120.6,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/moskva/client-service/spetsialist-po-rabote-s-premialnyimi-klientami-v-otdelenii-banka_17860"
+   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/biznes-analitik-v-upravlenie-biznes-analiza-produktov-i-infrastrukturyi-investitsionnogo-biznesa_39694"
   },
   "tochka": {
    "ok": true,
-   "n": 33,
-   "sec": 5.5,
+   "n": 32,
+   "sec": 6.8,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/kreative_prod/"
   },
   "rwb": {
    "ok": true,
-   "n": 192,
-   "sec": 6.7,
+   "n": 196,
+   "sec": 7.9,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/7120"
+   "final": "https://career.rwb.ru/vacancies/41573"
   },
   "x5": {
    "ok": true,
-   "n": 382,
-   "sec": 5.6,
+   "n": 394,
+   "sec": 6.2,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/ad5b98a1-d971-4843-8e28-eea7b17b7421"
+   "final": "https://rabota.x5.ru/vacancies/1d98925f-1f46-403c-be30-cd6fff1a78c8"
   },
   "lamoda": {
    "ok": true,
    "n": 152,
-   "sec": 4.0,
+   "sec": 4.5,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/menedzher-marketingovykh-kommunikatsiy--3073"
+   "final": "https://job.lamoda.ru/vacancies/moskva/frontend-vue-developer--1946"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.5,
+   "sec": 1.7,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3830"
   },
   "avito": {
    "ok": true,
    "n": 44,
-   "sec": 9.2,
+   "sec": 10.1,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20805/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20716/"
   },
   "kaspersky": {
    "ok": true,
    "n": 72,
-   "sec": 21.6,
+   "sec": 22.4,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 92,
-   "sec": 103.3,
+   "n": 90,
+   "sec": 103.0,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/product_management/618"
+   "final": "https://job.2gis.ru/vacancies/cartography_contact_center/619"
   },
   "megafon": {
    "ok": true,
-   "n": 286,
-   "sec": 221.5,
+   "n": 294,
+   "sec": 250.6,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/spetsialist-po-analitike-rynka-i-infografike-4815"
   },
   "kontur": {
    "ok": true,
-   "n": 37,
-   "sec": 11.0,
+   "n": 38,
+   "sec": 11.4,
    "mode": "render",
    "link": 307
   }

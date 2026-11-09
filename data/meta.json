@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T10:38Z",
+ "updated": "2026-11-09T11:46Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,45 +10,45 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 278,
-   "sec": 12.4,
+   "n": 285,
+   "sec": 18.2,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2480,
-   "sec": 82.7,
+   "n": 2462,
+   "sec": 98.8,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klyuchevymi-klientami-malogo-biznesa-4523996/"
+   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klyuchevymi-klientami-malogo-biznesa-4550180/"
   },
   "vk": {
    "ok": true,
-   "n": 222,
-   "sec": 9.1,
+   "n": 215,
+   "sec": 10.4,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.2,
+   "sec": 17.2,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2317,
-   "sec": 47.3,
+   "n": 2296,
+   "sec": 59.9,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/719506009734774863"
+   "final": "https://job.mts.ru/vacancy/726397520820833526"
   },
   "tbank": {
    "ok": true,
-   "n": 445,
-   "sec": 210.4,
+   "n": 416,
+   "sec": 157.7,
    "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
   },
   "alfa": {
    "ok": false,
@@ -57,75 +57,75 @@
   },
   "tochka": {
    "ok": true,
-   "n": 32,
-   "sec": 3.9,
+   "n": 31,
+   "sec": 6.3,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/kreative_prod/"
+   "final": "https://hr.tochka.com/vacancies/catalog/ux-redaktor/"
   },
   "rwb": {
    "ok": true,
-   "n": 196,
-   "sec": 6.3,
+   "n": 205,
+   "sec": 7.5,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/41573"
+   "final": "https://career.rwb.ru/vacancies/41076"
   },
   "x5": {
    "ok": true,
-   "n": 394,
-   "sec": 5.0,
+   "n": 405,
+   "sec": 6.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/1d98925f-1f46-403c-be30-cd6fff1a78c8"
+   "final": "https://rabota.x5.ru/vacancies/ca05a03d-881f-460c-95e9-ff93e03f93b3"
   },
   "lamoda": {
    "ok": true,
-   "n": 152,
-   "sec": 3.6,
+   "n": 146,
+   "sec": 4.2,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/moskva/frontend-vue-developer--1946"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.3,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3830"
   },
   "avito": {
    "ok": true,
-   "n": 44,
-   "sec": 8.7,
+   "n": 43,
+   "sec": 10.0,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20716/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20852/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 72,
-   "sec": 20.1,
+   "n": 70,
+   "sec": 22.0,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 90,
-   "sec": 102.4,
+   "n": 91,
+   "sec": 103.1,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/cartography_contact_center/619"
   },
   "megafon": {
    "ok": true,
-   "n": 294,
-   "sec": 237.6,
+   "n": 296,
+   "sec": 232.4,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/spetsialist-po-analitike-rynka-i-infografike-4815"
   },
   "kontur": {
    "ok": true,
-   "n": 38,
-   "sec": 10.2,
+   "n": 41,
+   "sec": 11.8,
    "mode": "render",
    "link": 307
   }

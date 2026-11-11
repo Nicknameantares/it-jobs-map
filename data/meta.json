@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:26Z",
+ "updated": "2026-11-11T11:12Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,123 +10,123 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 289,
-   "sec": 18.6,
+   "n": 276,
+   "sec": 15.4,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2504,
-   "sec": 94.2,
+   "n": 2528,
+   "sec": 92.5,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/inzhener-dezhurnoy-smeny-strahovye-i-investicionnye-produkty-4577510/"
+   "final": "https://rabota.sber.ru/search/voditel-inkassator-4545972/"
   },
   "vk": {
    "ok": true,
-   "n": 216,
-   "sec": 10.9,
+   "n": 223,
+   "sec": 8.9,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 17.7,
+   "sec": 13.3,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2294,
-   "sec": 63.2,
+   "n": 2272,
+   "sec": 63.0,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/506844733251780696"
+   "final": "https://job.mts.ru/vacancy/727106810728680642"
   },
   "tbank": {
    "ok": true,
-   "n": 329,
-   "sec": 103.9,
+   "n": 348,
+   "sec": 117.0,
    "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2191,
-   "sec": 118.0,
+   "n": 2182,
+   "sec": 111.4,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/riazan/client-service/zamestitel-rukovoditelia_39740"
+   "final": "https://job.alfabank.ru/vacancies/moskva/remote-job/r_d-product_39768"
   },
   "tochka": {
    "ok": true,
    "n": 32,
-   "sec": 7.3,
+   "sec": 25.1,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/ux-redaktor/"
+   "final": "https://hr.tochka.com/vacancies/catalog/specialist-po-finansovomu-monitoringu-i-analizu-operacijj/"
   },
   "rwb": {
    "ok": true,
-   "n": 206,
-   "sec": 7.8,
+   "n": 210,
+   "sec": 7.6,
    "link": 498
   },
   "x5": {
    "ok": true,
-   "n": 412,
-   "sec": 8.2,
+   "n": 419,
+   "sec": 7.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/d41d63e9-e00b-4d34-9e9a-5d752153da12"
+   "final": "https://rabota.x5.ru/vacancies/0bc8ffc7-ddca-47ad-94a8-d8f5a24e1d7d"
   },
   "lamoda": {
    "ok": true,
-   "n": 144,
-   "sec": 4.7,
+   "n": 145,
+   "sec": 4.2,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/biznes-analitik-metodologiya-protsessnogo-upravleniya--3418"
+   "final": "https://job.lamoda.ru/vacancies/sofino/operator-pogruzochno-razgruzochnykh-rabot-sofino--3457"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 1.7,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3832"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3833"
   },
   "avito": {
    "ok": true,
-   "n": 43,
-   "sec": 9.3,
+   "n": 41,
+   "sec": 9.6,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20829/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20582/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 70,
-   "sec": 21.8,
+   "n": 69,
+   "sec": 22.7,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25675"
   },
   "gis": {
    "ok": true,
-   "n": 90,
-   "sec": 103.1,
+   "n": 93,
+   "sec": 103.6,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/cartography_contact_center/619"
+   "final": "https://job.2gis.ru/vacancies/saless/625"
   },
   "megafon": {
    "ok": true,
    "n": 295,
-   "sec": 218.5,
+   "sec": 253.3,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/spetsialist-po-analitike-rynka-i-infografike-4815"
+   "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/starshij-inzhener-kachestva-dannyh-4817"
   },
   "kontur": {
    "ok": true,
-   "n": 38,
-   "sec": 11.0,
+   "n": 37,
+   "sec": 11.5,
    "mode": "render",
    "link": 307
   }

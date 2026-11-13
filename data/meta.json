@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:24Z",
+ "updated": "2026-11-13T11:14Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -11,122 +11,122 @@
   "yandex": {
    "ok": true,
    "n": 281,
-   "sec": 18.6,
+   "sec": 18.8,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2511,
-   "sec": 96.7,
+   "n": 2496,
+   "sec": 103.0,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/stazher-llm-ai-agenty-4563291/"
+   "final": "https://rabota.sber.ru/search/senior-data-scientist-python-developer-ai-sales-pomoschnik-4584755/"
   },
   "vk": {
    "ok": true,
-   "n": 222,
-   "sec": 9.2,
+   "n": 225,
+   "sec": 9.8,
    "link": 200,
-   "final": "https://team.vk.company/vacancy/55285/"
+   "final": "https://team.vk.company/vacancy/55456/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 14.6,
+   "sec": 15.0,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2271,
-   "sec": 66.4,
+   "n": 2275,
+   "sec": 61.4,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/719219118649114740"
+   "final": "https://job.mts.ru/vacancy/722072931999416424"
   },
   "tbank": {
    "ok": true,
-   "n": 369,
-   "sec": 149.2,
+   "n": 352,
+   "sec": 195.8,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2177,
-   "sec": 80.3,
+   "n": 2190,
+   "sec": 66.4,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/samara/central-office/alfa-agent_39803"
+   "final": "https://job.alfabank.ru/vacancies/nizhnii-novgorod/client-service/menedzher_39829"
   },
   "tochka": {
    "ok": true,
-   "n": 31,
+   "n": 30,
    "sec": 5.8,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/specialist-po-finansovomu-monitoringu-i-analizu-operacijj/"
+   "final": "https://hr.tochka.com/vacancies/catalog/spec_pod/"
   },
   "rwb": {
    "ok": true,
-   "n": 221,
-   "sec": 8.4,
+   "n": 228,
+   "sec": 10.6,
    "link": 498
   },
   "x5": {
    "ok": true,
-   "n": 421,
-   "sec": 7.6,
+   "n": 419,
+   "sec": 7.5,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/e381b18a-ba69-40d3-90e7-835772f94c1a"
+   "final": "https://rabota.x5.ru/vacancies/bdd8a039-998b-4963-96a7-76e765658147"
   },
   "lamoda": {
    "ok": true,
-   "n": 141,
-   "sec": 4.0,
+   "n": 143,
+   "sec": 4.3,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/frontend-vue-developer--1946"
+   "final": "https://job.lamoda.ru/vacancies/moskva/analitik-klientskogo-servisa--3461"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 4.4,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3833"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
   },
   "avito": {
    "ok": true,
-   "n": 42,
-   "sec": 9.3,
+   "n": 41,
+   "sec": 9.7,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20582/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20963/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 67,
-   "sec": 24.2,
+   "n": 70,
+   "sec": 26.3,
    "mode": "render",
    "link": 200,
-   "final": "https://careers.kaspersky.ru/vacancy/25675"
+   "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
-   "n": 102,
-   "sec": 103.5,
+   "n": 104,
+   "sec": 103.3,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/saless/635"
+   "final": "https://job.2gis.ru/vacancies/saless/639"
   },
   "megafon": {
    "ok": true,
-   "n": 292,
-   "sec": 221.3,
+   "n": 307,
+   "sec": 246.2,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/menedzher-po-razvitiyu-korporativnyh-dannyh-4825"
+   "final": "https://job.megafon.ru/vacancy/tver/podderzka-biznesa/spetsialist-po-dokumentatsionnomu-soprovozhdeniyu-infrastrukturnoj-arendy-4827"
   },
   "kontur": {
    "ok": true,
-   "n": 36,
-   "sec": 11.1,
+   "n": 37,
+   "sec": 11.5,
    "mode": "render",
    "link": 307
   }

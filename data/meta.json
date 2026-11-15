@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:39Z",
+ "updated": "2026-11-15T11:09Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,91 +10,89 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 283,
-   "sec": 15.6,
+   "n": 282,
+   "sec": 14.2,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2472,
-   "sec": 76.7,
+   "n": 2420,
+   "sec": 76.4,
    "link": 200,
    "final": "https://rabota.sber.ru/search/middle-java-razrabotchik-servisy-i-bezopasnost-4501693/"
   },
   "vk": {
    "ok": true,
    "n": 225,
-   "sec": 8.2,
+   "sec": 7.0,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55456/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 11.7,
+   "sec": 74.8,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2254,
-   "sec": 44.3,
+   "n": 2255,
+   "sec": 43.5,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/448439886521827410"
+   "final": "https://job.mts.ru/vacancy/727569139413024862"
   },
   "tbank": {
    "ok": true,
-   "n": 410,
-   "sec": 176.4,
+   "n": 415,
+   "sec": 124.7,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
    "n": 2183,
-   "sec": 59.9,
+   "sec": 57.1,
    "link": 200,
    "final": "https://job.alfabank.ru/vacancies/moskva/client-service/rukovoditel-napravleniia-po-razvitiiu-produktov-avto_39836"
   },
   "tochka": {
    "ok": true,
    "n": 31,
-   "sec": 5.9,
+   "sec": 3.5,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/spec_pod/"
   },
   "rwb": {
    "ok": true,
    "n": 233,
-   "sec": 6.4,
+   "sec": 5.4,
    "link": 498
   },
   "x5": {
    "ok": true,
    "n": 417,
-   "sec": 6.0,
+   "sec": 4.7,
    "link": 200,
    "final": "https://rabota.x5.ru/vacancies/bdd8a039-998b-4963-96a7-76e765658147"
   },
   "lamoda": {
    "ok": true,
    "n": 141,
-   "sec": 3.4,
+   "sec": 3.8,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/moskva/analitik-s-and-op--3462"
   },
   "lanit": {
-   "ok": true,
-   "n": 20,
-   "sec": 1.3,
-   "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
+   "ok": false,
+   "error": "TimeoutError('The read operation timed out')",
+   "stale_from": "2026-11-14T10:39Z"
   },
   "avito": {
    "ok": true,
    "n": 42,
-   "sec": 9.2,
+   "sec": 9.0,
    "mode": "render",
    "link": 200,
    "final": "https://career.avito.com/vacancies/prodazhi/20963/"
@@ -102,7 +100,7 @@
   "kaspersky": {
    "ok": true,
    "n": 69,
-   "sec": 20.4,
+   "sec": 19.7,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
@@ -110,7 +108,7 @@
   "gis": {
    "ok": true,
    "n": 104,
-   "sec": 103.1,
+   "sec": 102.1,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/639"
@@ -118,15 +116,15 @@
   "megafon": {
    "ok": true,
    "n": 303,
-   "sec": 222.8,
+   "sec": 240.8,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/menedzher-po-analitike-klientskogo-opyta-4831"
   },
   "kontur": {
    "ok": true,
-   "n": 34,
-   "sec": 10.9,
+   "n": 33,
+   "sec": 9.7,
    "mode": "render",
    "link": 307
   }

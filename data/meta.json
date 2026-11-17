@@ -1,131 +1,131 @@
 {
- "updated": "2026-11-16T11:31Z",
+ "updated": "2026-11-17T12:06Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
   "mts": "scheme 0",
   "tochka": "scheme 0",
-  "tochka_lead": "single page (scheme 0)"
+  "tochka_lead": "no scheme worked"
  },
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 283,
-   "sec": 15.7,
+   "n": 288,
+   "sec": 18.4,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2356,
-   "sec": 84.0,
+   "n": 2389,
+   "sec": 93.1,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/klientskiy-menedzher-udalennyh-prodazh-4254741/"
+   "final": "https://rabota.sber.ru/search/ispolnitel-nyy-direktor-nachal-nik-otdela-po-rabote-s-korporativnymi-klientami-4567249/"
   },
   "vk": {
    "ok": true,
-   "n": 225,
-   "sec": 8.3,
+   "n": 234,
+   "sec": 9.5,
    "link": 200,
-   "final": "https://team.vk.company/vacancy/55456/"
+   "final": "https://team.vk.company/vacancy/55524/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 12.0,
+   "sec": 15.0,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2271,
-   "sec": 54.6,
+   "n": 2288,
+   "sec": 66.7,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/728932896605211842"
+   "final": "https://job.mts.ru/vacancy/729298093022904599"
   },
   "tbank": {
    "ok": true,
-   "n": 408,
-   "sec": 154.9,
+   "n": 392,
+   "sec": 140.8,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2170,
-   "sec": 58.2,
+   "n": 2163,
+   "sec": 62.4,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/irkutsk/remote-job/glavnyii-menedzher-po-privlecheniiu-zarplatnyikh-proektov_39853"
+   "final": "https://job.alfabank.ru/vacancies/samara/central-office/starshii-iuriskonsult_39880"
   },
   "tochka": {
    "ok": true,
-   "n": 30,
-   "sec": 4.7,
+   "n": 28,
+   "sec": 6.5,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/legaloperation/"
   },
   "rwb": {
    "ok": true,
-   "n": 232,
-   "sec": 9.8,
+   "n": 235,
+   "sec": 7.8,
    "link": 498
   },
   "x5": {
    "ok": true,
-   "n": 435,
-   "sec": 6.3,
+   "n": 473,
+   "sec": 7.6,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/338ca8ed-7437-46b0-a813-44ccdd641203"
+   "final": "https://rabota.x5.ru/vacancies/94b3e9ba-65be-4501-bed2-ce9f1f493026"
   },
   "lamoda": {
    "ok": true,
-   "n": 135,
-   "sec": 4.4,
+   "n": 165,
+   "sec": 4.1,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/analitik-s-and-op--3462"
+   "final": "https://job.lamoda.ru/vacancies/sankt-peterburg/prodavets-konsultant-okhta-moll--3557"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.4,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
   },
   "avito": {
    "ok": true,
-   "n": 43,
-   "sec": 9.2,
+   "n": 44,
+   "sec": 9.7,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20963/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20979/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 61,
-   "sec": 20.5,
+   "n": 64,
+   "sec": 21.8,
    "mode": "render",
    "link": 200,
-   "final": "https://careers.kaspersky.ru/vacancy/25815"
+   "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
    "n": 104,
-   "sec": 103.8,
+   "sec": 103.2,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/saless/640"
+   "final": "https://job.2gis.ru/vacancies/project_management/675"
   },
   "megafon": {
    "ok": true,
-   "n": 305,
-   "sec": 241.7,
+   "n": 304,
+   "sec": 242.6,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/menedzher-po-analitike-klientskogo-opyta-4831"
+   "final": "https://job.megafon.ru/vacancy/kirov/biznes-napravlenia/starshij-spetsialist-klientskogo-servisa-krupnyh-regionalnyh-gosudarstvennyh-struktur-4840"
   },
   "kontur": {
    "ok": true,
-   "n": 37,
+   "n": 34,
    "sec": 11.1,
    "mode": "render",
    "link": 307

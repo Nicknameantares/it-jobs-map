@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:06Z",
+ "updated": "2026-11-18T11:57Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,123 +10,123 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 288,
-   "sec": 18.4,
+   "n": 289,
+   "sec": 17.6,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2389,
-   "sec": 93.1,
+   "n": 2398,
+   "sec": 87.6,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/ispolnitel-nyy-direktor-nachal-nik-otdela-po-rabote-s-korporativnymi-klientami-4567249/"
+   "final": "https://rabota.sber.ru/search/data-analitik-4585229/"
   },
   "vk": {
    "ok": true,
    "n": 234,
-   "sec": 9.5,
+   "sec": 8.9,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55524/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 15.0,
+   "sec": 13.4,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2288,
-   "sec": 66.7,
+   "n": 2260,
+   "sec": 49.1,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/729298093022904599"
+   "final": "https://job.mts.ru/vacancy/729662526584786147"
   },
   "tbank": {
    "ok": true,
-   "n": 392,
-   "sec": 140.8,
+   "n": 453,
+   "sec": 268.6,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2163,
-   "sec": 62.4,
+   "n": 2152,
+   "sec": 56.9,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/samara/central-office/starshii-iuriskonsult_39880"
+   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/rukovoditel-tsifrovogo-produkta_39904"
   },
   "tochka": {
    "ok": true,
-   "n": 28,
-   "sec": 6.5,
+   "n": 26,
+   "sec": 4.6,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/legaloperation/"
   },
   "rwb": {
    "ok": true,
-   "n": 235,
-   "sec": 7.8,
+   "n": 241,
+   "sec": 10.2,
    "link": 498
   },
   "x5": {
    "ok": true,
-   "n": 473,
-   "sec": 7.6,
+   "n": 492,
+   "sec": 6.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/94b3e9ba-65be-4501-bed2-ce9f1f493026"
+   "final": "https://rabota.x5.ru/vacancies/c52f318b-7697-4c07-8475-f89d38c86beb"
   },
   "lamoda": {
    "ok": true,
-   "n": 165,
-   "sec": 4.1,
+   "n": 172,
+   "sec": 3.9,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/sankt-peterburg/prodavets-konsultant-okhta-moll--3557"
+   "final": "https://job.lamoda.ru/vacancies/sofino/starshiy-mekhanik--3568"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 1.3,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
   },
   "avito": {
    "ok": true,
-   "n": 44,
-   "sec": 9.7,
+   "n": 43,
+   "sec": 10.0,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20979/"
+   "final": "https://career.avito.com/vacancies/prodazhi/20964/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 64,
-   "sec": 21.8,
+   "n": 57,
+   "sec": 19.3,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
-   "n": 104,
-   "sec": 103.2,
+   "n": 100,
+   "sec": 102.2,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/project_management/675"
+   "final": "https://job.2gis.ru/vacancies/hr_administration/676"
   },
   "megafon": {
    "ok": true,
-   "n": 304,
-   "sec": 242.6,
+   "n": 297,
+   "sec": 267.4,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/kirov/biznes-napravlenia/starshij-spetsialist-klientskogo-servisa-krupnyh-regionalnyh-gosudarstvennyh-struktur-4840"
+   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/starshij-menedzher-po-bi-analitike-4843"
   },
   "kontur": {
    "ok": true,
    "n": 34,
-   "sec": 11.1,
+   "sec": 10.5,
    "mode": "render",
    "link": 307
   }

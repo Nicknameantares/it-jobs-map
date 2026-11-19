@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:57Z",
+ "updated": "2026-11-19T11:56Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,98 +10,98 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 289,
-   "sec": 17.6,
+   "n": 290,
+   "sec": 19.2,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2398,
-   "sec": 87.6,
+   "n": 2369,
+   "sec": 118.3,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/data-analitik-4585229/"
+   "final": "https://rabota.sber.ru/search/sekretar-rukovoditelya-4575195/"
   },
   "vk": {
    "ok": true,
-   "n": 234,
-   "sec": 8.9,
+   "n": 229,
+   "sec": 9.0,
    "link": 200,
-   "final": "https://team.vk.company/vacancy/55524/"
+   "final": "https://team.vk.company/vacancy/55456/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.4,
+   "sec": 15.6,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2260,
-   "sec": 49.1,
+   "n": 2263,
+   "sec": 123.0,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/729662526584786147"
+   "final": "https://job.mts.ru/vacancy/730018081560068355"
   },
   "tbank": {
    "ok": true,
-   "n": 453,
-   "sec": 268.6,
+   "n": 361,
+   "sec": 145.7,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
   },
   "alfa": {
    "ok": true,
-   "n": 2152,
-   "sec": 56.9,
+   "n": 2143,
+   "sec": 67.4,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/rukovoditel-tsifrovogo-produkta_39904"
+   "final": "https://job.alfabank.ru/vacancies/moskva/client-service/ekspert-po-resheniiam-dlia-klientov-malogo-biznesa_39919"
   },
   "tochka": {
    "ok": true,
    "n": 26,
-   "sec": 4.6,
+   "sec": 12.8,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/legaloperation/"
   },
   "rwb": {
    "ok": true,
-   "n": 241,
-   "sec": 10.2,
+   "n": 247,
+   "sec": 8.8,
    "link": 498
   },
   "x5": {
    "ok": true,
-   "n": 492,
-   "sec": 6.7,
+   "n": 563,
+   "sec": 8.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/c52f318b-7697-4c07-8475-f89d38c86beb"
+   "final": "https://rabota.x5.ru/vacancies/1b975e1f-5344-457a-9e3f-3b723f6974d9"
   },
   "lamoda": {
    "ok": true,
    "n": 172,
-   "sec": 3.9,
+   "sec": 4.8,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/sofino/starshiy-mekhanik--3568"
+   "final": "https://job.lamoda.ru/vacancies/sankt-peterburg/kladovschik-tts-galereya--3573"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.3,
+   "sec": 2.2,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
   },
   "avito": {
    "ok": true,
-   "n": 43,
-   "sec": 10.0,
+   "n": 44,
+   "sec": 10.1,
    "mode": "render",
    "link": 200,
-   "final": "https://career.avito.com/vacancies/prodazhi/20964/"
+   "final": "https://career.avito.com/vacancies/prodazhi/21023/"
   },
   "kaspersky": {
    "ok": true,
-   "n": 57,
+   "n": 55,
    "sec": 19.3,
    "mode": "render",
    "link": 200,
@@ -109,24 +109,24 @@
   },
   "gis": {
    "ok": true,
-   "n": 100,
-   "sec": 102.2,
+   "n": 101,
+   "sec": 103.5,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/hr_administration/676"
+   "final": "https://job.2gis.ru/vacancies/saless/677"
   },
   "megafon": {
    "ok": true,
-   "n": 297,
-   "sec": 267.4,
+   "n": 305,
+   "sec": 223.9,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/starshij-menedzher-po-bi-analitike-4843"
+   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/dizajner-prezentatsij-4846"
   },
   "kontur": {
    "ok": true,
-   "n": 34,
-   "sec": 10.5,
+   "n": 36,
+   "sec": 12.2,
    "mode": "render",
    "link": 307
   }

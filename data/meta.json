@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:53Z",
+ "updated": "2026-11-21T11:17Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,90 +10,90 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 296,
-   "sec": 16.3,
+   "n": 295,
+   "sec": 16.5,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2321,
-   "sec": 88.4,
+   "n": 2305,
+   "sec": 95.2,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/menedzher-po-prodazham-produktov-ekvayringa-4588219/"
+   "final": "https://rabota.sber.ru/search/specialist-po-transportnomu-obespecheniyu-4587488/"
   },
   "vk": {
    "ok": true,
-   "n": 234,
-   "sec": 9.6,
+   "n": 227,
+   "sec": 8.7,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55456/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.7,
+   "sec": 17.8,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2271,
-   "sec": 52.1,
+   "n": 2279,
+   "sec": 62.4,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/48692169959562920"
+   "final": "https://job.mts.ru/vacancy/730045456117137528"
   },
   "tbank": {
    "ok": true,
-   "n": 393,
-   "sec": 153.2,
+   "n": 383,
+   "sec": 223.0,
    "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/15db6cc3-9f02-465b-9fde-d8746a0ddcaf/"
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
   },
   "alfa": {
    "ok": true,
-   "n": 2139,
-   "sec": 58.2,
+   "n": 2141,
+   "sec": 61.1,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/krasnodar/client-service/vedushchii-ekspert-po-resheniiam-dlia-klientov-malogo-biznesa_39941"
+   "final": "https://job.alfabank.ru/vacancies/moskva/central-office/metodolog-tsifrovyikh-finansovyikh-produktov-(iuridicheskoe-soprovozhdenie-tsifrovyikh-prav)_39945"
   },
   "tochka": {
    "ok": true,
    "n": 26,
    "sec": 5.3,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/legaloperation/"
+   "final": "https://hr.tochka.com/vacancies/catalog/ml-product/"
   },
   "rwb": {
    "ok": true,
-   "n": 242,
-   "sec": 8.8,
+   "n": 243,
+   "sec": 9.1,
    "link": 498
   },
   "x5": {
    "ok": true,
    "n": 601,
-   "sec": 9.0,
+   "sec": 13.3,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/d182a012-9f65-4e3f-83bc-4a20a459083a"
+   "final": "https://rabota.x5.ru/vacancies/33bd8849-8962-4183-af73-4430748d1efc"
   },
   "lamoda": {
    "ok": true,
-   "n": 169,
-   "sec": 4.2,
+   "n": 170,
+   "sec": 3.9,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/prodavets-konsultant-tts-mega-belaya-dacha--3607"
+   "final": "https://job.lamoda.ru/vacancies/moskva/frontend-vue-developer--1946"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.4,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
   },
   "avito": {
    "ok": true,
-   "n": 46,
+   "n": 43,
    "sec": 9.2,
    "mode": "render",
    "link": 200,
@@ -101,16 +101,16 @@
   },
   "kaspersky": {
    "ok": true,
-   "n": 55,
-   "sec": 18.7,
+   "n": 54,
+   "sec": 18.2,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
-   "n": 98,
-   "sec": 103.4,
+   "n": 97,
+   "sec": 102.9,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/677"
@@ -118,17 +118,15 @@
   "megafon": {
    "ok": true,
    "n": 296,
-   "sec": 241.3,
+   "sec": 215.7,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/kyzyl/set/inzhener-po-ekspluatatsii-bazovyh-stantsij-i-antenno-machtovyh-sooruzhenij-4848"
   },
   "kontur": {
-   "ok": true,
-   "n": 34,
-   "sec": 10.6,
-   "mode": "render",
-   "link": 307
+   "ok": false,
+   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
+   "stale_from": "2026-11-20T11:53Z"
   }
  }
 }

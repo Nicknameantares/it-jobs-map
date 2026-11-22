@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:17Z",
+ "updated": "2026-11-22T11:38Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -11,90 +11,90 @@
   "yandex": {
    "ok": true,
    "n": 295,
-   "sec": 16.5,
+   "sec": 19.4,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2305,
-   "sec": 95.2,
+   "n": 2268,
+   "sec": 96.9,
    "link": 200,
    "final": "https://rabota.sber.ru/search/specialist-po-transportnomu-obespecheniyu-4587488/"
   },
   "vk": {
    "ok": true,
    "n": 227,
-   "sec": 8.7,
+   "sec": 8.9,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55456/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 17.8,
+   "sec": 11.5,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
    "n": 2279,
-   "sec": 62.4,
+   "sec": 51.9,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/730045456117137528"
+   "final": "https://job.mts.ru/vacancy/448409687826628684"
   },
   "tbank": {
    "ok": true,
    "n": 383,
-   "sec": 223.0,
+   "sec": 119.4,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
   },
   "alfa": {
    "ok": true,
    "n": 2141,
-   "sec": 61.1,
+   "sec": 64.8,
    "link": 200,
    "final": "https://job.alfabank.ru/vacancies/moskva/central-office/metodolog-tsifrovyikh-finansovyikh-produktov-(iuridicheskoe-soprovozhdenie-tsifrovyikh-prav)_39945"
   },
   "tochka": {
    "ok": true,
    "n": 26,
-   "sec": 5.3,
+   "sec": 5.2,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/ml-product/"
   },
   "rwb": {
    "ok": true,
    "n": 243,
-   "sec": 9.1,
+   "sec": 6.9,
    "link": 498
   },
   "x5": {
    "ok": true,
    "n": 601,
-   "sec": 13.3,
+   "sec": 8.4,
    "link": 200,
    "final": "https://rabota.x5.ru/vacancies/33bd8849-8962-4183-af73-4430748d1efc"
   },
   "lamoda": {
    "ok": true,
-   "n": 170,
-   "sec": 3.9,
+   "n": 169,
+   "sec": 4.3,
    "link": 200,
    "final": "https://job.lamoda.ru/vacancies/moskva/frontend-vue-developer--1946"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 1.7,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
   },
   "avito": {
    "ok": true,
    "n": 43,
-   "sec": 9.2,
+   "sec": 9.8,
    "mode": "render",
    "link": 200,
    "final": "https://career.avito.com/vacancies/prodazhi/21016/"
@@ -102,7 +102,7 @@
   "kaspersky": {
    "ok": true,
    "n": 54,
-   "sec": 18.2,
+   "sec": 18.4,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
@@ -110,7 +110,7 @@
   "gis": {
    "ok": true,
    "n": 97,
-   "sec": 102.9,
+   "sec": 102.4,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/saless/677"
@@ -118,15 +118,17 @@
   "megafon": {
    "ok": true,
    "n": 296,
-   "sec": 215.7,
+   "sec": 221.1,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/kyzyl/set/inzhener-po-ekspluatatsii-bazovyh-stantsij-i-antenno-machtovyh-sooruzhenij-4848"
   },
   "kontur": {
-   "ok": false,
-   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
-   "stale_from": "2026-11-20T11:53Z"
+   "ok": true,
+   "n": 32,
+   "sec": 10.5,
+   "mode": "render",
+   "link": 307
   }
  }
 }

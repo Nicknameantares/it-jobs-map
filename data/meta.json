@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:56Z",
+ "updated": "2026-11-25T13:07Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,116 +10,117 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 297,
-   "sec": 18.3,
+   "n": 289,
+   "sec": 17.5,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2244,
-   "sec": 76.5,
+   "n": 2228,
+   "sec": 81.8,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/veduschiy-ekspert-po-stroitel-noy-ekspertize-4587894/"
+   "final": "https://rabota.sber.ru/search/stazher-da-v-tranzakcionnyy-banking-b-c-4589204/"
   },
   "vk": {
    "ok": true,
    "n": 223,
-   "sec": 10.6,
+   "sec": 9.8,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.8,
+   "sec": 13.1,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2158,
-   "sec": 51.2,
+   "n": 2200,
+   "sec": 65.8,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/508550202441859939"
+   "final": "https://job.mts.ru/vacancy/732211947432313139"
   },
   "tbank": {
    "ok": true,
-   "n": 345,
-   "sec": 115.5,
+   "n": 357,
+   "sec": 113.2,
    "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/1799d202-b5ce-4751-aa80-80ecfb938602/"
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/e4fd2707-ff0a-4d94-802d-3e3c3d75cd8a/"
   },
   "alfa": {
    "ok": true,
-   "n": 2112,
-   "sec": 57.6,
+   "n": 2106,
+   "sec": 59.0,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/saratov/client-service/menedzher_39993"
+   "final": "https://job.alfabank.ru/vacancies/vologda/client-service/starshii-biznes-sovetnik_40013"
   },
   "tochka": {
    "ok": true,
    "n": 27,
-   "sec": 5.3,
+   "sec": 5.2,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazam-korporativnim-klientam/"
   },
   "rwb": {
    "ok": true,
    "n": 332,
-   "sec": 10.5,
-   "link": 498
+   "sec": 10.0,
+   "link": 200,
+   "final": "https://career.rwb.ru/vacancies/41974"
   },
   "x5": {
    "ok": true,
-   "n": 568,
-   "sec": 7.9,
+   "n": 569,
+   "sec": 8.2,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/33db5024-19a4-4f84-ad1a-5a91a0c208b4"
+   "final": "https://rabota.x5.ru/vacancies/1b392de8-5115-44cb-b682-946b8f5c7a37"
   },
   "lamoda": {
    "ok": true,
-   "n": 161,
+   "n": 152,
    "sec": 3.7,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/starshiy-produktoviy-analitik-delivery--2521"
+   "final": "https://job.lamoda.ru/vacancies/moskva/rukovoditel-napravleniya-organizatsionnoy-podderzhki-personala--3613"
   },
   "lanit": {
    "ok": true,
-   "n": 18,
-   "sec": 1.4,
+   "n": 20,
+   "sec": 1.5,
    "link": 200,
-   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3834"
+   "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3843"
   },
   "avito": {
    "ok": true,
    "n": 0,
-   "sec": 9.5,
+   "sec": 10.2,
    "mode": "render"
   },
   "kaspersky": {
    "ok": true,
-   "n": 62,
-   "sec": 18.8,
+   "n": 60,
+   "sec": 19.5,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
-   "n": 100,
-   "sec": 102.2,
+   "n": 60,
+   "sec": 12.5,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/cartography_contact_center/678"
   },
   "megafon": {
    "ok": true,
-   "n": 297,
-   "sec": 242.2,
+   "n": 303,
+   "sec": 217.8,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/vladivostok/set/starshij-inzhener-po-ekspluatatsii-bazovyh-stantsij-i-antenno-machtovyh-sooruzhenij-4850"
+   "final": "https://job.megafon.ru/vacancy/moskva/set/inzhener-po-ekspluatatsii-setej-dostupa-4851"
   },
   "kontur": {
    "ok": true,

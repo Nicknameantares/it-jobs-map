@@ -1,94 +1,94 @@
 {
- "updated": "2026-11-25T13:07Z",
+ "updated": "2026-11-26T12:48Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
   "mts": "scheme 0",
   "tochka": "scheme 0",
-  "tochka_lead": "no scheme worked"
+  "tochka_lead": "single page (scheme 0)"
  },
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 289,
-   "sec": 17.5,
+   "n": 297,
+   "sec": 20.6,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2228,
-   "sec": 81.8,
+   "n": 2192,
+   "sec": 87.4,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/stazher-da-v-tranzakcionnyy-banking-b-c-4589204/"
+   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klientami-4253101/"
   },
   "vk": {
    "ok": true,
-   "n": 223,
-   "sec": 9.8,
+   "n": 221,
+   "sec": 9.2,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 13.1,
+   "sec": 12.1,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2200,
-   "sec": 65.8,
+   "n": 2151,
+   "sec": 48.4,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/732211947432313139"
+   "final": "https://job.mts.ru/vacancy/727191660563267697"
   },
   "tbank": {
    "ok": true,
-   "n": 357,
-   "sec": 113.2,
+   "n": 384,
+   "sec": 124.1,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/e4fd2707-ff0a-4d94-802d-3e3c3d75cd8a/"
   },
   "alfa": {
    "ok": true,
-   "n": 2106,
-   "sec": 59.0,
+   "n": 2098,
+   "sec": 59.4,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/vologda/client-service/starshii-biznes-sovetnik_40013"
+   "final": "https://job.alfabank.ru/vacancies/kokhma/remote-job/alfa-agent-nanoofisa_40033"
   },
   "tochka": {
    "ok": true,
-   "n": 27,
-   "sec": 5.2,
+   "n": 28,
+   "sec": 4.9,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazam-korporativnim-klientam/"
+   "final": "https://hr.tochka.com/vacancies/catalog/techlead_python/"
   },
   "rwb": {
    "ok": true,
-   "n": 332,
-   "sec": 10.0,
+   "n": 334,
+   "sec": 9.2,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/41974"
+   "final": "https://career.rwb.ru/vacancies/40871"
   },
   "x5": {
    "ok": true,
-   "n": 569,
-   "sec": 8.2,
+   "n": 563,
+   "sec": 7.7,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/1b392de8-5115-44cb-b682-946b8f5c7a37"
+   "final": "https://rabota.x5.ru/vacancies/dea7d1f9-f29a-483f-bd8c-e24ad3367c98"
   },
   "lamoda": {
    "ok": true,
-   "n": 152,
-   "sec": 3.7,
+   "n": 148,
+   "sec": 4.2,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/rukovoditel-napravleniya-organizatsionnoy-podderzhki-personala--3613"
+   "final": "https://job.lamoda.ru/vacancies/moskva/marketingoviy-redaktor--3616"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.5,
+   "sec": 1.8,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3843"
   },
@@ -101,33 +101,31 @@
   "kaspersky": {
    "ok": true,
    "n": 60,
-   "sec": 19.5,
+   "sec": 19.4,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
-   "n": 60,
-   "sec": 12.5,
+   "n": 95,
+   "sec": 102.8,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/cartography_contact_center/678"
+   "final": "https://job.2gis.ru/vacancies/design/711"
   },
   "megafon": {
    "ok": true,
-   "n": 303,
-   "sec": 217.8,
+   "n": 295,
+   "sec": 223.4,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/set/inzhener-po-ekspluatatsii-setej-dostupa-4851"
+   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/direktor-po-razvitiyu-prodazh-segmenta-soho-4853"
   },
   "kontur": {
-   "ok": true,
-   "n": 37,
-   "sec": 10.9,
-   "mode": "render",
-   "link": 307
+   "ok": false,
+   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
+   "stale_from": "2026-11-25T13:07Z"
   }
  }
 }

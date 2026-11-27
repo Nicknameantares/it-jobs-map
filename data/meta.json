@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:48Z",
+ "updated": "2026-11-27T12:33Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,97 +10,97 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 297,
-   "sec": 20.6,
+   "n": 295,
+   "sec": 17.4,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2192,
-   "sec": 87.4,
+   "n": 2147,
+   "sec": 82.4,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/starshiy-menedzher-po-rabote-s-klientami-4253101/"
+   "final": "https://rabota.sber.ru/search/devops-inzhener-platform-v-komanda-vnedreniya-4589342/"
   },
   "vk": {
    "ok": true,
-   "n": 221,
-   "sec": 9.2,
+   "n": 217,
+   "sec": 11.6,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 12.1,
+   "sec": 16.3,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2151,
-   "sec": 48.4,
+   "n": 2166,
+   "sec": 46.1,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/727191660563267697"
+   "final": "https://job.mts.ru/vacancy/732933786395741383"
   },
   "tbank": {
    "ok": true,
-   "n": 384,
-   "sec": 124.1,
+   "n": 383,
+   "sec": 151.0,
    "link": 200,
-   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/e4fd2707-ff0a-4d94-802d-3e3c3d75cd8a/"
+   "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/01a08676-5dfb-7b0b-b849-894b86caf0ad/"
   },
   "alfa": {
    "ok": true,
-   "n": 2098,
+   "n": 2112,
    "sec": 59.4,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/kokhma/remote-job/alfa-agent-nanoofisa_40033"
+   "final": "https://job.alfabank.ru/vacancies/ilinskoe-usovo-(moskovskaia-oblast)/client-service/mobilnyii-bankir_40054"
   },
   "tochka": {
    "ok": true,
-   "n": 28,
-   "sec": 4.9,
+   "n": 30,
+   "sec": 5.2,
    "link": 200,
-   "final": "https://hr.tochka.com/vacancies/catalog/techlead_python/"
+   "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-zakupok-iz-za-rubezha/"
   },
   "rwb": {
    "ok": true,
-   "n": 334,
-   "sec": 9.2,
+   "n": 323,
+   "sec": 13.3,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/40871"
+   "final": "https://career.rwb.ru/vacancies/8971"
   },
   "x5": {
    "ok": true,
-   "n": 563,
-   "sec": 7.7,
+   "n": 564,
+   "sec": 7.6,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/dea7d1f9-f29a-483f-bd8c-e24ad3367c98"
+   "final": "https://rabota.x5.ru/vacancies/2d346b72-f9ce-462f-ad5d-6175095583e6"
   },
   "lamoda": {
    "ok": true,
-   "n": 148,
-   "sec": 4.2,
+   "n": 142,
+   "sec": 3.6,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/marketingoviy-redaktor--3616"
+   "final": "https://job.lamoda.ru/vacancies/moskva/territorialniy-menedzher--3619"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.8,
+   "sec": 1.6,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3843"
   },
   "avito": {
    "ok": true,
    "n": 0,
-   "sec": 10.2,
+   "sec": 9.5,
    "mode": "render"
   },
   "kaspersky": {
    "ok": true,
-   "n": 60,
+   "n": 62,
    "sec": 19.4,
    "mode": "render",
    "link": 200,
@@ -108,24 +108,26 @@
   },
   "gis": {
    "ok": true,
-   "n": 95,
-   "sec": 102.8,
+   "n": 94,
+   "sec": 103.2,
    "mode": "render",
    "link": 200,
-   "final": "https://job.2gis.ru/vacancies/design/711"
+   "final": "https://job.2gis.ru/vacancies/analytics/712"
   },
   "megafon": {
    "ok": true,
-   "n": 295,
-   "sec": 223.4,
+   "n": 302,
+   "sec": 246.8,
    "mode": "render",
    "link": 200,
-   "final": "https://job.megafon.ru/vacancy/moskva/biznes-napravlenia/direktor-po-razvitiyu-prodazh-segmenta-soho-4853"
+   "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/inzhener-tehnicheskoj-podderzhki-4856"
   },
   "kontur": {
-   "ok": false,
-   "error": "TimeoutError('Page.goto: Timeout 60000ms exceeded.\\nCall log:\\nnavigating to \"https://kontur.ru/career/vacancies\", waiting until \"domcontentloaded\"\\n')",
-   "stale_from": "2026-11-25T13:07Z"
+   "ok": true,
+   "n": 38,
+   "sec": 10.5,
+   "mode": "render",
+   "link": 307
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:33Z",
+ "updated": "2026-11-28T11:57Z",
  "paging": {
   "sber": "scheme 0",
   "ozon": "single page (scheme 9)",
@@ -10,106 +10,106 @@
  "sources": {
   "yandex": {
    "ok": true,
-   "n": 295,
-   "sec": 17.4,
+   "n": 280,
+   "sec": 12.2,
    "link": 200,
    "final": "https://yandex.ru/jobs/vacancies/multitrack-_-noviy-format-nayma-dlya-opitnih-bekenderov-15322"
   },
   "sber": {
    "ok": true,
-   "n": 2147,
-   "sec": 82.4,
+   "n": 2111,
+   "sec": 64.3,
    "link": 200,
-   "final": "https://rabota.sber.ru/search/devops-inzhener-platform-v-komanda-vnedreniya-4589342/"
+   "final": "https://rabota.sber.ru/search/starshiy-klientskiy-menedzher-4589311/"
   },
   "vk": {
    "ok": true,
-   "n": 217,
-   "sec": 11.6,
+   "n": 211,
+   "sec": 7.7,
    "link": 200,
    "final": "https://team.vk.company/vacancy/55285/"
   },
   "ozon": {
    "ok": true,
    "n": 20,
-   "sec": 16.3,
+   "sec": 8.5,
    "link": 200,
    "final": "https://hh.ru/vacancy/136849808"
   },
   "mts": {
    "ok": true,
-   "n": 2166,
-   "sec": 46.1,
+   "n": 2158,
+   "sec": 42.0,
    "link": 200,
-   "final": "https://job.mts.ru/vacancy/732933786395741383"
+   "final": "https://job.mts.ru/vacancy/56638256770540833"
   },
   "tbank": {
    "ok": true,
-   "n": 383,
-   "sec": 151.0,
+   "n": 405,
+   "sec": 117.7,
    "link": 200,
    "final": "https://www.tbank.ru/career/service/vacancy/moscow/predstavitel/01a08676-5dfb-7b0b-b849-894b86caf0ad/"
   },
   "alfa": {
    "ok": true,
-   "n": 2112,
-   "sec": 59.4,
+   "n": 2119,
+   "sec": 45.2,
    "link": 200,
-   "final": "https://job.alfabank.ru/vacancies/ilinskoe-usovo-(moskovskaia-oblast)/client-service/mobilnyii-bankir_40054"
+   "final": "https://job.alfabank.ru/vacancies/moskva/remote-job/rukovoditel-tsifrovogo-produkta-(produktyi-vnutri-alfa-id)_40061"
   },
   "tochka": {
    "ok": true,
-   "n": 30,
-   "sec": 5.2,
+   "n": 29,
+   "sec": 3.3,
    "link": 200,
    "final": "https://hr.tochka.com/vacancies/catalog/menedzher-po-prodazham-zakupok-iz-za-rubezha/"
   },
   "rwb": {
    "ok": true,
-   "n": 323,
-   "sec": 13.3,
+   "n": 324,
+   "sec": 7.4,
    "link": 200,
-   "final": "https://career.rwb.ru/vacancies/8971"
+   "final": "https://career.rwb.ru/vacancies/39514"
   },
   "x5": {
    "ok": true,
-   "n": 564,
-   "sec": 7.6,
+   "n": 568,
+   "sec": 6.1,
    "link": 200,
-   "final": "https://rabota.x5.ru/vacancies/2d346b72-f9ce-462f-ad5d-6175095583e6"
+   "final": "https://rabota.x5.ru/vacancies/ce46c14d-3f20-4f66-af8b-d11e8e640b32"
   },
   "lamoda": {
    "ok": true,
    "n": 142,
-   "sec": 3.6,
+   "sec": 3.2,
    "link": 200,
-   "final": "https://job.lamoda.ru/vacancies/moskva/territorialniy-menedzher--3619"
+   "final": "https://job.lamoda.ru/vacancies/moskva/bukhgalter-na-uchastok-ved--3421"
   },
   "lanit": {
    "ok": true,
    "n": 20,
-   "sec": 1.6,
+   "sec": 1.3,
    "link": 200,
    "final": "https://job.lanit.ru/Pages/vacancy.aspx?ItemId=3843"
   },
   "avito": {
    "ok": true,
    "n": 0,
-   "sec": 9.5,
+   "sec": 9.3,
    "mode": "render"
   },
   "kaspersky": {
    "ok": true,
-   "n": 62,
-   "sec": 19.4,
+   "n": 63,
+   "sec": 17.4,
    "mode": "render",
    "link": 200,
    "final": "https://careers.kaspersky.ru/vacancy/25983"
   },
   "gis": {
    "ok": true,
-   "n": 94,
-   "sec": 103.2,
+   "n": 92,
+   "sec": 102.6,
    "mode": "render",
    "link": 200,
    "final": "https://job.2gis.ru/vacancies/analytics/712"
@@ -117,7 +117,7 @@
   "megafon": {
    "ok": true,
    "n": 302,
-   "sec": 246.8,
+   "sec": 216.7,
    "mode": "render",
    "link": 200,
    "final": "https://job.megafon.ru/vacancy/moskva/it-reshenia/inzhener-tehnicheskoj-podderzhki-4856"
@@ -125,7 +125,7 @@
   "kontur": {
    "ok": true,
    "n": 38,
-   "sec": 10.5,
+   "sec": 9.7,
    "mode": "render",
    "link": 307
   }
